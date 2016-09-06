@@ -13,6 +13,5 @@
 <body <?php body_class(); ?> >
     <div id="container">
         <header id="header">
-            <?php get_logo(); ?>
-            <?php get_menu( 'primary-menu' )?>
+
         </header>

@@ -1,6 +1,5 @@
 <?php
 /**
-@ Thiết lập hàm hiển thị logo
 @ get_logo()
  * %1$s: get_bloginfo( ‘url’ )
  * %2$s: get_bloginfo( ‘description’ )
@@ -34,59 +33,98 @@ if ( ! function_exists( 'get_logo' ) ) {
 }
 
 /**
-@ Thiết lập hàm hiển thị menu
-@ get_menu( $slug )
+@ get_menu( $theme_location, $menu_class )
+ *
+ * slug         : $theme_location
+* class of menu : $menu_class
  **/
 if ( ! function_exists( 'get_menu' ) ) {
-    function get_menu( $slug ) {
+    function get_menu( $theme_location, $menu_class ) {
         $menu = array(
-            'theme_location' => $slug,
-            'container' => 'nav',
-            'container_class' => $slug,
+            'theme_location' => $theme_location,
+            'walker' => new Bootstrap_Nav_Walker,
+            'menu_class' => $menu_class
+
         );
         wp_nav_menu( $menu );
     }
 }
 
 /**
-@ Tạo hàm phân trang cho index, archive.
-@ Hàm này sẽ hiển thị liên kết phân trang theo dạng chữ: Newer Posts & Older Posts
-@ get_pagination()
- **/
-if ( ! function_exists( 'get_pagination' ) ) {
-    function get_pagination() {
-        /*
-         * Không hiển thị phân trang nếu trang đó có ít hơn 2 trang
-         */
-        if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
-            return '';
-        }
-        ?>
+ * Pagination
+ */
+#Step 1
+/*$page = isset($_REQUEST['post_page']) ? (int)$_REQUEST['post_page'] : 1;
+$posts_per_page = isset($_REQUEST['posts_per_page']) ? (int)$_REQUEST['posts_per_page'] : 8;
 
-        <nav class="pagination" role="navigation">
-        <?php if ( get_next_post_link() ) : ?>
-            <div class="prev"><?php next_posts_link( __('Older Posts', _TEXT_DOMAIN) ); ?></div>
-        <?php endif; ?>
+$page = $page < 1 ? 1 : $page;
+$posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
 
-        <?php if ( get_previous_post_link() ) : ?>
-            <div class="next"><?php previous_posts_link( __('Newer Posts', _TEXT_DOMAIN) ); ?></div>
-        <?php endif; ?>
+#Step 2
+/*$products_query = new WP_Query(array(
+    'posts_per_page' => $posts_per_page
+    'custom query field' =>...
+));*/
 
-        </nav><?php
-    }
-}
+#Step 3
+/*$argsPagi = array(
+    'format' => '?post_page=%#%',
+    'current' => $page,
+    'total' => $products_query->max_num_pages,
+    'show_all' => false,
+    'end_size' => 2,
+    'mid_size' => 3,
+    'prev_next' => true,
+    'next_text' => ' <i class="fa fa-caret-right"></i>',
+    'prev_text' => ' <i class="fa fa-caret-left"></i>',
+    'type' => 'plain',
+    'add_args' => null,
+    'add_fragment' => '',
+    'before_page_number' => '',
+    'after_page_number' => ''
+);*/
+
+#Step 4
+#place the code to show
+/*
+<div class="pagination-wrap-bottom">
+    <div class="pagination clearfix">
+        <?php echo __("PAGE", _NP_TEXT_DOMAIN) ?>
+        <?php echo paginate_links($argsPagi); ?>
+    </div>
+</div>
+*/
 
 /**
-@ Hàm hiển thị ảnh thumbnail của post.
-@ Ảnh thumbnail sẽ không được hiển thị trong trang single
-@ Nhưng sẽ hiển thị trong single nếu post đó có format là Image
-@ get_thumbnail( $size )
- **/
-if ( ! function_exists( 'get_thumbnail' ) ) {
-    function get_thumbnail( $size ) {
-        // Chỉ hiển thumbnail với post không có mật khẩu
-        if ( ! is_single() &&  has_post_thumbnail()  && ! post_password_required() || has_post_format( 'image' ) ) :?>
-            <figure class="post-thumbnail"><?php the_post_thumbnail( $size ); ?></figure><?php
-        endif;
-    }
-}
+ * Count post view
+ */
+
+ if(!function_exists('getPostViews')){
+
+     if(!function_exists('setPostViews')){
+         function setPostViews($postID) {
+             $count_key = 'post_views_count';
+             $count = get_post_meta($postID, $count_key, true);
+             if(empty($count)){
+                 delete_post_meta($postID, $count_key);
+                 add_post_meta($postID, $count_key, '1');
+             }else{
+                 $count++;
+                 update_post_meta($postID, $count_key, $count);
+             }
+         }
+     }
+
+     function getPostViews($postID){
+         $count_key = 'post_views_count';
+         $count = get_post_meta($postID, $count_key, true);
+         if(empty($count)){
+             delete_post_meta($postID, $count_key);
+             add_post_meta($postID, $count_key, '0');
+             return 0;
+         }
+         return $count;
+     }
+ }
+
+
