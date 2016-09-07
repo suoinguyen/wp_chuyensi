@@ -3,20 +3,22 @@
  * Define text domain
  */
 define('_TEXT_DOMAIN', 'text_domain');
+
 /**
 @ Thiết lập các hằng dữ liệu quan trọng
-@ THEME_URL = get_stylesheet_directory() - đường dẫn tới thư mục theme
+@ _THEME_LOCAL_PATCH = get_stylesheet_directory() - đường dẫn tới thư mục theme
 @ CORE = thư mục /core của theme, chứa các file nguồn quan trọng.
  **/
-define( 'THEME_URL', get_stylesheet_directory() );
-define( 'CORE', THEME_URL . '/core' );
-
+define( '_SU_THEME_LOCAL_PATCH', get_stylesheet_directory() );
+define( '_SU_THEME_HOST_PATCH', get_stylesheet_directory_uri() );
+define( '_SU_CORE', _SU_THEME_LOCAL_PATCH . '/core' );
+define( '_SU_THEME_VERSION', '1.0' );
 /**
 @ Load file /core/init.php
 @ Đây là file cấu hình ban đầu của theme mà sẽ không nên được thay đổi sau này.
  **/
 
-require_once( CORE . '/init.php' );
+require_once( _SU_CORE . '/init.php' );
 
 /**
 @ Thiết lập $content_width để khai báo kích thước chiều rộng của nội dung
@@ -37,7 +39,7 @@ if ( ! function_exists( 'init_theme_setup' ) ) {
         /*
         * Thiết lập theme có thể dịch được
         */
-        $language_folder = THEME_URL . '/languages';
+        $language_folder = _SU_THEME_LOCAL_PATCH . '/languages';
         load_theme_textdomain( _TEXT_DOMAIN, $language_folder );
 
         /*
@@ -67,17 +69,21 @@ if ( ! function_exists( 'init_theme_setup' ) ) {
                 'link'
             )
         );
-
-        /*
-        * Thêm chức năng custom background
-        */
-        $default_background = array(
-            'default-color' => '#e8e8e8',
-        );
-        add_theme_support( 'custom-background', $default_background );
     }
     add_action ( 'init', 'init_theme_setup' );
 
+}
+
+/**
+ * Add menus
+ */
+if(!function_exists('menu_init')){
+    function menu_init(){
+        register_nav_menus ( [
+            'primary-menu' => __('Primary Menu', _TEXT_DOMAIN),
+        ] );
+    }
+    add_action('init', 'menu_init');
 }
 
 ?>
