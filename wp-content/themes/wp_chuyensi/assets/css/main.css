@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. Styles for devices(>1200px)
+2. Styles for devices(>=992px and <=1199px)
+3. Styles for devices(>=768px and <=992px)
+4. Styles for devices(>=481px and <=767px)
+5. Styles for devices(<=480px)
+-------------------------------------------------------------------*/
+#main-menu .arrow-has-sub {
+  display: none !important;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .has_children .collapse {
+  position: absolute;
+}
+@media only screen and (max-width: 767px) {
+  #main-menu .menu-menu-header-container .nav.navbar-nav .has_children .collapse {
+    position: static;
+  }
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu {
+  padding: 20px;
+}
+@media only screen and (max-width: 767px) {
+  #main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu .menu-item a {
+  padding: 3px 0;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu .menu-item a:hover {
+  color: #e80000;
+}
+
+/*# sourceMappingURL=main.css.map */

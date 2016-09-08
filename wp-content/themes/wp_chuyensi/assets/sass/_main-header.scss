@@ -1,0 +1,31 @@
+#main-menu{
+  .arrow-has-sub{
+    display: none !important;
+  }
+  .menu-menu-header-container{
+    .nav.navbar-nav{
+      .has_children{
+        .collapse{
+          position: absolute;
+          @include respond-to-custom-size(null, 767px){
+            position: static;
+          }
+        }
+      }
+      .dropdown-menu{
+        padding: 20px;
+        @include respond-to-custom-size(null, 767px){
+          transform: none;
+        }
+        .menu-item {
+          a{
+            padding: 3px 0;
+          }
+          a:hover{
+            color: #e80000;
+          }
+        }
+      }
+    }
+  }
+}

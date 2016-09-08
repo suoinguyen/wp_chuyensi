@@ -18,16 +18,7 @@
                             <a class="navbar-brand" href="#">MENU</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Thiết kế</a></li>
-                                <li><a href="category.html">Áo</a></li>
-                                <li><a href="category.html">Váy đầm</a></li>
-                                <li><a href="category.html">Jump</a></li>
-                                <li><a href="category.html">Set bộ</a></li>
-                                <li><a href="category.html">Áo khoác</a></li>
-                                <li><a href="category.html">Áo cặp</a></li>
-                            </ul>
+                            <?php get_menu('primary-menu', 'nav navbar-nav')?>
                         </div><!--/.nav-collapse -->
                     </div>
                 </nav>

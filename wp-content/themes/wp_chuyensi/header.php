@@ -11,6 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!--    favicon-->
+    <link rel="shortcut icon" href="<?php echo get_field('favicon', 'option') ?>" type="image/x-icon"/>
+
+    <!-- iOS stuffs -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="<?php echo get_field('ios_icon_iphone', 'option') ?>">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_field('ios_icon_iphone_ipad', 'option') ?>">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_field('ios_icon_iphone_retina', 'option') ?>">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_field('ios_icon_ipad_retina', 'option') ?>">
+
     <?php wp_head(); ?>
 
 </head>
@@ -135,7 +145,6 @@
             <!-- END MANIN HEADER -->
 
             <!-- Main menu -->
-            <?php get_menu('primary-menu', 'abc')?>
             <?php get_template_part('parts/header/content', 'main-menu')?>
             <!-- End main menu -->
         </div>

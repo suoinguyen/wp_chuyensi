@@ -91,7 +91,7 @@ class Bootstrap_Nav_Walker extends Walker_Nav_Menu
             and $class_names = ' class="' . esc_attr($class_names) . ' has_children dropdown"';
 
             if (!$args->has_children_after) {
-                $args->has_children_after = '<i class="fa fa-caret-down visible-xs visible-sm"></i>';
+                $args->has_children_after = '<i class="fa fa-caret-down visible-xs visible-sm arrow-has-sub"></i>';
             } else {
                 $args->has_children_after = $has_children_after;
             }
