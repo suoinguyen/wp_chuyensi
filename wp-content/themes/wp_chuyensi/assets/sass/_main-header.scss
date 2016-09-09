@@ -1,31 +1,66 @@
+/*-- Override CSS for Main menu--*/
 #main-menu{
   .arrow-has-sub{
     display: none !important;
   }
   .menu-menu-header-container{
     .nav.navbar-nav{
-      .has_children{
+      .menu-item{
+        position: relative;
         .collapse{
           position: absolute;
           @include respond-to-custom-size(null, 767px){
             position: static;
           }
         }
-      }
-      .dropdown-menu{
-        padding: 20px;
-        @include respond-to-custom-size(null, 767px){
-          transform: none;
+        .collapse.sub-menu {
+          left: 100% !important;
+          top: 0 !important;
+          bottom: auto !important;
         }
-        .menu-item {
-          a{
-            padding: 3px 0;
+        .collapse.sub-menu.level-0 {
+          left: 0 !important;
+          top: 100% !important;
+        }
+
+        &:hover > {
+          .dropdown-menu {
+            -webkit-transform: translate(0,0);
+            -moz-transform: translate(0,0);
+            -o-transform: translate(0,0);
+            -ms-transform: translate(0,0);
+            transform: translate(0,0);
+            opacity: 1;
+            visibility: visible;
           }
-          a:hover{
-            color: #e80000;
+        }
+        .dropdown-menu{
+          border-top: solid 1px #F96D10;
+          padding: 20px 0;
+          @include respond-to-custom-size(null, 767px){
+            transform: none;
+          }
+          .menu-item {
+            a{
+              padding: 3px 20px;
+            }
+            a:hover{
+              color: #e80000;
+            }
           }
         }
       }
     }
   }
 }
+.fixed-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*-- End Override CSS for Main menu--*/
+
+

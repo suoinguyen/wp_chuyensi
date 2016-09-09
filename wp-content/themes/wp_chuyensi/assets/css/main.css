@@ -6,32 +6,63 @@
 4. Styles for devices(>=481px and <=767px)
 5. Styles for devices(<=480px)
 -------------------------------------------------------------------*/
+/*-- Override CSS for Main menu--*/
 #main-menu .arrow-has-sub {
   display: none !important;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .has_children .collapse {
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item {
+  position: relative;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
   position: absolute;
 }
 @media only screen and (max-width: 767px) {
-  #main-menu .menu-menu-header-container .nav.navbar-nav .has_children .collapse {
+  #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
     position: static;
   }
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu {
-  padding: 20px;
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu {
+  left: 100% !important;
+  top: 0 !important;
+  bottom: auto !important;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu.level-0 {
+  left: 0 !important;
+  top: 100% !important;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item:hover > .dropdown-menu {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible;
+}
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
+  border-top: solid 1px #F96D10;
+  padding: 20px 0;
 }
 @media only screen and (max-width: 767px) {
-  #main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu {
+  #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
   }
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu .menu-item a {
-  padding: 3px 0;
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a {
+  padding: 3px 20px;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .dropdown-menu .menu-item a:hover {
+#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a:hover {
   color: #e80000;
 }
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*-- End Override CSS for Main menu--*/
 
 /*# sourceMappingURL=main.css.map */

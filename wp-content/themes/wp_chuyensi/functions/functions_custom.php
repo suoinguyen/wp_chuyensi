@@ -39,7 +39,7 @@ if ( ! function_exists( 'get_logo' ) ) {
 * class of menu : $menu_class
  **/
 if ( ! function_exists( 'get_menu' ) ) {
-    function get_menu( $theme_location, $menu_class = null ) {
+    function get_menu( $theme_location, $menu_class = 'nav navbar-nav' ) {
         $menu = array(
             'theme_location' => $theme_location,
             'walker' => new Bootstrap_Nav_Walker,

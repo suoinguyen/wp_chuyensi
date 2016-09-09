@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title><?php wp_title(); ?></title>
+    <title><?php wp_title(); ?><?php if(wp_title('', false)) { echo '-'; } ?> <?php bloginfo('name'); ?></title>
 
     <link rel="profile" href="http://gmgp.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -31,7 +31,7 @@
         <div id="header" class="header">
             <div class="top-header">
                 <div class="container">
-                    <div class="currency ">
+                    <!--<div class="currency ">
                         <div class="dropdown">
                             <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">USD</a>
                             <ul class="dropdown-menu" role="menu">
@@ -43,15 +43,15 @@
                     <div class="language ">
                         <div class="dropdown">
                             <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                                <img alt="email" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/fr.jpg" />French
+                                <img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/fr.jpg" />French
 
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#"><img alt="email" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/en.jpg" />English</a></li>
-                                <li><a href="#"><img alt="email" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/fr.jpg" />French</a></li>
+                                <li><a href="#"><img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/en.jpg" />English</a></li>
+                                <li><a href="#"><img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/fr.jpg" />French</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="top-bar-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -59,11 +59,11 @@
                         <a href="#"><i class="fa fa-google-plus"></i></a>
                     </div>
                     <div class="support-link">
-                        <a href="#">Abount Us</a>
-                        <a href="#">Support</a>
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Hướng dẫn</a>
                     </div>
 
-                    <div id="user-info-top" class="user-info pull-right">
+                    <!--<div id="user-info-top" class="user-info pull-right">
                         <div class="dropdown">
                             <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account</span></a>
                             <ul class="dropdown-menu mega_dropdown" role="menu">
@@ -72,7 +72,7 @@
                                 <li><a href="#">Wishlists</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <!--/.top-header -->
@@ -82,20 +82,21 @@
                     <div class="col-xs-4 col-sm-12 col-md-5 col-lg-4 header-search-box">
                         <form class="form-inline">
                             <div class="form-group input-serach">
-                                <input type="text"  placeholder="Keyword here...">
+                                <input type="text"  placeholder="Nhập tên sản phẫm...">
                             </div>
                             <button type="submit" class="pull-right btn-search"><i class="fa fa-search"></i></button>
                         </form>
+                        <div class="advanced-search"><a href="" class="">Tìm kiếm nâng cao</a></div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
-                        <a href="index.html"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
+                        <a href="<?php home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
                         <a title="Compare" href="#" class="btn-compare">compare</a>
                         <a title="My wishlist" href="#" class="btn-heart">wishlist</a>
                         <div class="btn-cart" id="cart-block">
-                            <a title="My cart" href="cart.html">Cart</a>
-                            <span class="notify notify-right">2</span>
+                            <a title="My cart" href="#">Cart</a>
+                            <!--<span class="notify notify-right">2</span>
                             <div class="cart-block">
                                 <div class="cart-block-content">
                                     <h5 class="cart-title">2 Items in my cart</h5>
@@ -105,7 +106,7 @@
                                                 <div class="p-left">
                                                     <a href="#" class="remove_link"></a>
                                                     <a href="#">
-                                                        <img class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/product-100x122.jpg" alt="p10">
+                                                        <img class="img-responsive" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/data/product-100x122.jpg" alt="p10">
                                                     </a>
                                                 </div>
                                                 <div class="p-right">
@@ -118,7 +119,7 @@
                                                 <div class="p-left">
                                                     <a href="#" class="remove_link"></a>
                                                     <a href="#">
-                                                        <img class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/product-s5-100x122.jpg" alt="p10">
+                                                        <img class="img-responsive" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/data/product-s5-100x122.jpg" alt="p10">
                                                     </a>
                                                 </div>
                                                 <div class="p-right">
@@ -137,7 +138,7 @@
                                         <a href="order.html" class="btn-check-out">Checkout</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
