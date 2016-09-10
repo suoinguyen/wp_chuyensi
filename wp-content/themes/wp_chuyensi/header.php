@@ -53,16 +53,26 @@
                         </div>
                     </div>-->
                     <div class="top-bar-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <?php
+                            $socials = get_field('list_social', 'option');
+                            foreach ($socials as $social){
+                                echo '<a alt="'.$social['social_link'].'" href="'.$social['social_link'].'">'.$social['social_icon'].'</i></a>';
+                            }
+                        ?>
                     </div>
                     <div class="support-link">
-                        <a href="#">Liên hệ</a>
-                        <a href="#">Hướng dẫn</a>
+                        <?php
+                            get_menu('header-mini-nav', '');
+                        ?>
                     </div>
-
+                    <div id="user-info-top" class="user-info pull-right">
+                        <div class="dropdown">
+                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><?php _e('Tài khoản', _TEXT_DOMAIN)?></span></a>
+                            <ul class="dropdown-menu mega_dropdown" role="menu">
+                                <li><a href="login.html"><?php _e('Đăng nhập', _TEXT_DOMAIN)?></a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <!--<div id="user-info-top" class="user-info pull-right">
                         <div class="dropdown">
                             <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account</span></a>
@@ -80,21 +90,26 @@
             <div class="container main-header">
                 <div class="row">
                     <div class="col-xs-4 col-sm-12 col-md-5 col-lg-4 header-search-box">
-                        <form class="form-inline">
+                       <form class="search-form form-inline" action="<?php echo get_home_url() ?>" method="GET">
+                        <?php $s = isset($_REQUEST['s']) ? $_REQUEST['s'] : ''; ?>
                             <div class="form-group input-serach">
-                                <input type="text"  placeholder="Nhập tên sản phẫm...">
+                            <input type="text" value="<?php echo $s ?>" name="s"
+                                       placeholder="<?php _e('Nhập tên sản phẫm...', _TEXT_DOMAIN) ?>"/>
                             </div>
                             <button type="submit" class="pull-right btn-search"><i class="fa fa-search"></i></button>
                         </form>
-                        <div class="advanced-search"><a href="" class="">Tìm kiếm nâng cao</a></div>
+                        <div class="advanced-search">
+                            <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            <a href="<?php echo get_permalink(42)?>" class=""><?php _e('Tìm kiếm nâng cao', _TEXT_DOMAIN)?></a>
+                        </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
                         <a href="<?php home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
-                        <a title="Compare" href="#" class="btn-compare">compare</a>
-                        <a title="My wishlist" href="#" class="btn-heart">wishlist</a>
-                        <div class="btn-cart" id="cart-block">
+                        <a title="Compare" href="#" class="btn-compare btn-head">compare</a>
+                        <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
+                        <div class="btn-cart btn-head" id="cart-block">
                             <a title="My cart" href="#">Cart</a>
                             <!--<span class="notify notify-right">2</span>
                             <div class="cart-block">

@@ -1,0 +1,41 @@
+.latest-deals-product{
+  .product-list li:hover {
+    .detail-info {
+      top: 0;
+      left: 0;
+    }
+    .add-to-cart{
+      right: 0;
+      bottom: 0;
+    }
+  }
+  .left-block {
+    .detail-info {
+      position: absolute;
+      left: -100%;
+      right: 0;
+      top: -100%;
+      text-align: center;
+      line-height: 50px;
+      -moz-transition: all 0.7s ease;
+      -webkit-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      color: #fff;
+      padding: 10px;
+    }
+    .add-to-cart{
+      right: -100%;
+      bottom: -100%;
+      left: auto;
+      -moz-transition: all 0.7s ease;
+      -webkit-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+    }
+  }
+}

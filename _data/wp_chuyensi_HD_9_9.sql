@@ -104,8 +104,8 @@ CREATE TABLE IF NOT EXISTS `wp_chuyensi_options` (
 --
 
 INSERT INTO `wp_chuyensi_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://192.168.1.100/wp_chuyensi', 'yes'),
-(2, 'home', 'http://192.168.1.100/wp_chuyensi', 'yes'),
+(1, 'siteurl', 'http://192.168.1.99/2016/10/wp_chuyensi', 'yes'),
+(2, 'home', 'http://192.168.1.99/2016/10/wp_chuyensi', 'yes'),
 (3, 'blogname', 'Chuyên sỉ và lẻ thời trang thiết kế', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
@@ -520,10 +520,10 @@ INSERT INTO `wp_chuyensi_posts` (`ID`, `post_author`, `post_date`, `post_date_gm
 (25, 1, '2016-09-08 15:50:36', '2016-09-08 15:50:36', '', 'Trang chủ', '', 'publish', 'closed', 'closed', '', 'trang-chu', '', '', '2016-09-08 15:53:27', '2016-09-08 15:53:27', '', 0, 'http://wordpress.local/?page_id=25', 0, 'page', '', 0),
 (26, 1, '2016-09-08 15:50:36', '2016-09-08 15:50:36', '', 'Trang chủ', '', 'inherit', 'closed', 'closed', '', '25-revision-v1', '', '', '2016-09-08 15:50:36', '2016-09-08 15:50:36', '', 25, 'http://wordpress.local/2016/09/08/25-revision-v1/', 0, 'revision', '', 0),
 (27, 1, '2016-09-08 15:53:40', '2016-09-08 15:53:40', ' ', '', '', 'publish', 'closed', 'closed', '', '27', '', '', '2016-09-09 08:36:18', '2016-09-09 08:36:18', '', 0, 'http://wordpress.local/?p=27', 1, 'nav_menu_item', '', 0),
-(28, 1, '2016-09-09 02:52:58', '2016-09-09 02:52:58', '', 'Sơ mi', '', 'publish', 'closed', 'closed', '', 'so-mi', '', '', '2016-09-09 08:36:18', '2016-09-09 08:36:18', '', 0, 'http://192.168.1.100/wp_chuyensi/?p=28', 4, 'nav_menu_item', '', 0),
-(29, 1, '2016-09-09 02:52:58', '2016-09-09 02:52:58', '', 'Đỏ', '', 'publish', 'closed', 'closed', '', 'do', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.100/wp_chuyensi/?p=29', 5, 'nav_menu_item', '', 0),
-(30, 1, '2016-09-09 08:35:34', '2016-09-09 08:35:34', '', 'Test', '', 'publish', 'closed', 'closed', '', 'test', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.100/wp_chuyensi/?p=30', 6, 'nav_menu_item', '', 0),
-(31, 1, '2016-09-09 08:35:34', '2016-09-09 08:35:34', '', 'Test', '', 'publish', 'closed', 'closed', '', 'test-2', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.100/wp_chuyensi/?p=31', 7, 'nav_menu_item', '', 0);
+(28, 1, '2016-09-09 02:52:58', '2016-09-09 02:52:58', '', 'Sơ mi', '', 'publish', 'closed', 'closed', '', 'so-mi', '', '', '2016-09-09 08:36:18', '2016-09-09 08:36:18', '', 0, 'http://192.168.1.99/2016/10/wp_chuyensi/?p=28', 4, 'nav_menu_item', '', 0),
+(29, 1, '2016-09-09 02:52:58', '2016-09-09 02:52:58', '', 'Đỏ', '', 'publish', 'closed', 'closed', '', 'do', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.99/2016/10/wp_chuyensi/?p=29', 5, 'nav_menu_item', '', 0),
+(30, 1, '2016-09-09 08:35:34', '2016-09-09 08:35:34', '', 'Test', '', 'publish', 'closed', 'closed', '', 'test', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.99/2016/10/wp_chuyensi/?p=30', 6, 'nav_menu_item', '', 0),
+(31, 1, '2016-09-09 08:35:34', '2016-09-09 08:35:34', '', 'Test', '', 'publish', 'closed', 'closed', '', 'test-2', '', '', '2016-09-09 08:36:19', '2016-09-09 08:36:19', '', 0, 'http://192.168.1.99/2016/10/wp_chuyensi/?p=31', 7, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 

@@ -6,56 +6,114 @@
 4. Styles for devices(>=481px and <=767px)
 5. Styles for devices(<=480px)
 -------------------------------------------------------------------*/
-/*-- Override CSS for Main menu--*/
-#main-menu .arrow-has-sub {
+.latest-deals-product .product-list li:hover .detail-info {
+  top: 0;
+  left: 0;
+}
+.latest-deals-product .product-list li:hover .add-to-cart {
+  right: 0;
+  bottom: 0;
+}
+.latest-deals-product .left-block .detail-info {
+  position: absolute;
+  left: -100%;
+  right: 0;
+  top: -100%;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.7s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+}
+.latest-deals-product .left-block .add-to-cart {
+  right: -100%;
+  bottom: -100%;
+  left: auto;
+  transition: all 0.7s ease;
+}
+
+/**-- Override css of header --**/
+#header {
+  /**-- Search --**/
+  /**-- Menu header mini --**/
+  /**--  --**/
+  /*-- Override CSS for Main menu--*/
+}
+#header .advanced-search {
+  margin-top: 3px;
+}
+#header .advanced-search a {
+  font-style: italic;
+}
+#header .support-link .menu-item {
+  float: left;
+}
+#header .support-link .menu-item:last-child a {
+  border-right: 0;
+}
+@media only screen and (max-width: 767px) {
+  #header .top-header {
+    text-align: center;
+  }
+  #header .top-header .menu-item {
+    float: none;
+    display: inline-block;
+  }
+  #header .main-header {
+    text-align: center;
+  }
+}
+#header #main-menu .arrow-has-sub {
   display: none !important;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item {
   position: relative;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
   position: absolute;
 }
 @media only screen and (max-width: 767px) {
-  #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
+  #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
     position: static;
   }
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu {
   left: 100% !important;
   top: 0 !important;
   bottom: auto !important;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu.level-0 {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse.sub-menu.level-0 {
   left: 0 !important;
   top: 100% !important;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item:hover > .dropdown-menu {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item:hover > .dropdown-menu {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
   opacity: 1;
   visibility: visible;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
   border-top: solid 1px #F96D10;
   padding: 20px 0;
 }
 @media only screen and (max-width: 767px) {
-  #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
+  #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
   }
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a {
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a {
   padding: 3px 20px;
 }
-#main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a:hover {
-  color: #e80000;
+#header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu .menu-item a:hover {
+  color: #000;
+  background-color: #f5f5f5;
 }
-
-.fixed-nav {
+#header .fixed-nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -63,6 +121,8 @@
   z-index: 9999;
 }
 
-/*-- End Override CSS for Main menu--*/
+#home-slider .bx-pager {
+  padding-right: 0;
+}
 
 /*# sourceMappingURL=main.css.map */

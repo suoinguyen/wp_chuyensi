@@ -81,6 +81,7 @@ if(!function_exists('menu_init')){
     function menu_init(){
         register_nav_menus ( [
             'primary-menu' => __('Primary Menu', _TEXT_DOMAIN),
+            'header-mini-nav' => __('Header Mini top-right', _TEXT_DOMAIN),
         ] );
     }
     add_action('init', 'menu_init');
