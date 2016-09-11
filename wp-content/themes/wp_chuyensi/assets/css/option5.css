@@ -186,12 +186,12 @@
 .option5 #main-menu .navbar-default .navbar-nav>li:last-child>a{
 	background: none;
 }
-.option5 #main-menu .navbar .navbar-nav>li:hover, 
+.option5 #main-menu .navbar .navbar-nav>li:hover,
 .option5 #main-menu .navbar .navbar-nav>li.active{
 	background-image: none;
 	background: #e80000;
 }
-.option5 #main-menu .navbar .navbar-nav>li:hover a, 
+.option5 #main-menu .navbar .navbar-nav>li:hover a,
 .option5 #main-menu .navbar .navbar-nav>li.active a{
 	background: none;
 }
@@ -266,11 +266,11 @@
 .option5 .header-top-right .homeslider {
 	width: 100%;
 }
-.option5 .header-top-right .homeslider .bx-controls-direction .bx-prev, 
+.option5 .header-top-right .homeslider .bx-controls-direction .bx-prev,
 .option5 .header-top-right .homeslider .bx-controls-direction .bx-next{
 	background: #f96d10;
 }
-.option5 .header-top-right .homeslider .bx-wrapper .bx-pager, 
+.option5 .header-top-right .homeslider .bx-wrapper .bx-pager,
 .option5 .bx-wrapper .bx-controls-auto{
 	text-align: center;
 }
@@ -360,7 +360,7 @@
 	border-bottom: 3px solid #f96d10;
 }
 
-.option5 .owl-controls .owl-prev:hover, 
+.option5 .owl-controls .owl-prev:hover,
 .option5 .owl-controls .owl-next:hover {
   background: #f96d10;
   color: #fff;
@@ -377,7 +377,7 @@
 [5. Category featured]
 */
 
-.option5 .show-brand .navbar-brand{
+/*.option5 .show-brand .navbar-brand{
 	width: 200px;
 	position: relative;
 	padding-left: 10px;
@@ -408,43 +408,6 @@
 }
 .option5 .nav-menu{
 	margin-bottom: 0;
-}
-.option5 .nav-menu .nav>li>a{
-	background: none;
-	padding: 14px 15px;
-	margin-left: 10px;
-}
-.option5 .nav-menu .nav>li>a:after{
-	font: normal normal normal 14px/1 FontAwesome;
-	content: "\f0d8";
-	position: absolute;
-	bottom: -40px;
-	left: 50%;
-	-ms-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-	color: #fff;
-	-webkit-transition: all 0.3s ease-out 0s;
-	  -moz-transition: all 0.3s ease-out 0s;
-	  -o-transition: all 0.3s ease-out 0s;
-	  transition: all 0.3s ease-out 0s;
-	  opacity: 0;
-	  visibility: hidden;
-}
-.option5 .nav-menu .nav>li>a:before{
-	content: '';
-	width: 100%;
-	height: 1px;
-	background: #fa8334;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	transform: scale(0, 1);
-}
-.option5 .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #fa8334;
 }
 .option5 .nav-menu .nav>li:hover a,
 .option5 .nav-menu .nav>li.active a{
@@ -566,15 +529,15 @@
 .option5 .product-featured .deal-product .deal-product-head h3:before{
 	border-top: 1px solid #eaeaea;
     content:"";
-    margin: 0 auto; /* this centers the line to the full width specified */
-    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    margin: 0 auto; !* this centers the line to the full width specified *!
+    position: absolute; !* positioning must be absolute here, and relative positioning must be applied to the parent *!
     top: 40%; left: 40px; right: 40px; bottom: 0;
     width: 95%;
     z-index: -1;
-    width: 300px;/*
+    width: 300px;!*
     -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);*/
+  transform: translateY(-50%);*!
 }
 .option5 .product-featured .deal-product .deal-product-head h3>span{
 	background: #fff; 
@@ -691,260 +654,8 @@
 }
 .option5 .product-list li .quick-view a.compare:before{
 	  content: "\f066";
-}
+}*/
 
-/** OPTION CATEGORY **/
-
-.option5 .category-featured.fashion .sub-category-list a:hover{
-	color: #ff3366;
-}
-.option5 .category-featured.fashion .navbar-brand{
-	background: #ff3366;
-}
-.option5 .category-featured.fashion .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.fashion .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #ff3366;
-}
-.option5 .category-featured.fashion .nav-menu .nav>li:hover a,
-.option5 .category-featured.fashion .nav-menu .nav>li.active a{
-	color: #ff3366;
-}
-
-.option5 .category-featured.fashion .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.fashion .nav-menu .nav>li.active a:after{
-	color: #ff3366;
-}
-
-.option5 .category-featured.fashion .nav-menu .nav>li>a:before{
-	background: #ff3366;
-}
-
-.option5 .category-featured.fashion .product-list li .add-to-cart {
-	background-color: rgba(255, 51, 102, 0.7);
-	background: rgba(255, 51, 102, 0.7);
-	color: rgba(255, 51, 102, 0.7);
-}
-.option5 .category-featured.fashion .product-list li .add-to-cart:hover {
-	background: #ff3366;
-}
-
-.option5 .category-featured.fashion .product-list li .quick-view a.search:hover,
-.option5 .category-featured.fashion .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.fashion .product-list li .quick-view a.heart:hover{
-	background-color: #ff3366;
-	opacity: 0.9;
-}
-
-/** sports **/
-.option5 .category-featured.sports .sub-category-list a:hover{
-	color: #00a360;
-}
-.option5 .category-featured.sports .navbar-brand{
-	background: #00a360;
-}
-.option5 .category-featured.sports .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.sports .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #00a360;
-}
-.option5 .category-featured.sports .nav-menu .nav>li:hover a,
-.option5 .category-featured.sports .nav-menu .nav>li.active a{
-	color: #00a360;
-}
-.option5 .category-featured.sports .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.sports .nav-menu .nav>li.active a:after{
-	color: #00a360;
-}
-
-.option5 .category-featured.sports .nav-menu .nav>li>a:before{
-	background: #00a360;
-}
-
-.option5 .category-featured.sports .product-list li .add-to-cart {
-	background-color: rgba(0, 163, 96, 0.7);
-	background: rgba(0, 163, 96, 0.7);
-	color: rgba(0, 163, 96, 0.7);
-}
-.option5 .category-featured.sports .product-list li .add-to-cart:hover {
-	background: #00a360;
-}
-.option5 .category-featured.sports .product-list li .quick-view a.search:hover,
-.option5 .category-featured.sports .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.sports .product-list li .quick-view a.heart:hover{
-	background-color: #00a360;
-	opacity: 0.9;
-}
-
-/** electronic **/
-.option5 .category-featured.electronic .sub-category-list a:hover{
-	color: #0090c9;
-}
-.option5 .category-featured.electronic .navbar-brand{
-	background: #0090c9;
-}
-.option5 .category-featured.electronic .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.electronic .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #0090c9;
-}
-.option5 .category-featured.electronic .nav-menu .nav>li:hover a,
-.option5 .category-featured.electronic .nav-menu .nav>li.active a{
-	color: #0090c9;
-}
-.option5 .category-featured.electronic .nav-menu .nav>li>a:before{
-	background: #0090c9;
-}
-.option5 .category-featured.electronic .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.electronic .nav-menu .nav>li.active a:after{
-	color: #0090c9;
-}
-
-.option5 .category-featured.electronic .product-list li .add-to-cart {
-	background-color: rgba(0, 144, 201, 0.7);
-	background: rgba(0, 144, 201, 0.7);
-	color: rgba(0, 144, 201, 0.7);
-}
-.option5 .category-featured.electronic .product-list li .add-to-cart:hover {
-	background-color: #0090c9;
-}
-.option5 .category-featured.electronic .product-list li .quick-view a.search:hover,
-.option5 .category-featured.electronic .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.electronic .product-list li .quick-view a.heart:hover{
-	background-color: #0090c9;
-	opacity: 0.9;
-}
-/** digital **/
-.option5 .category-featured.digital .sub-category-list a:hover{
-	color: #3f5eca;
-}
-.option5 .category-featured.digital .navbar-brand{
-	background: #3f5eca;
-}
-.option5 .category-featured.digital .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.digital .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #3f5eca;
-}
-.option5 .category-featured.digital .nav-menu .nav>li:hover a,
-.option5 .category-featured.digital .nav-menu .nav>li.active a{
-	color: #3f5eca;
-}
-.option5 .category-featured.digital .nav-menu .nav>li>a:before{
-	background: #3f5eca;
-}
-.option5 .category-featured.digital .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.digital .nav-menu .nav>li.active a:after{
-	color: #3f5eca;
-}
-.option5 .category-featured.digital .product-list li .add-to-cart {
-	background-color: rgba(63, 94, 202, 0.7);
-	background: rgba(63, 94, 202, 0.7);
-	color: rgba(63, 94, 202, 0.7);
-}
-.option5 .category-featured.digital .product-list li .add-to-cart:hover {
-	background-color: #3f5eca;
-}
-.option5 .category-featured.digital .product-list li .quick-view a.search:hover,
-.option5 .category-featured.digital .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.digital .product-list li .quick-view a.heart:hover{
-	background-color: #3f5eca;
-	opacity: 0.9;
-}
-/** furniture **/
-.option5 .category-featured.furniture .sub-category-list a:hover{
-	color: #669900;
-}
-.option5 .category-featured.furniture .navbar-brand{
-	background: #669900;
-}
-.option5 .category-featured.furniture .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.furniture .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #669900;
-}
-.option5 .category-featured.furniture .nav-menu .nav>li:hover a,
-.option5 .category-featured.furniture .nav-menu .nav>li.active a{
-	color: #669900;
-}
-.option5 .category-featured.furniture .nav-menu .nav>li>a:before{
-	background: #669900;
-}
-.option5 .category-featured.furniture .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.furniture .nav-menu .nav>li.active a:after{
-	color: #669900;
-}
-
-.option5 .category-featured.furniture .product-list li .add-to-cart {
-	background-color: rgba(102, 153, 0, 0.7);
-	background: rgba(102, 153, 0, 0.7);
-	color: rgba(102, 153, 0, 0.7);
-}
-.option5 .category-featured.furniture .product-list li .add-to-cart:hover {
-	background-color: #669900;
-}
-
-.option5 .category-featured.furniture .product-list li .quick-view a.search:hover,
-.option5 .category-featured.furniture .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.furniture .product-list li .quick-view a.heart:hover{
-	background-color: #669900;
-	opacity: 0.9;
-}
-
-/** jewelry **/
-.option5 .category-featured.jewelry .sub-category-list a:hover{
-	color: #6d6855;
-}
-.option5 .category-featured.jewelry .navbar-brand{
-	background: #6d6855;
-}
-.option5 .category-featured.jewelry .navbar-brand a:hover{
-	color: #fff;
-}
-.option5 .category-featured.jewelry .nav-menu .navbar-collapse {
-	background: #fff;
-	border-bottom: 2px solid #6d6855;
-}
-.option5 .category-featured.jewelry .nav-menu .nav>li:hover a,
-.option5 .category-featured.jewelry .nav-menu .nav>li.active a{
-	color: #6d6855;
-}
-.option5 .category-featured.jewelry .nav-menu .nav>li>a:before{
-	background: #6d6855;
-}
-.option5 .category-featured.jewelry .nav-menu .nav>li:hover a:after,
-.option5 .category-featured.jewelry .nav-menu .nav>li.active a:after{
-	color: #6d6855;
-}
-.option5 .category-featured.jewelry .product-list li .add-to-cart {
-	background-color: #6d6855;
-}
-.option5 .category-featured.jewelry .product-list li .add-to-cart {
-	background-color: rgba(109, 104,85, 0.7);
-	background: rgba(109, 104,85, 0.7);
-	color: rgba(109, 104,85, 0.7);
-}
-.option5 .category-featured.jewelry .product-list li .add-to-cart:hover {
-	background-color: #6d6855;
-}
-
-.option5 .category-featured.jewelry .product-list li .quick-view a.search:hover,
-.option5 .category-featured.jewelry .product-list li .quick-view a.compare:hover,
-.option5 .category-featured.jewelry .product-list li .quick-view a.heart:hover{
-	background-color: #6d6855;
-	opacity: 0.9;
-}
-/****/
 
 /*-----------------
 [6. Banner bootom]

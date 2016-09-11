@@ -15,7 +15,7 @@
             <?php
             $args = array(
                 'post_type' => 'products_post_type',
-                'posts_per_page' => 10,
+                'posts_per_page' => 5,
                 'post_status' => 'publish',
                 'orderby' => 'date',
                 'order' => 'DESC',
@@ -34,23 +34,28 @@
                             <div class="detail-info">
                                 <p><?php the_title()?></p>
                             </div>
-                            <div class="quick-view">
+                            <!--<div class="quick-view">
                                 <a title="Add to my wishlist" class="heart" href="#"></a>
                                 <a title="Add to compare" class="compare" href="#"></a>
                                 <a title="Quick view" class="search" href="#"></a>
-                            </div>
+                            </div>-->
                             <div class="add-to-cart">
                                 <a title="Add to Cart" href="#"><?php _e('Thêm vào giỏ hàng', _TEXT_DOMAIN)?></a>
                             </div>
-                            <!--<div class="price-percent-reduction2">
+                            <div class="price-percent-reduction2">
                                 -30% OFF
-                            </div>-->
+                            </div>
                         </div>
                         <div class="right-block">
                             <div class="content_price">
                                 <span class="price product-price">$38,95</span>
                                 <span class="price old-price">$52,00</span>
                             </div>
+                           <!-- <div class="preview">
+                                <span><i class="fa fa-eye" aria-hidden="true"></i> Xem chi tiết</span>
+                                <br>
+                                <span><i class="fa fa-search-plus" aria-hidden="true"></i> Xem nhanh</span>
+                            </div>-->
                         </div>
                     </li>
 

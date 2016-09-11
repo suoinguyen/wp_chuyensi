@@ -16,7 +16,7 @@
       right: 0;
       top: -100%;
       text-align: center;
-      line-height: 50px;
+      line-height: 20px;
       -moz-transition: all 0.7s ease;
       -webkit-transition: all 0.7s ease;
       -o-transition: all 0.7s ease;
@@ -28,6 +28,7 @@
       padding: 10px;
     }
     .add-to-cart{
+      padding: 10px;
       right: -100%;
       bottom: -100%;
       left: auto;

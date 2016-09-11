@@ -31,27 +31,6 @@
         <div id="header" class="header">
             <div class="top-header">
                 <div class="container">
-                    <!--<div class="currency ">
-                        <div class="dropdown">
-                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">USD</a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Dollar</a></li>
-                                <li><a href="#">Euro</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="language ">
-                        <div class="dropdown">
-                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
-                                <img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/fr.jpg" />French
-
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#"><img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/en.jpg" />English</a></li>
-                                <li><a href="#"><img alt="email" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/images/fr.jpg" />French</a></li>
-                            </ul>
-                        </div>
-                    </div>-->
                     <div class="top-bar-social">
                         <?php
                             $socials = get_field('list_social', 'option');
@@ -73,16 +52,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!--<div id="user-info-top" class="user-info pull-right">
-                        <div class="dropdown">
-                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account</span></a>
-                            <ul class="dropdown-menu mega_dropdown" role="menu">
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="#">Compare</a></li>
-                                <li><a href="#">Wishlists</a></li>
-                            </ul>
-                        </div>
-                    </div>-->
                 </div>
             </div>
             <!--/.top-header -->
@@ -111,49 +80,6 @@
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
                         <div class="btn-cart btn-head" id="cart-block">
                             <a title="My cart" href="#">Cart</a>
-                            <!--<span class="notify notify-right">2</span>
-                            <div class="cart-block">
-                                <div class="cart-block-content">
-                                    <h5 class="cart-title">2 Items in my cart</h5>
-                                    <div class="cart-block-list">
-                                        <ul>
-                                            <li class="product-info">
-                                                <div class="p-left">
-                                                    <a href="#" class="remove_link"></a>
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/data/product-100x122.jpg" alt="p10">
-                                                    </a>
-                                                </div>
-                                                <div class="p-right">
-                                                    <p class="p-name">Donec Ac Tempus</p>
-                                                    <p class="p-rice">61,19 €</p>
-                                                    <p>Qty: 1</p>
-                                                </div>
-                                            </li>
-                                            <li class="product-info">
-                                                <div class="p-left">
-                                                    <a href="#" class="remove_link"></a>
-                                                    <a href="#">
-                                                        <img class="img-responsive" src="<?php /*echo _SU_THEME_HOST_PATCH*/?>/assets/data/product-s5-100x122.jpg" alt="p10">
-                                                    </a>
-                                                </div>
-                                                <div class="p-right">
-                                                    <p class="p-name">Donec Ac Tempus</p>
-                                                    <p class="p-rice">61,19 €</p>
-                                                    <p>Qty: 1</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="toal-cart">
-                                        <span>Total</span>
-                                        <span class="toal-price pull-right">122.38 €</span>
-                                    </div>
-                                    <div class="cart-buttons">
-                                        <a href="order.html" class="btn-check-out">Checkout</a>
-                                    </div>
-                                </div>
-                            </div>-->
                         </div>
                     </div>
                 </div>
