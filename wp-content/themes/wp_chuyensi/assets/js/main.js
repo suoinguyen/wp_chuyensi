@@ -40,4 +40,7 @@ jQuery("document").ready(function($){
         $($element_parent).css('display','table');
         $($element_child).css({'display':'table-cell', 'vertical-align':'middle'});
     }
+
+    /**--  --**/
+    $('.product-detail').centeralElement();
 });
