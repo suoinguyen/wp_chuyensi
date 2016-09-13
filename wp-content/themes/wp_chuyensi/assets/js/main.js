@@ -41,6 +41,11 @@ jQuery("document").ready(function($){
         $($element_child).css({'display':'table-cell', 'vertical-align':'middle'});
     }
 
+
     /**--  --**/
-    $('.product-detail').centeralElement();
+    $('.product-detail').imagesLoaded( function() {
+        $('.product-detail').centeralElement();
+    });
+    /**-- --**/
+
 });

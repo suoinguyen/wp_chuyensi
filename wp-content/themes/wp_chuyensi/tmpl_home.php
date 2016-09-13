@@ -19,7 +19,7 @@ get_header();
             <?php get_template_part('parts/home/content', 'home-hot-products')?>
             <!-- End Hot products -->
 
-        </div>a
+        </div>
         <!-- Banner bottom -->
         <div class="row banner-bottom">
             <?php
@@ -105,9 +105,7 @@ get_header();
                                     <ul class="product-wrap">
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
                                                     <span>60.000</span>
                                                 </div>
@@ -116,16 +114,14 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <span>Xem chi tiết</span>
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
                                                     <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
                                                 <div class="price" style="color: <?php _e($c)?>">
                                                     <span>60.000</span>
                                                 </div>

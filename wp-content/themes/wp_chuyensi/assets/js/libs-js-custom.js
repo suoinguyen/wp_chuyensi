@@ -11,7 +11,7 @@
             var top = [(h-c_h)/2] - (c_h/2);
 
             t.css('position','relative');
-            t.find('.element-centeral').css({'position':'absolute', 'top':'0', 'left':'0', 'width':'100%', 'height':'100%', 'text-align':'center', 'padding-top':top});
+            t.find('.element-centeral').css({'position':'absolute', 'top':top, 'left':'0', 'width':'100%', 'text-align':'center'});
 
             t.hover(function () {
                 $(this).toggleClass('hovered');
