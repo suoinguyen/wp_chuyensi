@@ -52,6 +52,7 @@ if ( ! function_exists( 'init_theme_setup' ) ) {
         */
         add_theme_support( 'post-thumbnails' );
 
+
         /*
         * Thêm chức năng title-tag để tự thêm <title>
         */
@@ -96,4 +97,15 @@ if( function_exists('acf_add_options_page') ) {
 
 }
 
+/**
+ * Add custom size image
+ */
+add_image_size( "grade-image", 320, 300, true );
+add_filter( 'image_size_names_choose', 'my_custom_sizes' );
+
+function my_custom_sizes( $sizes ) {
+    return array_merge( $sizes, array(
+        'grade-image' => __('Grade Image'),
+    ) );
+}
 ?>

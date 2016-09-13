@@ -77,15 +77,19 @@ get_header();
                                 <span class="toggle-menu"></span>
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse">
-                                    <ul class="nav navbar-nav">
-                                        <li  class="active"><a data-toggle="tab" href="#tab-5">Mới nhất</a></li>
-                                        <li><a href="#">Xem nhiều nhất</a></li>
+                                    <ul class="nav navbar-nav" role="tablist">
+                                        <li role="presentation"  class="active" >
+                                            <a href="#newest-<?php _e($cate->slug)?>" aria-controls="newest-<?php _e($cate->slug)?>" role="tab" data-toggle="tab"><?php _e('Mới nhất')?></a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#view-<?php _e($cate->slug)?>" aria-controls="view-<?php _e($cate->slug)?>" role="tab" data-toggle="tab"><?php _e('Xem nhiều nhất')?></a>
+                                        </li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </div><!-- /.container-fluid -->
-                            <div id="elevator-1" class="floor-elevator">
-                                <a href="#" class="btn-elevator up disabled fa fa-angle-up"></a>
-                                <a href="#elevator-2" class="btn-elevator down fa fa-angle-down"></a>
+                            <div id="elevator-<?php _e($key)?>" class="floor-elevator">
+                                <a href="<?php echo $key-1<0?'#':'#elevator-'.($key-1) ?>" class="btn-elevator up fa fa-angle-up <?php echo $key-1<0?'disabled':'' ?>"></a>
+                                <a href="#elevator-<?php _e($key + 1)?>" class="btn-elevator down fa fa-angle-down"></a>
                             </div>
                         </nav>
 
@@ -99,13 +103,13 @@ get_header();
                         </div>
 
                         <div class="product-list-wrap">
-                            <div class="tab-container">
+                            <div class="tab-container tab-content">
                                 <!-- tab product -->
-                                <div class="tab-panel active" id="tab-4">
+                                <div role="tabpanel" class="tab-panel fade active" id="newest-<?php _e($cate->slug)?>">
                                     <ul class="product-wrap">
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/simple-pre-loader.jpg" />
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
                                                     <span>60.000 <i>₫</i></span>
                                                 </div>
@@ -114,7 +118,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -130,7 +134,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -146,7 +150,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -162,7 +166,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -178,7 +182,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -194,7 +198,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -210,7 +214,7 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -226,7 +230,27 @@ get_header();
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-panel fade" id="view-<?php _e($cate->slug)?>">
+                                    <ul class="product-wrap">
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>70000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,14 +259,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -251,14 +275,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -267,14 +291,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -283,14 +307,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>70000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -299,14 +323,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -315,14 +339,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -331,30 +355,14 @@ get_header();
                                             <div class="product-detail">
                                                 <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
+                                                    <span>7.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
                                                         Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                            <div class="product-detail">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000 <i>₫</i></span>
-                                                </div>
-                                                <div class="product-info element-centeral">
-                                                    <div class="product-name">
-                                                        Test product name
-                                                    </div>
-                                                    <div class="btn-view-detail">
-                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                        <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>

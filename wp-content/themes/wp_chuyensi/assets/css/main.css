@@ -175,7 +175,7 @@
   margin-left: -100%;
   transition: all 0.5s;
 }
-.product-list-wrap .product-wrap .product-border .product-detail .product-info .btn-view-detail span {
+.product-list-wrap .product-wrap .product-border .product-detail .product-info .btn-view-detail a {
   padding: 10px 15px;
   display: inline-block;
   color: #fff;
