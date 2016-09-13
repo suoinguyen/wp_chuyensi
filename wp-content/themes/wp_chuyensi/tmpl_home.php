@@ -105,9 +105,9 @@ get_header();
                                     <ul class="product-wrap">
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/simple-pre-loader.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
@@ -121,78 +121,241 @@ get_header();
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
                                                 </div>
                                                 <div class="product-info element-centeral">
                                                     <div class="product-name">
-                                                        Test proddddddddddddddddddd dsssssssss dsdsdsdsd dsdsdsd
-                                                        duct name
+                                                        Test product name
                                                     </div>
                                                     <div class="btn-view-detail">
-                                                        <span>Xem chi tiết</span>
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                             <div class="product-detail">
-                                                <a href="#">
-                                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                                </a>
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
                                                 <div class="price" style="color: <?php _e($c)?>">
-                                                    <span>60.000</span>
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="col-xs-6 col-sm-4 col-md-3 product-border">
+                                            <div class="product-detail">
+                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
+                                                <div class="price" style="color: <?php _e($c)?>">
+                                                    <span>60.000 <i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        Test product name
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="#"><span style="background-color: <?php _e($c)?>">Xem chi tiết</span></a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </li>
