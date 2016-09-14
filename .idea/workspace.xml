@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26aef30b-7516-47f6-8518-811abd2df6b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2016/09/A3086-1-320x300.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php" />
     </list>
     <ignored path="wordpress.iws" />
@@ -32,49 +27,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tmpl_home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tmpl_home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="368" column="45" selection-start-line="368" selection-start-column="45" selection-end-line="368" selection-end-column="45" />
+            <state relative-caret-position="2975">
+              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
               <folding>
-                <marker date="1473781036342" expanded="true" signature="4714:5233" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="4772:4958" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5016:5202" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5290:27368" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5358:27336" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5531:16338" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5593:16299" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5688:6926" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="5761:6880" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="6024:6160" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="6252:6829" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="6331:6464" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="6546:6774" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7021:8259" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7094:8213" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7357:7493" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7585:8162" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7664:7797" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="7879:8107" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="8354:9592" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="8427:9546" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="8690:8826" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="8918:9495" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="8997:9130" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="9212:9440" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="9687:10925" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="9760:10879" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="10023:10159" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="10251:10828" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="10330:10463" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="10545:10773" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="27583:28126" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="27618:27847" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="27666:27828" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="27882:28111" placeholder="..." />
-                <marker date="1473781036342" expanded="true" signature="27930:28092" placeholder="..." />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <marker date="1473876726420" expanded="true" signature="1859:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="1925:2529" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="2029:2118" placeholder="{...}" />
+                <marker date="1473876726420" expanded="true" signature="2218:2296" placeholder="{...}" />
+                <marker date="1473876726420" expanded="true" signature="2412:2501" placeholder="{...}" />
+                <marker date="1473876726420" expanded="true" signature="2615:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="2729:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="2781:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="2936:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="3019:3096" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="3512:3843" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="3591:3843" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="3672:3843" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="3971:4137" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="4462:4524" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="8136:9223" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="8217:9223" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="8450:8618" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="8718:9223" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="8805:8954" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="9044:9223" placeholder="..." />
+                <marker date="1473876726420" expanded="true" signature="9145:9177" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions_custom_post_type.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="137" column="44" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-home-hot-products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-hot-products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="21" column="14" selection-start-line="15" selection-start-column="12" selection-end-line="21" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,18 +84,18 @@
       <file leaf-file-name="functions_custom.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="-1028">
               <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions_basic.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions_basic.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            <state relative-caret-position="435">
+              <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -112,7 +114,7 @@
       <file leaf-file-name="_home-content.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="731">
               <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
               <folding />
             </state>
@@ -122,61 +124,8 @@
       <file leaf-file-name="hover-css.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="81175">
               <caret line="4775" column="17" selection-start-line="4775" selection-start-column="17" selection-end-line="4775" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <marker date="1473775481534" expanded="true" signature="167:1470" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1478:5122" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1528:5122" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1593:5094" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1630:2926" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1670:2907" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1719:2112" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="1884:2058" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="2159:2304" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="2378:2884" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="2425:2857" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="2688:2826" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3040:4899" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3074:4880" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3163:4117" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3276:3796" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3425:3646" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3507:3611" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="3850:4090" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="4192:4383" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="4473:4857" placeholder="..." />
-                <marker date="1473775481534" expanded="true" signature="4734:4830" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -257,9 +206,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php" />
       </list>
     </option>
   </component>
@@ -303,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -580,6 +528,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -587,7 +536,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -660,16 +609,17 @@
       <workItem from="1473600828467" duration="11307000" />
       <workItem from="1473698846634" duration="12419000" />
       <workItem from="1473745309614" duration="9832000" />
-      <workItem from="1473776562006" duration="7223000" />
+      <workItem from="1473776562006" duration="7736000" />
+      <workItem from="1473862704966" duration="8591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128362000" />
+    <option name="totallyTimeSpent" value="137466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2306003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -708,7 +658,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/pedet/libs/NpCommon.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="123" column="47" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -925,23 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-hot-products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/imagesloaded.pkgd.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,47 +878,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-          <folding>
-            <marker date="1473775481433" expanded="true" signature="44:76" placeholder="/*...*/" />
-            <marker date="1473775481433" expanded="true" signature="317:544" placeholder="{...}" />
-            <marker date="1473775481433" expanded="true" signature="356:536" placeholder="{...}" />
-            <marker date="1473775481433" expanded="true" signature="465:526" placeholder="{...}" />
-            <marker date="1473775481433" expanded="true" signature="550:560" placeholder="/*...*/" />
-            <marker date="1473775481433" expanded="true" signature="599:888" placeholder="{...}" />
-            <marker date="1473775481433" expanded="true" signature="667:860" placeholder="{...}" />
-            <marker date="1473775481433" expanded="true" signature="1077:1318" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="493">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1473775481534" expanded="true" signature="167:1470" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1478:5122" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1528:5122" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1593:5094" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1630:2926" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1670:2907" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1719:2112" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="1884:2058" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="2159:2304" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="2378:2884" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="2425:2857" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="2688:2826" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3040:4899" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3074:4880" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3163:4117" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3276:3796" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3425:3646" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3507:3611" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="3850:4090" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="4192:4383" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="4473:4857" placeholder="..." />
-            <marker date="1473775481534" expanded="true" signature="4734:4830" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +899,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="374">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
@@ -1011,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="81175">
           <caret line="4775" column="17" selection-start-line="4775" selection-start-column="17" selection-end-line="4775" selection-end-column="17" />
           <folding />
         </state>
@@ -1021,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,61 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="731">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="368" column="45" selection-start-line="368" selection-start-column="45" selection-end-line="368" selection-end-column="45" />
-          <folding>
-            <marker date="1473781036342" expanded="true" signature="4714:5233" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="4772:4958" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5016:5202" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5290:27368" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5358:27336" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5531:16338" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5593:16299" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5688:6926" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="5761:6880" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="6024:6160" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="6252:6829" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="6331:6464" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="6546:6774" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7021:8259" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7094:8213" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7357:7493" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7585:8162" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7664:7797" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="7879:8107" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="8354:9592" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="8427:9546" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="8690:8826" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="8918:9495" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="8997:9130" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="9212:9440" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="9687:10925" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="9760:10879" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="10023:10159" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="10251:10828" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="10330:10463" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="10545:10773" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="27583:28126" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="27618:27847" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="27666:27828" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="27882:28111" placeholder="..." />
-            <marker date="1473781036342" expanded="true" signature="27930:28092" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -1104,11 +946,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-hot-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="21" column="14" selection-start-line="15" selection-start-column="12" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="137" column="44" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/l10n.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028">
+          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state relative-caret-position="435">
+          <caret line="122" column="35" selection-start-line="122" selection-start-column="35" selection-end-line="122" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <marker date="1473876726420" expanded="true" signature="1859:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="1925:2529" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="2029:2118" placeholder="{...}" />
+            <marker date="1473876726420" expanded="true" signature="2218:2296" placeholder="{...}" />
+            <marker date="1473876726420" expanded="true" signature="2412:2501" placeholder="{...}" />
+            <marker date="1473876726420" expanded="true" signature="2615:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="2729:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="2781:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="2936:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="3019:3096" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="3512:3843" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="3591:3843" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="3672:3843" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="3971:4137" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="4462:4524" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="8136:9223" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="8217:9223" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="8450:8618" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="8718:9223" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="8805:8954" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="9044:9223" placeholder="..." />
+            <marker date="1473876726420" expanded="true" signature="9145:9177" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
