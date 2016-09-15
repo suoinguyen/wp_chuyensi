@@ -79,7 +79,6 @@
                         <a href="<?php home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
-                        <a title="Compare" href="#" class="btn-compare btn-head">compare</a>
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
                         <div class="btn-cart btn-head" id="cart-block">
                             <a title="My cart" href="#">Cart</a>

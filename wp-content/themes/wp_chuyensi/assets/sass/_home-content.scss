@@ -1,3 +1,4 @@
+/**-- List product category --**/
 .product-list-wrap{
   width: 100%;
   display: inline-block;
@@ -67,6 +68,76 @@
             visibility: visible;
           }
         }
+      }
+    }
+  }
+}
+
+/*-- List hot product --*/
+.latest-deals-product{
+  .product-list li:hover {
+    .detail-info {
+      top: 0;
+      left: 0;
+    }
+    .btn-detail-view{
+      left: 0;
+      bottom: 0;
+    }
+  }
+  .left-block {
+    .detail-info, .btn-detail-view{
+      -moz-transition: all 0.7s ease;
+      -webkit-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      transition: all 0.7s ease;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .detail-info {
+      position: absolute;
+      left: -100%;
+      right: 0;
+      top: -100%;
+      text-align: center;
+      line-height: 20px;
+      width: 100%;
+      color: #fff;
+      padding: 10px;
+    }
+    .btn-detail-view{
+      position: absolute;
+      left: 100%;
+      right: 0;
+      bottom: -100%;
+      text-align: center;
+      line-height: 25px;
+      width: 100%;
+      color: #fff;
+      padding: 0;
+      &:hover{
+        background: #f96d10;
+      }
+      a{
+        background: url('../images/eye-32.png') no-repeat left center;
+        display: inline-block !important;
+        padding: 10px 0 10px 40px;
+        color: #fff;
+      }
+    }
+  }
+
+  .right-block{
+    .content_price{
+      font-family: "Open Sans", Arial, sans-serif;
+      .price{
+        font-family: inherit;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .old-price{
+        font-size: 14px;
       }
     }
   }

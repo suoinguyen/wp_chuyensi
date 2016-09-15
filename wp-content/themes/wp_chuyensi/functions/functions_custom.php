@@ -127,4 +127,13 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
      }
  }
 
+/**
+ * Math the price
+ */
+function calculate_price($price, $discount){
+    $discount == 0 ? $discount = 1 : $discount;
+    var_dump($discount);
+    $calculated_price = ($price*$discount)/100;
+    return round($calculated_price);
+}
 

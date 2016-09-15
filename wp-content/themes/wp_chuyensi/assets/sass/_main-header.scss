@@ -88,6 +88,13 @@
         }
       }
     }
+    .navbar-header .navbar-toggle {
+      border: none;
+      margin: 0;
+      padding: 13px 17px;
+      background-color: #000 !important;
+      border-radius: 0;
+    }
   }
   .fixed-nav{
     position: fixed;

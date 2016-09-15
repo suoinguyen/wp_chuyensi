@@ -6,35 +6,6 @@
 4. Styles for devices(>=481px and <=767px)
 5. Styles for devices(<=480px)
 -------------------------------------------------------------------*/
-.latest-deals-product .product-list li:hover .detail-info {
-  top: 0;
-  left: 0;
-}
-.latest-deals-product .product-list li:hover .add-to-cart {
-  right: 0;
-  bottom: 0;
-}
-.latest-deals-product .left-block .detail-info {
-  position: absolute;
-  left: -100%;
-  right: 0;
-  top: -100%;
-  text-align: center;
-  line-height: 20px;
-  transition: all 0.7s ease;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  color: #fff;
-  padding: 10px;
-}
-.latest-deals-product .left-block .add-to-cart {
-  padding: 10px;
-  right: -100%;
-  bottom: -100%;
-  left: auto;
-  transition: all 0.7s ease;
-}
-
 /**-- Override css of header --**/
 #header {
   /**-- Search --**/
@@ -114,6 +85,13 @@
   color: #000;
   background-color: #f5f5f5;
 }
+#header #main-menu .navbar-header .navbar-toggle {
+  border: none;
+  margin: 0;
+  padding: 13px 17px;
+  background-color: #000 !important;
+  border-radius: 0;
+}
 #header .fixed-nav {
   position: fixed;
   top: 0;
@@ -126,6 +104,7 @@
   padding-right: 0;
 }
 
+/**-- List product category --**/
 .product-list-wrap {
   width: 100%;
   display: inline-block;
@@ -196,6 +175,63 @@
 .product-list-wrap .product-wrap .product-border .hovered .product-info .btn-view-detail {
   margin-left: 0;
   visibility: visible;
+}
+
+/*-- List hot product --*/
+.latest-deals-product .product-list li:hover .detail-info {
+  top: 0;
+  left: 0;
+}
+.latest-deals-product .product-list li:hover .btn-detail-view {
+  left: 0;
+  bottom: 0;
+}
+.latest-deals-product .left-block .detail-info, .latest-deals-product .left-block .btn-detail-view {
+  transition: all 0.7s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.latest-deals-product .left-block .detail-info {
+  position: absolute;
+  left: -100%;
+  right: 0;
+  top: -100%;
+  text-align: center;
+  line-height: 20px;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+}
+.latest-deals-product .left-block .btn-detail-view {
+  position: absolute;
+  left: 100%;
+  right: 0;
+  bottom: -100%;
+  text-align: center;
+  line-height: 25px;
+  width: 100%;
+  color: #fff;
+  padding: 0;
+}
+.latest-deals-product .left-block .btn-detail-view:hover {
+  background: #f96d10;
+}
+.latest-deals-product .left-block .btn-detail-view a {
+  background: url("../images/eye-32.png") no-repeat left center;
+  display: inline-block !important;
+  padding: 10px 0 10px 40px;
+  color: #fff;
+}
+.latest-deals-product .right-block .content_price {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.latest-deals-product .right-block .content_price .price {
+  font-family: inherit;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+}
+.latest-deals-product .right-block .content_price .old-price {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
