@@ -26,10 +26,9 @@
                 while ( $the_query->have_posts() ) : $the_query->the_post();
                     $l = get_the_permalink();
                     $id = get_the_ID();
-                    $price = (float)get_field('price');
+                    $price_val = get_field('price');
                     $discount = get_field('discount');
-                    $price_show = calculate_price($price, $discount);
-                    var_dump($price_show);
+                    $price_show = calculate_price($price_val, $discount);
                     $name = get_the_title();
                     $thumbnail_id = get_post_thumbnail_id();
                     $gallery = get_field('images');
@@ -48,9 +47,8 @@
                                 <a title="" href="<?php echo $l ?>"><?php _e('Xem chi tiết', _TEXT_DOMAIN)?></a>
                             </div>
                             <?php
-                            var_dump(calculate_price(99, 30));
                                 if($discount && !empty($discount)){
-                                    echo '<div class="price-percent-reduction2">';
+                                    echo '<div class="flag-discount">';
                                     echo '&#45;'.$discount.'&#37; OFF';
                                     echo '</div>';
                                 }
@@ -59,8 +57,13 @@
                         </div>
                         <div class="right-block">
                             <div class="content_price">
-                                <span class="price product-price"><?php _e($price_show)?>.000<i>₫</i></span>
-                                <span class="price old-price"><?php _e($price)?>.000<i>₫</i></span>
+                                <span class="price product-price"><?php _e($price_show['new_price'])?><i>₫</i></span>
+                                <?php
+                                    if($discount && !empty($discount)){
+                                        echo '<span class="price old-price">'.$price_show['old_price'].'<i>₫</i></span>';
+                                    }
+                                ?>
+
                             </div>
                         </div>
                     </li>

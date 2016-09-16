@@ -131,9 +131,14 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
  * Math the price
  */
 function calculate_price($price, $discount){
-    $discount == 0 ? $discount = 1 : $discount;
-    var_dump($discount);
-    $calculated_price = ($price*$discount)/100;
-    return round($calculated_price);
+    $price = $price*1000;
+    $price_result = array();
+    $price_result['old_price'] = 0;
+    $price_result['new_price'] = 0;
+    if($discount && !empty($discount) && $discount > 0){
+        $price_result['old_price'] = number_format(round($price));
+        $price_result['new_price'] = number_format(round($price*(100-$discount)/100));
+    }
+    return $price_result;
 }
 

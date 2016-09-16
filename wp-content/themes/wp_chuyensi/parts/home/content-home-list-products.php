@@ -4,6 +4,7 @@ $layout_products = get_field('layout_products');
 if($layout_products){
     foreach ($layout_products as $key => $l){
         $cate = $l['category'];
+        $banners = $l['banner'];
         $term_id = $cate->term_id;
         $term_slug = $cate->slug;
         $c = $l['color'];
@@ -53,12 +54,18 @@ if($layout_products){
             </nav>
 
             <div class="category-banner">
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/ads2.jpg" /></a>
-                </div>
-                <div class="col-sm-6 banner">
-                    <a href="#"><img alt="ads2" class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/ads3.jpg" /></a>
-                </div>
+                <?php
+                if($banners){
+                    $count = count($banners);
+                    foreach ($banners as $banner){
+                        ?>
+                        <div class=" banner <?php echo $count == 1?'col-sm-12':'col-sm-6'?>">
+                            <img alt="" class="img-responsive" src="<?php echo $banner['image']['url']?>" />
+                        </div>
+                        <?php
+                    }
+                }
+                ?>
             </div>
 
             <div class="product-list-wrap">
@@ -90,7 +97,9 @@ if($layout_products){
                                 while ( $the_query->have_posts() ) : $the_query->the_post();
                                     $id = get_the_ID();
                                     $link = get_the_permalink();
-                                    $price = get_field('price');
+                                    $price_val = get_field('price');
+                                    $discount = get_field('discount');
+                                    $price_show = calculate_price($price_val, $discount);
                                     $name = get_the_title();
                                     $thumbnail_id = get_post_thumbnail_id();
                                     $gallery = get_field('images');
@@ -101,9 +110,16 @@ if($layout_products){
                                     ?>
                                     <li class="col-xs-6 col-sm-4 col-md-3 product-border">
                                         <div class="product-detail">
+                                            <?php
+                                            if($discount && !empty($discount)){
+                                                echo '<div class="flag-discount">';
+                                                echo '&#45;'.$discount.'&#37; OFF';
+                                                echo '</div>';
+                                            }
+                                            ?>
                                             <img class="img-responsive" alt="product" src="<?php echo $f_img?>" />
                                             <div class="price" style="color: <?php _e($c)?>">
-                                                <span><?php _e($price)?>.000 <i>₫</i></span>
+                                                <span><?php _e($price_show['new_price'])?><i>₫</i></span>
                                             </div>
                                             <div class="product-info element-centeral">
                                                 <div class="product-name">
