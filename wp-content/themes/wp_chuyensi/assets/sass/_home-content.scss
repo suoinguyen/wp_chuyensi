@@ -2,10 +2,12 @@
 .product-list-wrap{
   width: 100%;
   display: inline-block;
+  @include zoomOut();
   .product-wrap{
     .product-border{
       padding: 15px;
       background: #fff;
+      @include zoomOut();
       @include respond-to-custom-size(null, 480px){
         width: 100%;
       }

@@ -1,3 +1,4 @@
+
 <?php
 
 $layout_products = get_field('layout_products');
@@ -60,7 +61,8 @@ if($layout_products){
                     foreach ($banners as $banner){
                         ?>
                         <div class=" banner <?php echo $count == 1?'col-sm-12':'col-sm-6'?>">
-                            <img alt="" class="img-responsive" src="<?php echo $banner['image']['url']?>" />
+                            <a href="javascript:void(0)"><img alt="" class="img-responsive" src="<?php echo $banner['image']['url']?>" /></a>
+
                         </div>
                         <?php
                     }
@@ -68,12 +70,12 @@ if($layout_products){
                 ?>
             </div>
 
-            <div class="product-list-wrap">
+            <div class="product-list-wrap" data-liffect="zoomOut">
                 <div class="tab-container tab-content">
 
                     <!-- tab product -->
                     <div role="tabpanel" class="tab-panel fade active" id="newest-<?php _e($term_slug)?>">
-                        <ul class="product-wrap">
+                        <ul class="product-wrap home-product-wrap">
                             <?php
                             $args_newest = array(
                                 'post_type' => 'products_post_type',
@@ -108,8 +110,8 @@ if($layout_products){
                                         $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
                                     }
                                     ?>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                        <div class="product-detail">
+                                    <li class="col-xs-6 col-sm-4 col-md-3 product-border" data-liffect="zoomOut">
+                                        <div class="product-detail ele-child-effect">
                                             <?php
                                             if($discount && !empty($discount)){
                                                 echo '<div class="flag-discount">';

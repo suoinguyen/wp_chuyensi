@@ -6,6 +6,7 @@
 4. Styles for devices(>=481px and <=767px)
 5. Styles for devices(<=480px)
 -------------------------------------------------------------------*/
+/**-- Effect ZoomOut --**/
 .flag-discount {
   width: 52px;
   height: 44px;
@@ -126,9 +127,89 @@
   width: 100%;
   display: inline-block;
 }
+.product-list-wrap[data-liffect="zoomOut"] .ele-child-effect {
+  opacity: 0;
+  position: relative;
+  -webkit-animation: zoomOut 600ms ease both;
+  -webkit-animation-play-state: paused;
+  -moz-animation: zoomOut 600ms ease both;
+  -moz-animation-play-state: paused;
+  -o-animation: zoomOut 600ms ease both;
+  -o-animation-play-state: paused;
+  -webkit-animation: zoomOut 600ms ease both;
+          animation: zoomOut 600ms ease both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.product-list-wrap[data-liffect="zoomOut"].play .ele-child-effect {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 .product-list-wrap .product-wrap .product-border {
   padding: 15px;
   background: #fff;
+}
+.product-list-wrap .product-wrap .product-border[data-liffect="zoomOut"] .ele-child-effect {
+  opacity: 0;
+  position: relative;
+  -webkit-animation: zoomOut 600ms ease both;
+  -webkit-animation-play-state: paused;
+  -moz-animation: zoomOut 600ms ease both;
+  -moz-animation-play-state: paused;
+  -o-animation: zoomOut 600ms ease both;
+  -o-animation-play-state: paused;
+  -webkit-animation: zoomOut 600ms ease both;
+          animation: zoomOut 600ms ease both;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.product-list-wrap .product-wrap .product-border[data-liffect="zoomOut"].play .ele-child-effect {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoomOut {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 @media only screen and (max-width: 480px) {
   .product-list-wrap .product-wrap .product-border {

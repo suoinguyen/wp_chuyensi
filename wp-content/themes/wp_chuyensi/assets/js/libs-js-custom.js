@@ -3,21 +3,33 @@
  */
 (function( $ ) {
 
-    $.fn.centeralElement = function() {
-        return this.each(function () {
-            var t = $(this);
-            var h = t.height();
-            var c_h = $(this).find('.product-info').height();
-            var top = [(h-c_h)/2] - (c_h/2);
+    $.fn.extend({
 
-            t.css('position','relative');
-            t.find('.element-centeral').css({'position':'absolute', 'top':top, 'left':'0', 'width':'100%', 'text-align':'center'});
+        /**
+         * Center for element
+         * @returns {*}
+         */
+        centeralElement : function () {
+            return this.each(function () {
+                var t = $(this);
+                var h = t.height();
+                var c_h = $(this).find('.product-info').height();
+                var top = [(h - c_h) / 2] - (c_h / 2);
 
-            t.hover(function () {
-                $(this).toggleClass('hovered');
+                t.css('position', 'relative');
+                t.find('.element-centeral').css({
+                    'position': 'absolute',
+                    'top': top,
+                    'left': '0',
+                    'width': '100%',
+                    'text-align': 'center'
+                });
+
+                t.hover(function () {
+                    $(this).toggleClass('hovered');
+                });
             });
-        });
-
-    };
-
+        }
+    });
+    
 })( jQuery );
