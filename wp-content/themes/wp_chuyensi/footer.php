@@ -8,16 +8,11 @@
                         <a href="#"><img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" alt="Logo"></a>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 footer-menu-wrap">
                     <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Affiliates</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                        <?php
+                        get_menu('footer-menu', 'ft-wrap')
+                        ?>
                     </div>
                 </div>
                 <div class="col-sm-3">
@@ -52,61 +47,40 @@
         <div class="footer-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
-                        <div class="widget-container">
-                            <h3 class="widget-title">Infomation</h3>
-                            <div class="widget-body">
-                                <ul>
-                                    <li><a class="location" href="#">2046 Blue Spruce Lane Laurel, tetxac, Orton Tolanto, Canada</a></li>
-                                    <li><a class="phone" href="#">0200 410-369-3920</a></li>
-                                    <li><a class="email" href="#">nfo@kutethemes.com</a></li>
-                                    <li><a class="mobile" href="#">Hotline: 090 999 8686</a></li>
-                                </ul>
+                    <?php
+                    $blocks_info = get_field('blocks_info', 'option');
+                    if($blocks_info){
+                        foreach ($blocks_info as $item) {
+                            $block_title = $item['block_title'];
+                            $children_element = $item['children_element'];
+                            ?>
+                            <div class="col-sm-4">
+                                <div class="widget-container">
+                                    <h3 class="widget-title"><?php _e($block_title, _TEXT_DOMAIN)?></h3>
+                                    <div class="footer-block">
+                                        <ul>
+                                            <?php
+                                            if($children_element){
+                                                foreach ($children_element as $item_2){
+                                                    echo '<li>';
+                                                    echo $item_2['icon']?$item_2['icon']:"<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>";
+                                                    if($item_2['link_to']){
+                                                        echo '<a target="_blank" href="'.$item_2['link_to'].'">'.$item_2['name'].'</a>';
+                                                    }else{
+                                                        echo '<a href="javascript:void(0)">'.$item_2['name'].'</a>';
+                                                    }
+                                                    echo '</li>';
+                                                }
+                                            }
+                                            ?>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="widget-container">
-                            <h3 class="widget-title">COMPANY</h3>
-                            <div class="widget-body">
-                                <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Testimonials</a></li>
-                                    <li><a href="#">Affiliate Program</a></li>
-                                    <li><a href="#">Terms & Conditions</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="widget-container">
-                            <h3 class="widget-title">my account</h3>
-                            <div class="widget-body">
-                                <ul>
-                                    <li><a href="#">My Orders</a></li>
-                                    <li><a href="#">My Credit Slips</a></li>
-                                    <li><a href="#">My Addresses</a></li>
-                                    <li><a href="#">My Personal Info</a></li>
-                                    <li><a href="#">Specials</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="widget-container">
-                            <h3 class="widget-title">SUPPORT</h3>
-                            <div class="widget-body">
-                                <ul>
-                                    <li><a href="#">Payments & My Vouchers</a></li>
-                                    <li><a href="#">Saved Cards</a></li>
-                                    <li><a href="#">Shipping Free</a></li>
-                                    <li><a href="#">Cancellation & Returns</a></li>
-                                    <li><a href="#">FAQ & Support Online</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                            <?php
+                        }
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -114,16 +88,11 @@
             <div class="container">
                 <div class="footer-bottom-wapper">
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-sm-12">
                             <div class="footer-coppyright">
-                                Copyright © 2015 KuteShop. All Rights Reserved. Designed by: KuteThemes
+                                Copyright © <?php the_date('Y')?> <strong style="font-style: italic">Chuyensihangthietke</strong>. All Rights Reserved.
                             </div>
 
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="footer-payment-logo">
-                                <img src="assets/data/option4/payment-logo.png" alt="payment logo">
-                            </div>
                         </div>
                     </div>
                 </div>

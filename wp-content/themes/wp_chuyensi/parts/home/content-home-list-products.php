@@ -110,7 +110,7 @@ if($layout_products){
                                         $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
                                     }
                                     ?>
-                                    <li class="col-xs-6 col-sm-4 col-md-3 product-border" data-liffect="zoomOut">
+                                    <li class="col-xs-6 col-sm-3 col-md-3 product-border" data-liffect="zoomOut">
                                         <div class="product-detail ele-child-effect">
                                             <?php
                                             if($discount && !empty($discount)){

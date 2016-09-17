@@ -87,7 +87,7 @@ jQuery("document").ready(function($){
     /**
      * Align middle for element
      */
-    align_middle('.latest-deals-product .product-list li .left-block', '.latest-deals-product .product-list li .left-block a');
+    // align_middle('.latest-deals-product .product-list li .left-block', '.latest-deals-product .product-list li .left-block a');
     function align_middle($element_parent, $element_child) {
         var child_h = get_max_value($element_child);
 
