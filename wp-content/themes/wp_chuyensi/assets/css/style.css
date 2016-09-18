@@ -414,7 +414,7 @@ img.alignright{
 .top-banner h1{
     color: #ff3366;
     font-weight: bold;
-    line-height: auto;
+    line-height: normal;
 }
 .top-banner h2{
     font-weight: bold;
@@ -780,7 +780,7 @@ img.alignright{
     padding-left: 15px;
 }
 .main-header .header-search-box .form-inline .input-serach{
-    width: calc(100% - 200px);
+    width: calc(100% - 50px);
 
 }
 .main-header .header-search-box .form-inline .input-serach input{

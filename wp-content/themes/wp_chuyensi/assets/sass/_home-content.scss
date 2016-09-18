@@ -2,35 +2,28 @@
 .product-list-wrap{
   width: 100%;
   display: inline-block;
-  @include zoomOut();
   .product-wrap{
     .product-border{
       padding: 15px;
-      background: #fff;
-      border-bottom: solid 2px #eaeaea;
-      @include zoomOut();
+      background: url("../images/loading.gif") #fff center no-repeat;
+      background-size: 70px;
+      cursor: pointer;
+      @include respond-to-custom-size(768px, null){
+        @include zoomOut();
+      }
       @include respond-to-custom-size(null, 480px){
         width: 100%;
-      }
-      &:before{
-        position: absolute;
-        content: '';
-        right: 0;
-        top: 0;
-        width: 2px;
-        height: 100%;
-        background-color: #eaeaea;
-      }
-      &:nth-child(4n){
-        &:before{
-          background: none;
-        }
+        border-bottom: solid 2px #eaeaea;
       }
       .product-detail{
         position: relative;
         overflow: hidden;
         img{
           width: 100%;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
           transition: all 0.5s;
         }
         .price{
@@ -71,6 +64,10 @@
       .hovered{
         img{
           filter: blur(1px);
+          -webkit-transform: scale(1.2,1.2);
+          -moz-transform: scale(1.2,1.2);
+          -ms-transform: scale(1.2,1.2);
+          -o-transform: scale(1.2,1.2);
           transform: scale(1.2,1.2);
 
         }
@@ -92,7 +89,24 @@
 
 /*-- List hot product --*/
 .latest-deals-product{
-  .product-list li:hover {
+  .product-list li img{
+    transform: none;
+  }
+  .product-list li{
+    cursor: pointer;
+  }
+  .product-list li:hover{
+    border: 1px solid #eaeaea;
+  }
+  .product-list li.hovered {
+    border: 1px solid #f96d10;
+    img{
+      -webkit-transform: scale(1.2,1.2);
+      -moz-transform: scale(1.2,1.2);
+      -ms-transform: scale(1.2,1.2);
+      -o-transform: scale(1.2,1.2);
+      transform: scale(1.2,1.2);
+    }
     .detail-info {
       top: 0;
       left: 0;
@@ -100,6 +114,7 @@
     .btn-detail-view{
       left: 0;
       bottom: 0;
+      background: #f96d10;
     }
   }
   .left-block {
@@ -132,9 +147,6 @@
       width: 100%;
       color: #fff;
       padding: 0;
-      &:hover{
-        background: #f96d10;
-      }
       a{
         background: url('../images/eye-32.png') no-repeat left center;
         display: inline-block !important;

@@ -23,7 +23,7 @@ get_header();
         <!-- Banner bottom -->
         <div class="row banner-bottom">
             <?php
-                $banners = get_field('list_banners');
+                $banners = get_field('top_banner');
                 if($banners){
                     foreach ($banners as $key => $banner){
                         ?>
@@ -52,16 +52,22 @@ get_header();
 
         <!-- Baner bottom -->
         <div class="row banner-bottom">
-            <div class="col-sm-6">
-                <div class="banner-boder-zoom">
-                    <a href="#"><img alt="ads" class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/ads17.jpg" /></a>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="banner-boder-zoom">
-                    <a href="#"><img alt="ads" class="img-responsive" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/ads18.jpg" /></a>
-                </div>
-            </div>
+            <?php
+            $banners = get_field('banner_bottom');
+            if($banners){
+                foreach ($banners as $key => $banner){
+                    ?>
+                    <div class="col-sm-6 <?php echo $key == 0 ? 'item-left' : 'item-right'?>">
+                        <div class="banner-boder-zoom">
+                            <a href="<?php echo $banner['link'] ? $banner['link'] : '#' ?>">
+                                <img alt="" class="img-responsive" src="<?php echo $banner['image']['url']?>" />
+                            </a>
+                        </div>
+                    </div>
+                    <?php
+                }
+            }
+            ?>
         </div>
         <!-- end banner bottom -->
     </div>

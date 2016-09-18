@@ -21,14 +21,29 @@
     <link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_field('ios_icon_iphone_retina', 'option') ?>">
     <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_field('ios_icon_ipad_retina', 'option') ?>">
 
-    <!-- Fonr google Open San -->
+    <!-- Font google Open San -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=vietnamese" rel="stylesheet">
 
-    <?php wp_head(); ?>
+    <!-- Google map Key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>
 
+    <!-- API Facebook -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=886687838063859";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> >
+<div class="se-pre-con"></div>
     <div class="option5">
         <!-- HEADER -->
         <div id="header" class="header">
@@ -38,7 +53,7 @@
                         <?php
                             $socials = get_field('list_social', 'option');
                             foreach ($socials as $social){
-                                echo '<a alt="'.$social['social_link'].'" href="'.$social['social_link'].'">'.$social['social_icon'].'</i></a>';
+                                echo '<a title="'.$social['social_link'].'" href="'.$social['social_link'].'">'.$social['social_icon'].'</i></a>';
                             }
                         ?>
                     </div>
@@ -51,7 +66,7 @@
                         <div class="dropdown">
                             <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><?php _e('Tài khoản', _TEXT_DOMAIN)?></span></a>
                             <ul class="dropdown-menu mega_dropdown" role="menu">
-                                <li><a href="login.html"><?php _e('Đăng nhập', _TEXT_DOMAIN)?></a></li>
+                                <li><a href="#"><?php _e('Đăng nhập', _TEXT_DOMAIN)?></a></li>
                             </ul>
                         </div>
                     </div>
@@ -72,11 +87,11 @@
                         </form>
                         <div class="advanced-search">
                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                            <a href="<?php echo get_permalink(42)?>" class=""><?php _e('Tìm kiếm nâng cao', _TEXT_DOMAIN)?></a>
+                            <a title="Tìm kiếm nâng cao" href="<?php echo get_permalink(42)?>" class=""><?php _e('Tìm kiếm nâng cao', _TEXT_DOMAIN)?></a>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
-                        <a href="<?php get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
+                        <a title="Trang chủ" href="<?php get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>

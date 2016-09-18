@@ -53,23 +53,6 @@ if($layout_products){
                     <a href="#elevator-<?php _e($key + 1)?>" class="btn-elevator down fa fa-angle-down"></a>
                 </div>
             </nav>
-
-            <div class="category-banner">
-                <?php
-                if($banners){
-                    $count = count($banners);
-                    foreach ($banners as $banner){
-                        ?>
-                        <div class=" banner <?php echo $count == 1?'col-sm-12':'col-sm-6'?>">
-                            <a href="javascript:void(0)"><img alt="" class="img-responsive" src="<?php echo $banner['image']['url']?>" /></a>
-
-                        </div>
-                        <?php
-                    }
-                }
-                ?>
-            </div>
-
             <div class="product-list-wrap" data-liffect="zoomOut">
                 <div class="tab-container tab-content">
 
@@ -95,8 +78,8 @@ if($layout_products){
 
                             $the_query = new WP_Query( $args_newest );
                             // The Loop
-                            if ( $the_query->have_posts() ) :
-                                while ( $the_query->have_posts() ) : $the_query->the_post();
+                            if ( $the_query->have_posts() ) {
+                                while ($the_query->have_posts()) : $the_query->the_post();
                                     $id = get_the_ID();
                                     $link = get_the_permalink();
                                     $price_val = get_field('price');
@@ -106,173 +89,118 @@ if($layout_products){
                                     $thumbnail_id = get_post_thumbnail_id();
                                     $gallery = get_field('images');
                                     $f_img = wp_get_attachment_image_url($thumbnail_id, 'thumbnail-post-hard');
-                                    if(!isset($f_img) || empty($f_img)){
+                                    if (!isset($f_img) || empty($f_img)) {
                                         $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
                                     }
                                     ?>
                                     <li class="col-xs-6 col-sm-3 col-md-3 product-border" data-liffect="zoomOut">
                                         <div class="product-detail ele-child-effect">
                                             <?php
-                                            if($discount && !empty($discount)){
+                                            if ($discount && !empty($discount)) {
                                                 echo '<div class="flag-discount">';
-                                                echo '&#45;'.$discount.'&#37; OFF';
+                                                echo '&#45;' . $discount . '&#37; OFF';
                                                 echo '</div>';
                                             }
                                             ?>
-                                            <img class="img-responsive" alt="product" src="<?php echo $f_img?>" />
-                                            <div class="price" style="color: <?php _e($c)?>">
-                                                <span><?php _e($price_show['new_price'])?><i>₫</i></span>
+                                            <img class="img-responsive" alt="product" src="<?php echo $f_img ?>"/>
+                                            <div class="price" style="color: <?php _e($c) ?>">
+                                                <span><?php _e($price_show['new_price']) ?><i>₫</i></span>
                                             </div>
                                             <div class="product-info element-centeral">
                                                 <div class="product-name">
-                                                    <?php _e($name)?>
+                                                    <?php _e($name) ?>
                                                 </div>
                                                 <div class="btn-view-detail">
-                                                    <a href="<?php _e($link)?>" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN)?></span></a>
+                                                    <a href="<?php _e($link) ?>"
+                                                       style="background-color: <?php _e($c) ?>"
+                                                       class="hvr-wobble-horizontal"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                     <?php
                                 endwhile;
-                            endif;
+                            }else{
+                                echo '<h2 class="no-result">Không có sản phẩm nào!</h2>';
+                            }
                             // Reset Post Data
                             wp_reset_postdata();
                             ?>
                         </ul>
                     </div>
                     <div role="tabpanel" class="tab-panel fade" id="view-<?php _e($term_slug)?>">
-                        <ul class="product-wrap">
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>70000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>70000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3 product-border">
-                                <div class="product-detail">
-                                    <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/02_yellow-dress.jpg" />
-                                    <div class="price" style="color: <?php _e($c)?>">
-                                        <span>7.000 <i>₫</i></span>
-                                    </div>
-                                    <div class="product-info element-centeral">
-                                        <div class="product-name">
-                                            Test product name
-                                        </div>
-                                        <div class="btn-view-detail">
-                                            <a href="#" style="background-color: <?php _e($c)?>" class="hvr-wobble-horizontal"><span>Xem chi tiết</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            <ul class="product-wrap home-product-wrap">
+                                <?php
+                                $args_newest = array(
+                                    'post_type' => 'products_post_type',
+                                    'posts_per_page' => 8,
+                                    'post_status' => 'publish',
+                                    'orderby' => 'date',
+                                    'order' => 'DESC',
+                                    'tax_query' => array(
+                                        array(
+                                            'taxonomy' => 'products_taxonomy',
+                                            'field' => 'id',
+                                            'terms' => array_merge( [$term_id], $terms_child),
+                                            'include_children' => false,
+                                            'operator' => 'IN'
+                                        )),
+                                    'meta_key' => 'post_views_count',
+                                );
+
+                                $the_query = new WP_Query( $args_newest );
+//                                die('Method: '.__METHOD__);
+                                // The Loop
+                                if ( $the_query->have_posts() ) {
+                                    while ($the_query->have_posts()) : $the_query->the_post();
+                                        $id = get_the_ID();
+                                        $link = get_the_permalink();
+                                        $price_val = get_field('price');
+                                        $discount = get_field('discount');
+                                        $price_show = calculate_price($price_val, $discount);
+                                        $name = get_the_title();
+                                        $thumbnail_id = get_post_thumbnail_id();
+                                        $gallery = get_field('images');
+                                        $f_img = wp_get_attachment_image_url($thumbnail_id, 'thumbnail-post-hard');
+                                        if (!isset($f_img) || empty($f_img)) {
+                                            $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
+                                        }
+                                        ?>
+                                        <li class="col-xs-6 col-sm-3 col-md-3 product-border" data-liffect="zoomOut">
+                                            <div class="product-detail ele-child-effect">
+                                                <?php
+                                                if ($discount && !empty($discount)) {
+                                                    echo '<div class="flag-discount">';
+                                                    echo '&#45;' . $discount . '&#37; OFF';
+                                                    echo '</div>';
+                                                }
+                                                ?>
+                                                <img class="img-responsive" alt="product" src="<?php echo $f_img ?>"/>
+                                                <div class="price" style="color: <?php _e($c) ?>">
+                                                    <span><?php _e($price_show['new_price']) ?><i>₫</i></span>
+                                                </div>
+                                                <div class="product-info element-centeral">
+                                                    <div class="product-name">
+                                                        <?php _e($name) ?>
+                                                    </div>
+                                                    <div class="btn-view-detail">
+                                                        <a href="<?php _e($link) ?>"
+                                                           style="background-color: <?php _e($c) ?>"
+                                                           class="hvr-wobble-horizontal"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <?php
+                                    endwhile;
+                                }else{
+                                    echo '<h2 class="no-result">Không có sản phẩm nào!</h2>';
+                                }
+                                // Reset Post Data
+                                wp_reset_postdata();
+                                ?>
+                            </ul>
+                        </div>
                     <!-- tab product -->
                 </div>
             </div>

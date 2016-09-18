@@ -1,20 +1,34 @@
+footer{
+  .footer-row a:hover{
+    color: #fff;
+  }
+}
 .footer-menu-wrap{
   text-align: center;
+  @include respond-to-custom-size(null, 767px){
+    text-align: left;
+  }
   .footer-menu{
     display: inline-block;
   }
 }
-.footer-block{
-  ul{
-    li{
+.block-info-wrap{
+    margin-bottom: 20px;
+}
+.footer-block {
+  ul {
+    li {
       padding-left: 20px;
       position: relative;
       margin-bottom: 10px;
-      i{
+      i {
         position: absolute;
         top: 3px;
         left: 0;
       }
     }
   }
+}
+.footer-maps{
+  padding: 0;
 }

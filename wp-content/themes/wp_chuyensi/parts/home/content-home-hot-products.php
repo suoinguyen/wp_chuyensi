@@ -37,7 +37,7 @@
                         $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
                     }
                    ?>
-                    <li>
+                    <li >
                         <div class="left-block">
                             <img class="img-responsive" alt="product" src="<?php echo $f_img?>" />
                             <div class="detail-info">

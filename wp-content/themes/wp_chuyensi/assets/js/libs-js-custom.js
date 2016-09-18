@@ -15,6 +15,7 @@
                 var h = t.height();
                 var c_h = $(this).find('.product-info').height();
                 var top = [(h - c_h) / 2] - (c_h / 2);
+                var wH = $(window).width();
 
                 t.css('position', 'relative');
                 t.find('.element-centeral').css({
@@ -25,9 +26,18 @@
                     'text-align': 'center'
                 });
 
-                t.hover(function () {
-                    $(this).toggleClass('hovered');
-                });
+                if(wH <= 767){
+                    t.click(function () {
+                        $(this).attr('tabindex', -1).focus();
+                        $(this).toggleClass('hovered');
+                    }).focusout(function () {
+                        $(this).removeClass('hovered');
+                    });
+                }else {
+                    t.hover(function () {
+                        $(this).toggleClass('hovered');
+                    });
+                }
             });
         }
     });

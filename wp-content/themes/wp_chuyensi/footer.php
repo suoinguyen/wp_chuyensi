@@ -18,11 +18,17 @@
                 <div class="col-sm-3">
                     <div class="footer-social">
                         <ul>
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            <li><a class="vk" href="#"><i class="fa fa-vk"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <?php
+                            $socials = get_field('list_social', 'option');
+                            foreach ($socials as $social){
+                                if($social['social_link']){
+                                    echo '<li><a class="" href="'.$social['social_link'].'" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                }else{
+                                    echo '<li><a class="" href="javascript:void(0)" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                }
+                            }
+                            ?>
+
                         </ul>
                     </div>
                 </div>
@@ -31,19 +37,10 @@
     </div>
 
     <!-- footer paralax-->
-    <div class="footer-paralax">
-        <div class="footer-row footer-center">
-            <div class="container">
-                <h3>Sign up below for early updates</h3>
-                <p>You a Client , large or small, and want to participate in this adventure, please send us an email to support@kuteshop.com</p>                 <form class="form-inline form-subscribe">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter Your E-mail Address">
-                        <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane-o"></i></button>
-                    </div>
-
-                </form>
-            </div>
-        </div>
+    <?php
+        $bg =get_field('background', 'option');
+    ?>
+    <div class="footer-paralax" style="background: url(<?php echo $bg['url']?>) center no-repeat fixed">
         <div class="footer-row">
             <div class="container">
                 <div class="row">
@@ -54,7 +51,7 @@
                             $block_title = $item['block_title'];
                             $children_element = $item['children_element'];
                             ?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 block-info-wrap">
                                 <div class="widget-container">
                                     <h3 class="widget-title"><?php _e($block_title, _TEXT_DOMAIN)?></h3>
                                     <div class="footer-block">
@@ -82,7 +79,53 @@
                     }
                     ?>
                 </div>
+                <div class="row">
+                    <div class="col-md-4 fb-page-wrap block block-info-wrap">
+                        <div class="widget-container">
+                            <h3 class="widget-title"><?php _e('Fanpage', _TEXT_DOMAIN)?></h3>
+                            <div class="footer-block">
+                                <div class="fb-page" data-href="https://www.facebook.com/chuyensiquanaoquamalaysia/" data-tabs="timeline" data-height="300px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/chuyensiquanaoquamalaysia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/chuyensiquanaoquamalaysia/">Chuyên sỉ quần áo qua Malaysia</a></blockquote></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 banking-wrap block-info-wrap">
+                        <div class="widget-container">
+                            <h3 class="widget-title"><?php _e('Thông tin thanh toán', _TEXT_DOMAIN)?></h3>
+                            <div class="row">
+                            <?php
+                            $list_info_banking = get_field('list_info_banking', 'option');
+                            if ($list_info_banking){
+                                foreach ($list_info_banking as $item){
+                                    ?>
+                                    <div class="col-md-4 footer-block">
+                                        <ul>
+                                            <li>
+                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                <a href="javascript:void(0)"><?php echo $item['content']?></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <?php
+                                }
+                            }
+                            ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="footer-maps">
+            <?php
+
+            $location = get_field('maps', 'option');
+
+            if( !empty($location) ):
+                ?>
+                <div class="acf-map">
+                    <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+                </div>
+            <?php endif; ?>
         </div>
         <div class="footer-bottom">
             <div class="container">
