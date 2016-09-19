@@ -28,11 +28,12 @@
 
                 if(wH <= 767){
                     t.click(function () {
-                        $(this).attr('tabindex', -1).focus();
+                        // $(this).attr('tabindex', -2).focus();
                         $(this).toggleClass('hovered');
-                    }).focusout(function () {
-                        $(this).removeClass('hovered');
                     });
+                       /* .focusout(function () {
+                        // $(this).removeClass('hovered');
+                    });*/
                 }else {
                     t.hover(function () {
                         $(this).toggleClass('hovered');

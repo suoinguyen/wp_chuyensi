@@ -184,7 +184,7 @@ jQuery("document").ready(function($){
      * @param eval
      * @returns {boolean}
      */
-    function checkVisible( elm, eval ) {
+    /*function checkVisible( elm, eval ) {
         eval = eval || "visible";
         var vpH = $(window).height(),
             st = $(window).scrollTop(),
@@ -224,7 +224,7 @@ jQuery("document").ready(function($){
                 }
             });
         });
-    }
+    }*/
 
 
     /**
@@ -278,9 +278,7 @@ jQuery("document").ready(function($){
 
 
     /**--  --**/
-    $('.product-detail').imagesLoaded( function() {
         $('.product-detail').centeralElement();
-    });
     /**-- --**/
 
     /**
@@ -288,12 +286,8 @@ jQuery("document").ready(function($){
      */
     if(wW < 767){
         $('.latest-deals-product .product-list li').on('click', function (e) {
-            //focus for element
-            $(this).attr('tabindex', -1).focus();
             $(this).toggleClass('hovered');
-        }).focusout(function () {
-            $(this).removeClass('hovered');
-        });
+        })
     }else{
         $('.latest-deals-product .product-list li').hover(function () {
             $(this).toggleClass('hovered');
@@ -303,9 +297,16 @@ jQuery("document").ready(function($){
     /**
      * Pre-loader
      */
-    $(window).load(function() {
+    /*$(window).on('load', function() {
         // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow");
+        $(".se-pre-con").fadeOut("slow").css({
+            "position": "fixed",
+            "left": "0",
+            "top" : "0",
+            "width" : "100%",
+            "height" : "100%",
+            "z-index" : "9999",
+            "background": "url('../images/loading_img_2.gif') center no-repeat #fff"
+        })});*/
 
-    });
 });

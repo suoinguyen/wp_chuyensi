@@ -19,16 +19,6 @@
   top: 0;
 }
 
-.se-pre-con {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url("../images/Preloader.gif") center no-repeat #fff;
-}
-
 /**-- Flag discount --**/
 .flag-discount {
   width: 52px;
@@ -218,54 +208,12 @@ footer .footer-row a:hover {
 .product-list-wrap {
   width: 100%;
   display: inline-block;
+  background: #fff;
 }
 .product-list-wrap .product-wrap .product-border {
   padding: 15px;
-  background: url("../images/loading.gif") #fff center no-repeat;
   background-size: 70px;
   cursor: pointer;
-}
-@media only screen and (min-width: 768px) {
-  .product-list-wrap .product-wrap .product-border[data-liffect="zoomOut"] .ele-child-effect {
-    opacity: 0;
-    position: relative;
-    -webkit-animation: zoomOut 600ms ease both;
-    -webkit-animation-play-state: paused;
-    -moz-animation: zoomOut 600ms ease both;
-    -moz-animation-play-state: paused;
-    -o-animation: zoomOut 600ms ease both;
-    -o-animation-play-state: paused;
-    -webkit-animation: zoomOut 600ms ease both;
-            animation: zoomOut 600ms ease both;
-    -webkit-animation-play-state: paused;
-            animation-play-state: paused;
-  }
-  .product-list-wrap .product-wrap .product-border[data-liffect="zoomOut"].play .ele-child-effect {
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-  }
-  @-webkit-keyframes zoomOut {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale(0.6);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: scale(1);
-    }
-  }
-  @keyframes zoomOut {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale(0.6);
-              transform: scale(0.6);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: scale(1);
-              transform: scale(1);
-    }
-  }
 }
 @media only screen and (max-width: 480px) {
   .product-list-wrap .product-wrap .product-border {
@@ -294,6 +242,7 @@ footer .footer-row a:hover {
   top: 0;
   width: 100%;
   height: 100%;*/
+  visibility: hidden;
 }
 .product-list-wrap .product-wrap .product-border .product-detail .product-info .product-name {
   width: 100%;
@@ -321,6 +270,9 @@ footer .footer-row a:hover {
   -webkit-transform: scale(1.2, 1.2);
   -ms-transform: scale(1.2, 1.2);
   transform: scale(1.2, 1.2);
+}
+.product-list-wrap .product-wrap .product-border .hovered .product-info {
+  display: block;
 }
 .product-list-wrap .product-wrap .product-border .hovered .product-info .product-name {
   margin-left: 0;

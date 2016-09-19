@@ -28,7 +28,12 @@ if($layout_products){
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-brand">
                         <a href="<?php _e(get_term_link($term_id))?>">
-                            <img alt="fashion" src="<?php _e($l['icon']['url'])?>"/>
+                            <?php
+                            if($l['icon']){
+                                echo '<img alt="fashion" src="'.$l['icon']['url'].'"/>';
+                            }
+                            ?>
+
                             <span><?php _e($cate->name)?></span>
                         </a>
                     </div>

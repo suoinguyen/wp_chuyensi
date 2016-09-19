@@ -21,10 +21,10 @@ get_header();
 
         </div>
         <!-- Banner bottom -->
-        <div class="row banner-bottom">
-            <?php
-                $banners = get_field('top_banner');
-                if($banners){
+        <?php
+            $banners = get_field('top_banner');
+            if($banners){
+                echo '<div class="row banner-bottom">';
                     foreach ($banners as $key => $banner){
                         ?>
                         <div class="col-sm-6 <?php echo $key == 0 ? 'item-left' : 'item-right'?>">
@@ -36,9 +36,9 @@ get_header();
                         </div>
                         <?php
                     }
-                }
-            ?>
-        </div>
+                echo '</div>';
+            }
+        ?>
         <!-- end banner bottom -->
     </div>
 </div>
@@ -47,14 +47,13 @@ get_header();
     <div class="container">
         <!-- featured category fashion -->
         <?php get_template_part('parts/home/content', 'home-list-products')?>
-
         <!-- end featured category fashion -->
 
         <!-- Baner bottom -->
-        <div class="row banner-bottom">
-            <?php
-            $banners = get_field('banner_bottom');
-            if($banners){
+        <?php
+        $banners = get_field('banner_bottom');
+        if($banners){
+            echo '<div class="row banner-bottom">';
                 foreach ($banners as $key => $banner){
                     ?>
                     <div class="col-sm-6 <?php echo $key == 0 ? 'item-left' : 'item-right'?>">
@@ -66,9 +65,9 @@ get_header();
                     </div>
                     <?php
                 }
-            }
-            ?>
-        </div>
+            echo '</div>';
+        }
+        ?>
         <!-- end banner bottom -->
     </div>
 </div>

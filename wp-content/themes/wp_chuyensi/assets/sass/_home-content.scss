@@ -2,15 +2,16 @@
 .product-list-wrap{
   width: 100%;
   display: inline-block;
+  background: #fff;
   .product-wrap{
     .product-border{
       padding: 15px;
-      background: url("../images/loading.gif") #fff center no-repeat;
+      //background: url("../images/loading.gif") #fff center no-repeat;
       background-size: 70px;
       cursor: pointer;
-      @include respond-to-custom-size(768px, null){
-        @include zoomOut();
-      }
+      //@include respond-to-custom-size(768px, null){
+      //  @include zoomOut();
+      //}
       @include respond-to-custom-size(null, 480px){
         width: 100%;
         border-bottom: solid 2px #eaeaea;
@@ -39,18 +40,27 @@
           top: 0;
           width: 100%;
           height: 100%;*/
+          visibility: hidden;
           .product-name{
             width: 100%;
             visibility: hidden;
             margin-left: 100%;
             padding: 10px;
             text-shadow: 1px 1px 1px #000;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
             transition: all 0.5s;
           }
           .btn-view-detail{
             width: 100%;
             visibility: hidden;
             margin-left: -100%;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
             transition: all 0.5s;
             a{
               padding: 10px 15px;
@@ -72,6 +82,7 @@
 
         }
         .product-info{
+          display: block;
           .product-name{
             margin-left: 0;
             color: #fff;
