@@ -178,6 +178,7 @@
 jQuery("document").ready(function($){
 
     var wW = $(window).width();
+    var wH = $(window).height();
     /**
      * Detect element appear
      * @param elm
@@ -277,36 +278,41 @@ jQuery("document").ready(function($){
     }
 
 
-    /**--  --**/
-        $('.product-detail').centeralElement();
+    /**-- Centeral element --**/
+
+        function center(element){
+            var t = $(element);
+            var h = t.height();
+            var p_h = $(element).parent().height();
+            var top = (p_h - h) / 2;
+            t.parent().css('position', 'relative');
+            t.css({
+                'top': top,
+                'left': '0',
+                'width': '100%',
+                'text-align': 'center'
+            });
+        }
+        $(window).resize(center('.element-centeral'), function () {
+            center('.element-centeral');
+        });
     /**-- --**/
 
     /**
      * JS for slider list hot product
+     * Js for list product category
+     *
      */
     if(wW < 767){
-        $('.latest-deals-product .product-list li').on('click', function (e) {
+        $('.latest-deals-product .product-list li, .product-border .product-detail').on('click', function (e) {
             $(this).toggleClass('hovered');
         })
     }else{
-        $('.latest-deals-product .product-list li').hover(function () {
+       $('.latest-deals-product .product-list li, .product-border .product-detail').hover(function () {
             $(this).toggleClass('hovered');
         })
     }
 
-    /**
-     * Pre-loader
-     */
-    /*$(window).on('load', function() {
-        // Animate loader off screen
-        $(".se-pre-con").fadeOut("slow").css({
-            "position": "fixed",
-            "left": "0",
-            "top" : "0",
-            "width" : "100%",
-            "height" : "100%",
-            "z-index" : "9999",
-            "background": "url('../images/loading_img_2.gif') center no-repeat #fff"
-        })});*/
+
 
 });

@@ -111,7 +111,7 @@ if($layout_products){
                                             <div class="price" style="color: <?php _e($c) ?>">
                                                 <span><?php _e($price_show['new_price']) ?><i>₫</i></span>
                                             </div>
-                                            <div class="product-info element-centeral">
+                                            <div class="product-info element-centeral" style="position: absolute">
                                                 <div class="product-name">
                                                     <?php _e($name) ?>
                                                 </div>

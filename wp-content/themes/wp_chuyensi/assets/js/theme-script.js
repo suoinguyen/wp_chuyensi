@@ -71,14 +71,14 @@
         $(document).on('click','.btn-close',function(){
             $(this).closest('.top-banner').animate({ height: 0, opacity: 0 },1000);
             return false;
-        })
+        });
         /** SELECT CATEGORY **/
         $('.select-category').select2();
         /* Toggle nav menu*/
         $(document).on('click','.toggle-menu',function(){
             $(this).closest('.nav-menu').find('.navbar-collapse').toggle();
             return false;
-        })
+        });
         /** HOME SLIDE**/
         if($('#home-slider').length >0 && $('#contenhomeslider').length >0){
             var slider = $('#contenhomeslider').bxSlider(
@@ -137,12 +137,12 @@
                 'scrollTop': $target.offset().top-50
             }, 500);
             return false;
-        })
+        });
         /* scroll top */ 
         $(document).on('click','.scroll_top',function(){
             $('body,html').animate({scrollTop:0},400);
             return false;
-        })
+        });
         /** #brand-showcase */
         $(document).on('click','.brand-showcase-logo li',function(){
             var id = $(this).data('tab');
@@ -152,20 +152,20 @@
             $(this).closest('li').addClass('active');
             $('.brand-showcase-content').find('.brand-showcase-content-tab').each(function(){
                 $(this).removeClass('active');
-            })
+            });
             $('#'+id).addClass('active');
             return false;
-        })
+        });
         // CATEGORY FILTER 
         $('.slider-range-price').each(function(){
-            var min             = $(this).data('min');
-            var max             = $(this).data('max');
-            var unit            = $(this).data('unit');
-            var value_min       = $(this).data('value-min');
-            var value_max       = $(this).data('value-max');
-            var label_reasult   = $(this).data('label-reasult');
             var t               = $(this);
-            $( this ).slider({
+            var min             = t.data('min');
+            var max             = t.data('max');
+            var unit            = t.data('unit');
+            var value_min       = t.data('value-min');
+            var value_max       = t.data('value-max');
+            var label_reasult   = t.data('label-reasult');
+            t.slider({
               range: true,
               min: min,
               max: max,
@@ -176,14 +176,14 @@
                 t.closest('.slider-range').find('.amount-range-price').html(result);
               }
             });
-        })
+        });
         /** ALL CAT **/
         $(document).on('click','.open-cate',function(){
             $(this).closest('.vertical-menu-content').find('li.cat-link-orther').each(function(){
                 $(this).slideDown();
             });
             $(this).addClass('colse-cate').removeClass('open-cate').html('Close');
-        })
+        });
         /* Close category */
         $(document).on('click','.colse-cate',function(){
             $(this).closest('.vertical-menu-content').find('li.cat-link-orther').each(function(){
@@ -191,27 +191,27 @@
             });
             $(this).addClass('open-cate').removeClass('colse-cate').html('All Categories');
             return false;
-        })
+        });
         // bar ontop click
         $(document).on('click','.vertical-megamenus-ontop-bar',function(){
             $('#vertical-megamenus-ontop').find('.box-vertical-megamenus').slideToggle();
             $('#vertical-megamenus-ontop').toggleClass('active');
             return false;
-        })
+        });
         // View grid list product 
         $(document).on('click','.display-product-option .view-as-grid',function(){
             $(this).closest('.display-product-option').find('li').removeClass('selected');
             $(this).addClass('selected');
             $(this).closest('#view-product-list').find('.product-list').removeClass('list').addClass('grid');
             return false;
-        })
+        });
         // View list list product 
         $(document).on('click','.display-product-option .view-as-list',function(){
             $(this).closest('.display-product-option').find('li').removeClass('selected');
             $(this).addClass('selected');
             $(this).closest('#view-product-list').find('.product-list').removeClass('grid').addClass('list');
             return false;
-        })
+        });
         /// tre menu category
         $(document).on('click','.tree-menu li span',function(){
             $(this).closest('li').children('ul').slideToggle();
@@ -219,7 +219,7 @@
                 $(this).toggleClass('open');
             }
             return false;
-        })
+        });
         /* Open menu on mobile */
         $(document).on('click','.btn-open-mobile',function(){
             var width = $(window).width();
@@ -234,7 +234,7 @@
             $(this).closest('.box-vertical-megamenus').find('.vertical-menu-content').slideToggle();
             $(this).closest('.title').toggleClass('active');
             return false;
-        })
+        });
         /* Product qty */
         $(document).on('click','.btn-plus-down',function(){
             var value = parseInt($('#option-product-qty').val());
@@ -242,14 +242,14 @@
             if(value <=0) return false;
             $('#option-product-qty').val(value);
             return false;
-        })
+        });
         $(document).on('click','.btn-plus-up',function(){
             var value = parseInt($('#option-product-qty').val());
             value = value +1;
             if(value <=0) return false;
             $('#option-product-qty').val(value);
             return false;
-        })
+        });
         /* Close vertical */
         $(document).on('click','*',function(e){
             var container = $("#box-vertical-megamenus");
@@ -263,7 +263,7 @@
                 container.find('.vertical-menu-content').hide();
                 container.find('.title').removeClass('active');
             }
-        })
+        });
         /* Send conttact*/
         $(document).on('click','#btn-send-contact',function(){
             var subject = $('#subject').val(),
@@ -275,7 +275,7 @@
                 email:email,
                 order_reference:order_reference,
                 message:message
-            }
+            };
             $.post('ajax_contact.php',data,function(result){
                 if(result.trim()=="done"){
                     $('#email').val('');

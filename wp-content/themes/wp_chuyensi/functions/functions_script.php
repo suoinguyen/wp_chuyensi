@@ -11,8 +11,8 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_style('select2', _SU_THEME_HOST_PATCH . '/assets/lib/select2/css/select2.min.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('bx-slider', _SU_THEME_HOST_PATCH . '/assets/lib/jquery.bxslider/jquery.bxslider.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('carousel', _SU_THEME_HOST_PATCH . '/assets/lib/owl.carousel/owl.carousel.css', array(), _SU_THEME_VERSION);
-        wp_enqueue_style('jquery', _SU_THEME_HOST_PATCH . '/assets/lib/jquery-ui/jquery-ui.css', array(), _SU_THEME_VERSION);
-        wp_enqueue_style('jquery-ui', _SU_THEME_HOST_PATCH . '/assets/css/animate.css', array(), _SU_THEME_VERSION);
+        wp_enqueue_style('jquery-ui-css', _SU_THEME_HOST_PATCH . '/assets/lib/jquery-ui/jquery-ui.css', array(), _SU_THEME_VERSION);
+        wp_enqueue_style('animate-css', _SU_THEME_HOST_PATCH . '/assets/css/animate.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('reset-css', _SU_THEME_HOST_PATCH . '/assets/css/reset.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('style-css', _SU_THEME_HOST_PATCH . '/assets/css/style.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('responsive', _SU_THEME_HOST_PATCH . '/assets/css/responsive.css', array(), _SU_THEME_VERSION);
@@ -29,6 +29,7 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_script('jquery-plugin-js',  _SU_THEME_HOST_PATCH . '/assets/lib/countdown/jquery.plugin.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('jquery-actual-js',  _SU_THEME_HOST_PATCH . '/assets/js/jquery.actual.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('theme-script',  _SU_THEME_HOST_PATCH . '/assets/js/theme-script.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('jquery-ui-js',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery-ui/jquery-ui.min.js', array(), _SU_THEME_VERSION, true);
 
         //Always after all
         wp_enqueue_script('libs-js-custom',  _SU_THEME_HOST_PATCH . '/assets/js/libs-js-custom.js', array(), _SU_THEME_VERSION, true);
