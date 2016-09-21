@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<h1>sdsdsd</h1>
+<h1>archive product</h1>
 <?php
 get_footer();
 ?>

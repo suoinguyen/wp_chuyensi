@@ -5,9 +5,11 @@
         <div class="container" id="columns">
             <!-- breadcrumb -->
             <div class="breadcrumb clearfix">
-                <a class="home" href="#" title="Return to Home">Home</a>
-                <span class="navigation-pipe">&nbsp;</span>
-                <span class="navigation_page">Fashion</span>
+                <?php
+                if ( function_exists('yoast_breadcrumb') ) {
+                    yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+                }
+                ?>
             </div>
             <!-- ./breadcrumb -->
             <!-- row -->
@@ -22,6 +24,13 @@
                             <div class="layered layered-category">
                                 <div class="layered-content">
                                     <ul class="tree-menu">
+                                        <?php
+                                        $cate = get_categories(array(
+                                            'taxonomy'=>'products_taxonomy',
+                                            'hide_empty'   => 0,
+                                        ));
+                                        dropdown_cat($cate);
+                                        ?>
                                         <li class="active">
                                             <span></span><a href="#">Tops</a>
                                             <ul>

@@ -129,6 +129,9 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
 
 /**
  * Math the price
+ * @param $price
+ * @param $discount
+ * @return array
  */
 function calculate_price($price, $discount){
     $price = $price*1000;
@@ -140,5 +143,43 @@ function calculate_price($price, $discount){
         $price_result['new_price'] = number_format(round($price*(100-$discount)/100));
     }
     return $price_result;
+}
+
+/**
+ * Show dropdown category multi-level
+ * @param $cates -> list category
+ * @param int $parent_id -> category parent ID
+ * @param int $level -> Level
+ */
+function dropdown_cat($cates, $parent_id = 0, $level = 0){
+
+    //$dropdown_cat: Biến lưu menu lặp ở bước đệ quy này
+    $dropdown_cat = array();
+    foreach ($cates as $key => $item){
+
+        // Nếu có parent_id bằng với parrent id hiện tại
+        if($item->category_parent == $parent_id){
+            $dropdown_cat[] = $item;
+
+            // Sau khi thêm vào biên lưu trữ menu ở bước lặp
+            // thì unset nó ra khỏi danh sách menu ở các bước tiếp theo
+            unset($cates[$key]);
+        }
+    }
+
+    // Điều kiện dừng của đệ quy là cho tới khi menu không còn nữa
+    if($dropdown_cat){
+        echo '<div class="dropdown-cat-s dropdown-cat-'.$parent_id.' level-'.$level.'">';
+        foreach ($dropdown_cat as $item){
+            echo '<div class="parent parent-'.$item->term_id.'">';
+            echo '<a href="'.get_term_link($item->term_id).'">'.$item->cat_name.'</a>';
+
+            // Gọi lại đệ quy
+            // Truyền vào danh sách menu chưa lặp và id parent của menu hiện tại
+            dropdown_cat($cates, $item->term_id, $level+1);
+            echo '</div>';
+        }
+        echo '</div>';
+    }
 }
 

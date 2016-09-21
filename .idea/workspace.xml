@@ -2,875 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26aef30b-7516-47f6-8518-811abd2df6b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/ajax_contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/option2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/option3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/option4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/option5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/option6.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/01_blue-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/02_yellow-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/03_cyan-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/04_nice-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/05_flowers-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/06_red-dress.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads-banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ads9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-botom1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-bottom2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-intab.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-intab2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-megamenu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-product1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-product2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-product3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/banner-topmenu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-full.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-thumb1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-thumb2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog-thumb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/bs1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/bs2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/bs3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/bs4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-list-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-product8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/cate-readmore-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/category-slide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/chaneee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ckoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/digital.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/electronic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/f6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/fashion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/full1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/full2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/full3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/full4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/furniture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/g.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/girl1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/girl1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/girls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/gucci.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-digital.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-electronic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-fashion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-furniture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-jewelry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-s6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/icon-sports.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/introduce-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/jewelry-slide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/jewelry.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/kid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/kid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/ld9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-cartier.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-cartier.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-etao.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-etao.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-fashion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-fashion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-gucci.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-gucci.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-gueriain.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-gueriain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-hermes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-hermes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-hermes1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-lack.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-lack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-paul-smith.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/logo-paul-smith.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/loreee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/m8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/men.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/next-slider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/adv1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/adv2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/adv3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/adv4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/banner2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/logo3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/payment-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option3/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/adv1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/adv2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/adv3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/adv4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/banner6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/logo3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/payment-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/slider1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/slider2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option4/slider3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/banner8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option5/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/band-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/banner9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon2-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon3-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon4-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon5-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/icon5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/logo-footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/popular1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/popular2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/popular3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/safe1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/safe2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/option6/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p60.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p61.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p62.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p63.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p65.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p66.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p67.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p68.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p69.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p70.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p71.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p72.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p73.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p74.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p75.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p76.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p77.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p79.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p89.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p90.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p91.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p92.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p93.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p94.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p95.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p96.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/p97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/pr10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/pr11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/pr12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/pr13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-260x317.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-300x366.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-bag.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-dl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s2-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s2-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s2-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s3-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s3-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s3-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s4-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s4-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s4-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s5-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s5-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s5-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s6-100x122.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s6-420x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-s6-850x1036.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-shoes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/product-wristwatch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/prodult-full.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/readmore-arrow-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/s1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/s2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/s3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/s4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/size-chart.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide-cart2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide-left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide-left2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide-left3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide-option2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/slide1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sport1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sport2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sports.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/star-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/star-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/star-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sub-cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sub-cat2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sub-cat3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/sub-cat4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/t.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/testimonial.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-cn.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-dhl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-ems.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-fe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-mc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-qiwi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-ups.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-visa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-wm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark-wu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trademark.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/trending.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/w.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/wishlist8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/women.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/women.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/zoom-thumb1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/zoom-thumb2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/data/zoom-thumb3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/fonts/fontello.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/fonts/fontello.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/fonts/fontello.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/fonts/fontello.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/Preloader_4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/add-cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/bg-top-banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/br-mainmenu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/brand_prlx_bg-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/btn-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cart-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cart-icon4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cart-icon4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cat-br1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cat-br2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/cat-br3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/checkbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/checked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/compare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/delete_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/dropdow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/dropdown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/email.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/en.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/fb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/featured-text.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/featured2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/floor-elevator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/footer-logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/fr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/grid-view-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/heart-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-angle-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-cart-option2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-cart-round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-cart-round5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-cart-round6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-clock.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-compare-round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-compare-round5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-compare-round6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-heart-round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-heart-round5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/icon-heart-round6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/kak.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/kak2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/kak3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/latest-deal-title.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/list-view-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/notify-right-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/notify-right-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/notify-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/notify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/price-percent-br.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/range-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/sale-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/sports.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/images/user-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/js/jquery.actual.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/js/option4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/js/theme-script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/countdownBasic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/countdownGlowing.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/countdownLED.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-hy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-kn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sr-SR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-ur.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-uz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown-zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/countdown/jquery.plugin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/fancybox_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/fancybox_loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/fancybox_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/fancybox_sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/fancybox_sprite@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/fancybox_buttons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/jquery.fancybox-buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/jquery.fancybox-buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/jquery.fancybox-media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/jquery.fancybox-thumbs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/helpers/jquery.fancybox-thumbs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/jquery.fancybox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/jquery.fancybox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/fancyBox/jquery.fancybox.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/animated.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery-ui/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/images/bx_loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/images/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/jquery.bxslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/jquery.bxslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/jquery.bxslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/plugins/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/plugins/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/readme.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.bxslider/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.countdown/jquery.countdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.countdown/jquery.countdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery.elevatezoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery/jquery-1.11.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery/jquery-1.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jquery/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jqzoom/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jqzoom/jquery.jqzoom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jqzoom/jquery.jqzoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/jqzoom/zoomloader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/owl.carousel/owl.carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/owl.carousel/owl.carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/owl.carousel/owl.carousel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/css/select2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/css/select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/i18n/zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/select2.full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/select2.full.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/select2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/assets/lib/select2/js/select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/blog-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/category.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/category2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/checkout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/compare.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/detail2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/detail3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index4_chose.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index5_chose.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/index6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/Theme_html/wishlist.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/_home-content.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/category.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
     </list>
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -906,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -915,8 +60,8 @@
       <file leaf-file-name="functions_custom_post_type.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="137" column="44" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="44" />
+            <state relative-caret-position="476">
+              <caret line="164" column="37" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -925,83 +70,190 @@
       <file leaf-file-name="taxonomy-products_taxonomy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="123" column="136" selection-start-line="123" selection-start-column="118" selection-end-line="123" selection-end-column="136" />
+            <state relative-caret-position="170">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
-                <element signature="e#9813#9841#0#HTML" expanded="true" />
-                <element signature="e#10126#10154#0#HTML" expanded="true" />
-                <element signature="e#10439#10467#0#HTML" expanded="true" />
-                <element signature="e#10752#10780#0#HTML" expanded="true" />
-                <element signature="e#11065#11092#0#HTML" expanded="true" />
-                <element signature="e#11377#11405#0#HTML" expanded="true" />
-                <element signature="e#11690#11718#0#HTML" expanded="true" />
-                <element signature="e#12003#12031#0#HTML" expanded="true" />
-                <element signature="e#12316#12344#0#HTML" expanded="true" />
-                <element signature="e#12630#12658#0#HTML" expanded="true" />
-                <element signature="e#12945#12973#0#HTML" expanded="true" />
-                <element signature="e#13260#13288#0#HTML" expanded="true" />
+                <marker date="1474480264413" expanded="true" signature="1503:2401" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="1630:2355" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3385:21734" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3505:21707" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3621:21628" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3820:7637" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3884:7598" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="3929:4338" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="4078:4292" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="4383:4796" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="4532:4750" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="4841:5253" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="4990:5207" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="5298:5720" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="5447:5674" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="5765:6177" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="5914:6131" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="6222:6632" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="6371:6586" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="6677:7094" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="6826:7048" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="7139:7556" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="7288:7510" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="7900:9701" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="8243:9662" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="8288:8701" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="8437:8655" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="8746:9160" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="8895:9114" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="9205:9620" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="9354:9574" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="9960:13867" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="10024:13828" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="10069:10337" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="10382:10650" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="10695:10963" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="11008:11276" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="11321:11588" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="11633:11901" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="11946:12214" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="12259:12527" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="12572:12840" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="12885:13155" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="13200:13470" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="13515:13785" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14128:16593" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14192:16554" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14237:14657" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14394:14611" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14702:15123" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="14859:15077" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="15168:15589" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="15325:15543" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="15634:16052" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="15791:16006" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="16097:16512" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="16254:16466" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="16851:21538" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="16915:21499" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="16960:17292" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="17115:17246" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="17337:17671" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="17492:17625" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="17716:18049" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="17871:18003" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="18094:18428" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="18249:18382" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="18473:18805" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="18628:18759" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="18850:19184" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19005:19138" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19229:19561" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19384:19515" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19606:19939" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19761:19893" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="19984:20317" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="20139:20271" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="20362:20697" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="20519:20651" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="20742:21077" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="20899:21031" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="21122:21457" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="21279:21411" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="21882:22725" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="22095:22697" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="22854:24696" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="22974:24669" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23030:24357" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23067:24323" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23137:23423" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23190:23380" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23494:24285" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23559:23694" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="23835:24242" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="24414:24638" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="24482:24603" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="24821:26741" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="24929:26714" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="24976:26683" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="26871:29173" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="26987:29146" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="27206:29115" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="27243:27831" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="27390:27567" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="27629:27793" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="27868:28456" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="28015:28192" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="28254:28418" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="28493:29081" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="28640:28817" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="28879:29043" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="29399:30410" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="29494:30134" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="29684:30107" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="29717:29882" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="29915:30077" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="30272:30410" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="30301:30410" placeholder="..." />
+                <marker date="1474480264413" expanded="true" signature="30360:30410" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
+      <file leaf-file-name="functions_custom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="178" selection-end-column="11" />
+            <state relative-caret-position="394">
+              <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="libs-js-custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions_script.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.actual.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.actual.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1751">
+              <caret line="272" column="13" selection-start-line="272" selection-start-column="13" selection-end-line="272" selection-end-column="13" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#39#3446#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="option4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/option4.js">
+      <file leaf-file-name="_taxo-products.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jquery/jquery-ui.js">
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="25642" column="0" selection-start-line="25642" selection-start-column="0" selection-end-line="25642" selection-end-column="0" />
+            <state relative-caret-position="638">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1023,10 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/pedet/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/pedet/functions/functions_menu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/pedet/functions/functions_basic.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/pedet/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/pedet/tmpl_home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/pedet/functions/functions_custom.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/pedet/templates/header/main-menu-header.php" />
@@ -1052,28 +300,32 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery-lazyload.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_function.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option5.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-hot-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-products.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
       </list>
     </option>
   </component>
@@ -1088,7 +340,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1378" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1116,7 +369,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1326,6 +578,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1350,10 +606,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1389,6 +641,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1400,16 +653,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
+      <recent name="D:\Ampps\www\wp_source_suoi\wp-content\themes\pedet\parts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\sass" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\images" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\js" />
       <recent name="D:\Ampps\www\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\images" />
-      <recent name="D:\Ampps\www\wp_chuyensi\_data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
-      <recent name="D:\Ampps\www\wp_source_suoi\wp-content\themes\pedet\parts" />
     </key>
   </component>
   <component name="RunManager">
@@ -1482,23 +735,24 @@
       <workItem from="1474201788250" duration="6789000" />
       <workItem from="1474290568788" duration="9556000" />
       <workItem from="1474368115863" duration="16020000" />
+      <workItem from="1474464387426" duration="16162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244451000" />
+    <option name="totallyTimeSpent" value="260613000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22760646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2693997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1529,41 +783,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_data/wp_chuyensi_Home_8_9.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/wp_chuyensi_HD_9_9.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1572,13 +791,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content-page.scss" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/_home-content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1643,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/header/content-main-menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1689,14 +894,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="118" column="39" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1718,26 +915,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/imagesloaded.pkgd.min.js" />
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,15 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162">
           <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1769,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,7 +950,7 @@
         <state relative-caret-position="213">
           <caret line="113" column="112" selection-start-line="113" selection-start-column="112" selection-end-line="113" selection-end-column="112" />
           <folding>
-            <element signature="e#6704#6730#0#HTML" expanded="true" />
+            <element signature="e#6704#6730#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1791,75 +963,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="310" column="81" selection-start-line="310" selection-start-column="81" selection-end-line="310" selection-end-column="81" />
-          <folding>
-            <element signature="e#39#3446#0" expanded="false" />
-            <element signature="e#3700#5490#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="137" column="44" selection-start-line="137" selection-start-column="27" selection-end-line="137" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="123" column="136" selection-start-line="123" selection-start-column="118" selection-end-line="123" selection-end-column="136" />
-          <folding>
-            <element signature="e#9813#9841#0#HTML" expanded="true" />
-            <element signature="e#10126#10154#0#HTML" expanded="true" />
-            <element signature="e#10439#10467#0#HTML" expanded="true" />
-            <element signature="e#10752#10780#0#HTML" expanded="true" />
-            <element signature="e#11065#11092#0#HTML" expanded="true" />
-            <element signature="e#11377#11405#0#HTML" expanded="true" />
-            <element signature="e#11690#11718#0#HTML" expanded="true" />
-            <element signature="e#12003#12031#0#HTML" expanded="true" />
-            <element signature="e#12316#12344#0#HTML" expanded="true" />
-            <element signature="e#12630#12658#0#HTML" expanded="true" />
-            <element signature="e#12945#12973#0#HTML" expanded="true" />
-            <element signature="e#13260#13288#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jquery/jquery-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="25642" column="0" selection-start-line="25642" selection-start-column="0" selection-end-line="25642" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1867,14 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
           <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="178" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/option4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1887,21 +986,290 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.actual.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/option4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jquery/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435812">
+          <caret line="25642" column="0" selection-start-line="25642" selection-start-column="0" selection-end-line="25642" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+          <folding>
+            <marker date="1474467422411" expanded="true" signature="1101:1113" placeholder="..." />
+            <marker date="1474467422411" expanded="true" signature="1307:1319" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/_taxo-products.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/_main-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/_home-content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/category-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1190" column="9" selection-start-line="1190" selection-start-column="9" selection-end-line="1190" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="164" column="37" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding>
+            <marker date="1474480264413" expanded="true" signature="1503:2401" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="1630:2355" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3385:21734" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3505:21707" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3621:21628" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3820:7637" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3884:7598" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="3929:4338" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="4078:4292" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="4383:4796" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="4532:4750" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="4841:5253" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="4990:5207" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="5298:5720" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="5447:5674" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="5765:6177" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="5914:6131" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="6222:6632" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="6371:6586" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="6677:7094" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="6826:7048" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="7139:7556" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="7288:7510" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="7900:9701" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="8243:9662" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="8288:8701" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="8437:8655" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="8746:9160" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="8895:9114" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="9205:9620" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="9354:9574" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="9960:13867" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="10024:13828" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="10069:10337" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="10382:10650" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="10695:10963" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="11008:11276" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="11321:11588" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="11633:11901" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="11946:12214" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="12259:12527" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="12572:12840" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="12885:13155" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="13200:13470" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="13515:13785" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14128:16593" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14192:16554" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14237:14657" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14394:14611" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14702:15123" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="14859:15077" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="15168:15589" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="15325:15543" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="15634:16052" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="15791:16006" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="16097:16512" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="16254:16466" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="16851:21538" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="16915:21499" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="16960:17292" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="17115:17246" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="17337:17671" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="17492:17625" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="17716:18049" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="17871:18003" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="18094:18428" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="18249:18382" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="18473:18805" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="18628:18759" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="18850:19184" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19005:19138" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19229:19561" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19384:19515" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19606:19939" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19761:19893" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="19984:20317" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="20139:20271" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="20362:20697" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="20519:20651" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="20742:21077" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="20899:21031" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="21122:21457" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="21279:21411" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="21882:22725" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="22095:22697" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="22854:24696" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="22974:24669" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23030:24357" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23067:24323" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23137:23423" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23190:23380" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23494:24285" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23559:23694" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="23835:24242" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="24414:24638" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="24482:24603" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="24821:26741" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="24929:26714" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="24976:26683" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="26871:29173" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="26987:29146" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="27206:29115" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="27243:27831" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="27390:27567" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="27629:27793" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="27868:28456" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="28015:28192" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="28254:28418" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="28493:29081" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="28640:28817" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="28879:29043" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="29399:30410" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="29494:30134" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="29684:30107" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="29717:29882" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="29915:30077" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="30272:30410" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="30301:30410" placeholder="..." />
+            <marker date="1474480264413" expanded="true" signature="30360:30410" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="171" column="41" selection-start-line="171" selection-start-column="41" selection-end-line="171" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="272" column="13" selection-start-line="272" selection-start-column="13" selection-end-line="272" selection-end-column="13" />
+          <folding>
+            <element signature="e#39#3446#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

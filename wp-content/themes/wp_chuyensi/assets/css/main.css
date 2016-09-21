@@ -71,6 +71,12 @@
   opacity: 1;
 }
 
+/**-- breadcrumb --**/
+#breadcrumbs i {
+  line-height: 22px;
+  margin: 0 10px;
+}
+
 /**-- Override css of header --**/
 #header {
   /**-- Search --**/
@@ -357,5 +363,7 @@ footer .footer-row a:hover {
 .latest-deals-product .right-block .content_price .old-price {
   font-size: 14px;
 }
+
+/** Taxonomy Products **/
 
 /*# sourceMappingURL=main.css.map */

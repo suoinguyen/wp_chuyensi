@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-    <title><?php wp_title(); ?><?php if(wp_title('', false)) { echo '-'; } ?> <?php bloginfo('name'); ?></title>
+<!--    <title>--><?php //wp_title(); ?><!----><?php //if(wp_title('', false)) { echo '-'; } ?><!-- --><?php //bloginfo('name'); ?><!--</title>-->
 
     <link rel="profile" href="http://gmgp.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
-                        <a title="Trang chủ" href="<?php get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
+                        <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
