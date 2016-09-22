@@ -251,7 +251,7 @@
             $(window).resize(center('.element-centeral'), function () {
                 center('.element-centeral');
             });
-        })
+        });
 
         /**-- --**/
 
@@ -269,5 +269,17 @@
                 $(this).toggleClass('hovered');
             })
         }
+
+        /**
+         * 
+         */
+        $('.dropdown-cat-s .arrow').bind('click', function () {
+            $(this).closest('ul.parent').find('.dropdown-cat-s').first().slideToggle();
+        });
+        $('.parent').each(function () {
+            if($(this).hasClass('active')){
+                $(this).parents('.dropdown-cat-s').css('display', 'block');
+            }
+        })
     });
 })( jQuery );

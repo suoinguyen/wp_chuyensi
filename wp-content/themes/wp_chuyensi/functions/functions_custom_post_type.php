@@ -37,6 +37,7 @@ if(!function_exists('custom_post_type_init')){
             'has_archive'        => true,
             'hierarchical'       => false,
             'menu_position'      => null,
+            'menu_icon'          => 'dashicons-wordpress', //https://developer.wordpress.org/resource/dashicons/#wordpress
             'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
         );
 
@@ -118,6 +119,8 @@ if(!function_exists('products_post_type')){
             'has_archive'        => true,
             'hierarchical'       => false,
             'menu_position'      => null,
+            'menu_icon'          => 'dashicons-products',
+            'taxonomies'         => array( 'post_tag' ),
             'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
         );
 

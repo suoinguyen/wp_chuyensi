@@ -18,12 +18,12 @@
                 <div class="column col-xs-12 col-sm-3" id="left_column">
                     <!-- block category -->
                     <div class="block left-module">
-                        <p class="title_block">Product types</p>
+                        <p class="title_block"><?php _e('Danh mục sản phẩm', _TEXT_DOMAIN)?></p>
                         <div class="block_content">
                             <!-- layered -->
                             <div class="layered layered-category">
                                 <div class="layered-content">
-                                    <ul class="tree-menu">
+                                    <ul class="tree-menu-1">
                                         <?php
                                         $cate = get_categories(array(
                                             'taxonomy'=>'products_taxonomy',
@@ -31,25 +31,6 @@
                                         ));
                                         dropdown_cat($cate);
                                         ?>
-                                        <li class="active">
-                                            <span></span><a href="#">Tops</a>
-                                            <ul>
-                                                <li><span></span><a href="#">T-shirts</a></li>
-                                                <li><span></span><a href="#">Dresses</a></li>
-                                                <li><span></span><a href="#">Casual</a></li>
-                                                <li><span></span><a href="#">Evening</a></li>
-                                                <li><span></span><a href="#">Summer</a></li>
-                                                <li><span></span><a href="#">Bags & Shoes</a></li>
-                                                <li><span></span><a href="#"><span></span>Blouses</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><span></span><a href="#">T-shirts</a></li>
-                                        <li><span></span><a href="#">Dresses</a></li>
-                                        <li><span></span><a href="#">Jackets and coats </a></li>
-                                        <li><span></span><a href="#">Knitted</a></li>
-                                        <li><span></span><a href="#">Pants</a></li>
-                                        <li><span></span><a href="#">Bags & Shoes</a></li>
-                                        <li><span></span><a href="#">Best selling</a></li>
                                     </ul>
                                 </div>
                             </div>

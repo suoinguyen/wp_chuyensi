@@ -152,6 +152,7 @@ function calculate_price($price, $discount){
  * @param int $level -> Level
  */
 function dropdown_cat($cates, $parent_id = 0, $level = 0){
+    $current_cat = get_queried_object();
 
     //$dropdown_cat: Biến lưu menu lặp ở bước đệ quy này
     $dropdown_cat = array();
@@ -169,17 +170,23 @@ function dropdown_cat($cates, $parent_id = 0, $level = 0){
 
     // Điều kiện dừng của đệ quy là cho tới khi menu không còn nữa
     if($dropdown_cat){
-        echo '<div class="dropdown-cat-s dropdown-cat-'.$parent_id.' level-'.$level.'">';
+        echo '<li class="dropdown-cat-s dropdown-cat-'.$parent_id.' level-'.$level.'">';
         foreach ($dropdown_cat as $item){
-            echo '<div class="parent parent-'.$item->term_id.'">';
+            if($current_cat->term_id == $item->term_id){
+                echo '<ul class="parent parent-'.$item->term_id.' active">';
+            }else{
+                echo '<ul class="parent parent-'.$item->term_id.'">';
+            }
+            echo '<li class="ele-sgle">';
+            echo '<span class="arrow"></span>';
             echo '<a href="'.get_term_link($item->term_id).'">'.$item->cat_name.'</a>';
-
+            echo '</li>';
             // Gọi lại đệ quy
             // Truyền vào danh sách menu chưa lặp và id parent của menu hiện tại
             dropdown_cat($cates, $item->term_id, $level+1);
-            echo '</div>';
+            echo '</ul>';
         }
-        echo '</div>';
+        echo '</li>';
     }
 }
 
