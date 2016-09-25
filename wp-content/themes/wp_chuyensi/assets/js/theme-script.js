@@ -171,8 +171,11 @@
               max: max,
               values: [ value_min, value_max ],
               slide: function( event, ui ) {
-                var result = label_reasult +" "+ unit + ui.values[ 0 ] +' - '+ unit +ui.values[ 1 ];
-                console.log(t);
+                  var str_1 = ui.values[ 0 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ".");
+                  var str_2 = ui.values[ 1 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ".");
+                var result = label_reasult +" "+ str_1 + unit +' - '+ str_2 + unit;
+                $('input[type="text"][name="price-min"]').val(ui.values[ 0 ]);
+                $('input[type="text"][name="price-max"]').val(ui.values[ 1 ]);
                 t.closest('.slider-range').find('.amount-range-price').html(result);
               }
             });

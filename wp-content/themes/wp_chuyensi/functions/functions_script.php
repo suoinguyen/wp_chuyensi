@@ -19,9 +19,10 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_style('option-5', _SU_THEME_HOST_PATCH . '/assets/css/option5.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('main-css', _SU_THEME_HOST_PATCH . '/assets/css/main.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('hover-css', _SU_THEME_HOST_PATCH . '/assets/css/hover-css.css', array(), _SU_THEME_VERSION);
+        wp_enqueue_style('bootstrap-datepicker-css', _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker3.min.css', array(), _SU_THEME_VERSION);
 
         #JS
-        wp_enqueue_script('js-1.1.2',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery/jquery-1.11.2.min.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('js-1.1.2',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery/jquery-1.11.2.min.js', array(), _SU_THEME_VERSION, false);
         wp_enqueue_script('bootstrap-js',  _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap/js/bootstrap.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('select-2-js',  _SU_THEME_HOST_PATCH . '/assets/lib/select2/js/select2.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('bx-slider-js',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery.bxslider/jquery.bxslider.min.js', array(), _SU_THEME_VERSION, true);
@@ -30,6 +31,9 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_script('jquery-actual-js',  _SU_THEME_HOST_PATCH . '/assets/js/jquery.actual.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('theme-script',  _SU_THEME_HOST_PATCH . '/assets/js/theme-script.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('jquery-ui-js',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery-ui/jquery-ui.min.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('isotope',  _SU_THEME_HOST_PATCH . '/assets/js/isotope.pkgd.min.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('datepicker-js',  _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker.min.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('datepicker-vi-js',  _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker.vi.min.js', array(), _SU_THEME_VERSION, true);
 
         //Always after all
         wp_enqueue_script('libs-js-custom',  _SU_THEME_HOST_PATCH . '/assets/js/libs-js-custom.js', array(), _SU_THEME_VERSION, true);

@@ -175,11 +175,19 @@
 /**
  * JS custom code
  */
+jQuery('document').ready(function () {
 
+});
 (function( $ ) {
-    $("document").ready(function($){
+
+    jQuery("document").ready(function($){
         var wW = $(window).width();
         var wH = $(window).height();
+
+        /**
+         *Scroll smoothing
+         */
+
 
         /**
          * Override js fixed nav
@@ -261,8 +269,10 @@
          *
          */
         if(wW < 767){
-            $('.latest-deals-product .product-list li, .product-border .product-detail').on('click', function (e) {
-                $(this).toggleClass('hovered');
+            $('.latest-deals-product .product-list li, .product-border .product-detail, .tax-products_taxonomy .product-detail').on('click', function (e) {
+                $('.latest-deals-product .product-list li, .product-border .product-detail, .tax-products_taxonomy .product-detail').removeClass('hovered');
+                $(this).addClass('hovered');
+                // $(this).toggleClass('hovered');
             })
         }else{
             $('.latest-deals-product .product-list li, .product-border .product-detail').hover(function () {
@@ -271,7 +281,7 @@
         }
 
         /**
-         * 
+         * Arrow for list category
          */
         $('.dropdown-cat-s .arrow').bind('click', function () {
             $(this).closest('ul.parent').find('.dropdown-cat-s').first().slideToggle();
@@ -280,6 +290,76 @@
             if($(this).hasClass('active')){
                 $(this).parents('.dropdown-cat-s').css('display', 'block');
             }
-        })
+        });
+
+        /**
+         * Isotope
+         */
+        var $grid = $('.ist-grid').isotope({
+            itemSelector: '.ist-element-item',
+            layoutMode: 'fitRows',
+            getSortData: {
+                name: '.ist-name',
+                price: '.ist-price',
+                date: '.ist-date',
+                name_desc: '.ist-name-desc',
+                price_desc: '.ist-price-desc',
+                date_desc: '.ist-date-desc'
+            }
+        });
+
+        $('.ist-sort-by-button-group').on( 'change', function() {
+            var sortValue = $(this).val();
+            $grid.isotope({
+                sortBy: sortValue,
+                sortAscending: {
+                    //true = ASC, false = DESC
+                    name: true,
+                    price: true,
+                    date: true,
+                    name_desc: false,
+                    price_desc: false,
+                    date_desc: false
+                }
+            });
+        });
+
+        /**
+         * Checkbox
+         *
+         */
+        radio_checked('input[type="radio"][name="date"]');
+        radio_checked('input[type="radio"][name="price"]');
+
+        function radio_checked($selector){
+            $($selector).click(function(){
+                var $radio = $(this);
+
+                // if this was previously checked
+                if ($radio.data('waschecked') == true)
+                {
+                    $radio.prop('checked', false);
+                    $radio.data('waschecked', false);
+                }
+                else
+                    $radio.data('waschecked', true);
+
+                // remove was checked from other radios
+                $radio.siblings($selector).data('waschecked', false);
+            });
+        }
+
+        /**
+         * Date picker
+         */
+        $('.filter-date .input-daterange').datepicker({
+            format: "dd/mm/yyyy",
+            clearBtn: true,
+            language: "vi",
+            multidate: false,
+            todayHighlight: true,
+            toggleActive: true
+        });
     });
 })( jQuery );
+

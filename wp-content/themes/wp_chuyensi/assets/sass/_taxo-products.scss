@@ -1,1 +1,23 @@
 /** Taxonomy Products **/
+.sortPagiBar{
+  display: inline-block;
+  width: 100%;
+}
+
+.submit-form{
+  button{
+    padding: 10px;
+    width: 100%;
+    background: #f96d10 !important;
+    color: #fff !important;
+  }
+  .hvr-radial-out{
+    &:before{
+      background: #ff3366;
+    }
+  }
+
+}
+
+
+@import "taxonomy-list-product";

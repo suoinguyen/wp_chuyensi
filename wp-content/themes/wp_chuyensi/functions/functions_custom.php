@@ -133,12 +133,12 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
  * @param $discount
  * @return array
  */
-function calculate_price($price, $discount){
+function calculate_price($price, $discount = 1){
     $price = $price*1000;
     $price_result = array();
     $price_result['old_price'] = 0;
     $price_result['new_price'] = 0;
-    if($discount && !empty($discount) && $discount > 0){
+    if(isset($discount)){
         $price_result['old_price'] = number_format(round($price));
         $price_result['new_price'] = number_format(round($price*(100-$discount)/100));
     }

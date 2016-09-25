@@ -1932,17 +1932,17 @@ span.notify-right{
   transform: scale(1,1);
   margin: 0 auto;
 }
-.product-list li:hover img{
+/*.product-list li:hover img{
 
   -webkit-transform: scale(1.2,1.2);
-  /*-webkit-transform-origin: top right;*/
+  !*-webkit-transform-origin: top right;*!
   -moz-transform: scale(1.2,1.2);
-  /*-moz-transform-origin: top right;*/
+  !*-moz-transform-origin: top right;*!
   -o-transform: scale(1.2,1.2);
-  /*-o-transform-origin: top right;*/
+  !*-o-transform-origin: top right;*!
   transform: scale(1.2,1.2);
-  /*transform-origin: top right;*/
-}
+  !*transform-origin: top right;*!
+}*/
 .product-list li .right-block{
     padding: 0 15px;
     margin-top: 15px;
@@ -2976,10 +2976,10 @@ span.notify-right{
 .check-box-list label:hover{
   color: #ff3366;
 }
-.check-box-list input[type="checkbox"]{
+.check-box-list input[type="checkbox"], .check-box-list input[type="radio"]{
   display: none;
 }
-.check-box-list input[type="checkbox"] + label span.button {
+.check-box-list input[type="checkbox"] + label span.button, .check-box-list input[type="radio"] + label span.button {
       display:inline-block;
       width:12px;
       height:12px;
@@ -2988,12 +2988,12 @@ span.notify-right{
       padding: 0;
       border: none;
 }
-.check-box-list input[type="checkbox"]:checked + label span.button{
+.check-box-list input[type="checkbox"]:checked + label span.button, .check-box-list input[type="radio"]:checked + label span.button{
     background: #ff3366 url("../images/checked.png") no-repeat center center;
 
 
 }
-.check-box-list input[type="checkbox"]:checked + label{
+.check-box-list input[type="checkbox"]:checked + label, .check-box-list input[type="radio"]:checked + label{
   color: #ff3366;
 }
 .check-box-list label span.count{
