@@ -95,21 +95,44 @@
   .parent{
      li.ele-sgle:hover{
       > span.arrow:before{
-        color: #ff3366;
+        color: #F96D10;
       }
       > a{
-        color: #ff3366;
+        color: #F96D10;
       }
     }
   }
   .active{
     > li.ele-sgle{
       > span:before{
-        color: #ff3366;
+        color: #F96D10;
       }
       > a{
-        color: #ff3366;
+        color: #F96D10;
       }
     }
   }
+}
+
+/**-- Pagination --**/
+.pagination{
+  .page-numbers{
+    position: relative;
+    float: left;
+    padding: 5px 12px;
+    margin-left: -1px;
+    line-height: 1.42857;
+    color: #999;
+    text-decoration: none;
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    &:hover{
+      background: #F96D10;
+    }
+  }
+  .current{
+    color: #fff;
+    background: #F96D10;
+  }
+
 }

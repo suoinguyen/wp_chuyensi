@@ -54,15 +54,15 @@ if ( ! function_exists( 'get_menu' ) ) {
  * Pagination
  */
 #Step 1
-/*$page = isset($_REQUEST['post_page']) ? (int)$_REQUEST['post_page'] : 1;
-$posts_per_page = isset($_REQUEST['posts_per_page']) ? (int)$_REQUEST['posts_per_page'] : 8;
-
-$page = $page < 1 ? 1 : $page;
+/*$paged = isset($_REQUEST['trang']) ? $_REQUEST['trang'] : 1;
+$paged = $paged < 1 ? 1 : $paged;
+$posts_per_page = isset($_REQUEST['posts_per_page']) ? (int)$_REQUEST['posts_per_page'] : 3;
 $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
 
 #Step 2
 /*$products_query = new WP_Query(array(
-    'posts_per_page' => $posts_per_page
+    'posts_per_page' => $posts_per_page,
+    'paged' => '$paged',
     'custom query field' =>...
 ));*/
 

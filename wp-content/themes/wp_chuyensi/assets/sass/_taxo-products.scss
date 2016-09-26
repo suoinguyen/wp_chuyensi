@@ -2,6 +2,9 @@
 .sortPagiBar{
   display: inline-block;
   width: 100%;
+  .sort-product{
+    margin: 0;
+  }
 }
 
 .submit-form{
@@ -13,7 +16,7 @@
   }
   .hvr-radial-out{
     &:before{
-      background: #ff3366;
+      background: #F96D10;
     }
   }
 

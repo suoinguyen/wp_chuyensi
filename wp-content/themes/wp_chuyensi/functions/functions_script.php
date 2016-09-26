@@ -18,7 +18,7 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_style('responsive', _SU_THEME_HOST_PATCH . '/assets/css/responsive.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('option-5', _SU_THEME_HOST_PATCH . '/assets/css/option5.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('main-css', _SU_THEME_HOST_PATCH . '/assets/css/main.css', array(), _SU_THEME_VERSION);
-        wp_enqueue_style('hover-css', _SU_THEME_HOST_PATCH . '/assets/css/hover-css.css', array(), _SU_THEME_VERSION);
+        wp_enqueue_style('hover-css', _SU_THEME_HOST_PATCH . '/assets/lib/hover-css.css', array(), _SU_THEME_VERSION);
         wp_enqueue_style('bootstrap-datepicker-css', _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker3.min.css', array(), _SU_THEME_VERSION);
 
         #JS

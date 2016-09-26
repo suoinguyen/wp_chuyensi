@@ -2,25 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26aef30b-7516-47f6-8518-811abd2df6b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.pkgd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/bootstrap-datepicker/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/bootstrap-datepicker/bootstrap-datepicker.vi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/bootstrap-datepicker/bootstrap-datepicker3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option6.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/hover-css.css" />
     </list>
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,63 +44,98 @@
       <file leaf-file-name="taxonomy-products_taxonomy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="54" column="102" selection-start-line="54" selection-start-column="102" selection-end-line="54" selection-end-column="102" />
+            <state relative-caret-position="1145">
+              <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
+      <file leaf-file-name="content-home-list-products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="159" column="49" selection-start-line="159" selection-start-column="49" selection-end-line="159" selection-end-column="49" />
+            <state relative-caret-position="358">
+              <caret line="120" column="79" selection-start-line="120" selection-start-column="79" selection-end-line="120" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-taxonomy-list-products.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_function.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_function.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-taxonomy-list-products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="152" column="58" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
-              <folding>
-                <element signature="e#6#94#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#6;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions_custom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+            <state relative-caret-position="437">
+              <caret line="215" column="67" selection-start-line="215" selection-start-column="67" selection-end-line="215" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="354" column="55" selection-start-line="354" selection-start-column="55" selection-end-line="354" selection-end-column="55" />
-              <folding>
-                <element signature="e#39#3446#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_taxo-products.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
+      <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="18326">
+              <caret line="1078" column="38" selection-start-line="1078" selection-start-column="38" selection-end-line="1078" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="option5.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option5.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="623" column="5" selection-start-line="623" selection-start-column="5" selection-end-line="623" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions_script.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -123,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/pedet/functions/functions_custom_post_type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/index.php" />
@@ -156,24 +189,25 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-products.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.smooth.wheel.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotop.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -217,8 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,40 +553,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-datepicker" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -583,6 +583,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp_chuyensi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp_chuyensi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp_chuyensi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -595,16 +625,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\lib" />
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
+      <recent name="D:\Ampps\www\wp_source_suoi\wp-content\themes\pedet\parts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\lib\bootsrap-datepicker" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\js" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\sass" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
-      <recent name="D:\Ampps\www\wp_source_suoi\wp-content\themes\pedet\parts" />
     </key>
   </component>
   <component name="RunManager">
@@ -681,21 +712,21 @@
       <workItem from="1474553183953" duration="10272000" />
       <workItem from="1474646482173" duration="601000" />
       <workItem from="1474690922834" duration="47381000" />
+      <workItem from="1474900612333" duration="12917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318867000" />
+    <option name="totallyTimeSpent" value="331784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26793557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -706,6 +737,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -728,73 +760,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/header/content-main-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option5.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="84" column="18" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/images/Preloader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/images/Preloader_4.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/imagesloaded.pkgd.min.js" />
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_function.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-hot-products.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -848,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,138 +843,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="122" column="56" selection-start-line="122" selection-start-column="56" selection-end-line="122" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#121#0#PHP" expanded="false" />
-            <element signature="e#122#2219#0#PHP" expanded="false" />
-            <element signature="e#2271#3854#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jQuery.scrollSpeed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.smooth.wheel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jQuery.scrollSpeed.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.smooth.wheel.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/tmpl_home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="48" column="38" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.pkgd.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.pkgd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="2978" column="75" selection-start-line="2978" selection-start-column="75" selection-end-line="2978" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/hover-css.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotope.pkgd.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/hover-css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-892">
           <caret line="1841" column="75" selection-start-line="1841" selection-start-column="61" selection-end-line="1841" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1020,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,21 +899,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="159" column="49" selection-start-line="159" selection-start-column="49" selection-end-line="159" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="3145">
           <caret line="354" column="55" selection-start-line="354" selection-start-column="55" selection-end-line="354" selection-end-column="55" />
           <folding>
             <element signature="e#39#3446#0" expanded="false" />
@@ -1066,38 +912,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="3162" column="9" selection-start-line="3162" selection-start-column="9" selection-end-line="3162" selection-end-column="9" />
+          <folding>
+            <marker date="1473698553800" expanded="true" signature="28519:28532" placeholder="..." />
+            <marker date="1473698553800" expanded="true" signature="54681:54863" placeholder="SELECT YEAR(... " />
+            <marker date="1473698553800" expanded="true" signature="55755:55890" placeholder="SELECT YEAR(... " />
+            <marker date="1473698553800" expanded="true" signature="56655:56899" placeholder="SELECT YEAR(... " />
+            <marker date="1473698553800" expanded="true" signature="57870:58108" placeholder="SELECT DISTI... " />
+            <marker date="1473698553800" expanded="true" signature="59512:59570" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1473698553800" expanded="true" signature="61873:61968" placeholder="SELECT 1 as ${$wpdb-&gt;posts}" />
+            <marker date="1473698553800" expanded="true" signature="63206:63420" placeholder="SELECT MONTH... " />
+            <marker date="1473698553800" expanded="true" signature="63449:63680" placeholder="SELECT MONTH... " />
+            <marker date="1473698553800" expanded="true" signature="63856:63997" placeholder="..." />
+            <marker date="1473698553800" expanded="true" signature="63991:63997" placeholder="..." />
+            <marker date="1473698553800" expanded="true" signature="64442:64448" placeholder="..." />
+            <marker date="1473698553800" expanded="true" signature="65251:65257" placeholder="..." />
+            <marker date="1473698553800" expanded="true" signature="65350:65585" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+        <state relative-caret-position="605">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="102" selection-start-line="54" selection-start-column="102" selection-end-line="54" selection-end-column="102" />
+        <state relative-caret-position="-731">
+          <caret line="171" column="47" selection-start-line="171" selection-start-column="47" selection-end-line="171" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1249">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2762">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_devices.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18326">
+          <caret line="1078" column="38" selection-start-line="1078" selection-start-column="38" selection-end-line="1078" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/option5.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="623" column="5" selection-start-line="623" selection-start-column="5" selection-end-line="623" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_function.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="152" column="58" selection-start-line="152" selection-start-column="58" selection-end-line="152" selection-end-column="58" />
-          <folding>
-            <element signature="e#6#94#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#6;n#li#0;n#ul#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="215" column="67" selection-start-line="215" selection-start-column="67" selection-end-line="215" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1145">
+          <caret line="99" column="71" selection-start-line="99" selection-start-column="71" selection-end-line="99" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/home/content-home-list-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="120" column="79" selection-start-line="120" selection-start-column="79" selection-end-line="120" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

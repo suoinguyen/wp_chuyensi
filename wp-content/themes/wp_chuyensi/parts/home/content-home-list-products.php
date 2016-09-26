@@ -118,7 +118,7 @@ if($layout_products){
                                                 <div class="btn-view-detail">
                                                     <a href="<?php _e($link) ?>"
                                                        style="background-color: <?php _e($c) ?>"
-                                                       class="hvr-wobble-horizontal"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
+                                                       class="hvr-round-corners"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
                                                 </div>
                                             </div>
                                         </div>
