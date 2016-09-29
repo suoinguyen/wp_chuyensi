@@ -45,7 +45,7 @@
             width: 100%;
             visibility: hidden;
             margin-left: 100%;
-            padding: 10px;
+            padding: 0 10px 10px 10px;
             @include respond-to-custom-size(768px, null) {
               text-shadow: 1px 1px 1px #000;
               -webkit-transition: all 0.5s;

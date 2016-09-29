@@ -34,6 +34,8 @@ if (!function_exists('template_scripts')) {
         wp_enqueue_script('isotope',  _SU_THEME_HOST_PATCH . '/assets/js/isotope.pkgd.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('datepicker-js',  _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker.min.js', array(), _SU_THEME_VERSION, true);
         wp_enqueue_script('datepicker-vi-js',  _SU_THEME_HOST_PATCH . '/assets/lib/bootstrap-datepicker/bootstrap-datepicker.vi.min.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('elevate-zoom',  _SU_THEME_HOST_PATCH . '/assets/lib/jquery.elevatezoom.js', array(), _SU_THEME_VERSION, true);
+        wp_enqueue_script('fancy-box',  _SU_THEME_HOST_PATCH . '/assets/lib/fancyBox/jquery.fancybox.js', array(), _SU_THEME_VERSION, true);
 
         //Always after all
         wp_enqueue_script('libs-js-custom',  _SU_THEME_HOST_PATCH . '/assets/js/libs-js-custom.js', array(), _SU_THEME_VERSION, true);

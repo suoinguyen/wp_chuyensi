@@ -251,6 +251,9 @@ footer .footer-row a:hover {
   position: relative;
   margin-bottom: 10px;
 }
+.footer-block ul li a {
+  color: #bbb;
+}
 .footer-block ul li i {
   position: absolute;
   top: 3px;
@@ -309,7 +312,7 @@ footer .footer-row a:hover {
   width: 100%;
   visibility: hidden;
   margin-left: 100%;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 @media only screen and (min-width: 768px) {
   .product-list-wrap .product-wrap .product-border .product-detail .product-info .product-name {
@@ -507,6 +510,18 @@ footer .footer-row a:hover {
   .tax-products_taxonomy .col-responsive {
     width: 100%;
   }
+}
+
+#product .pb-right-column .product-name {
+  padding: 0 0px 20px;
+}
+
+#product .pb-right-column .form-action .button-group {
+  overflow: visible;
+}
+
+.product-tab .tab-container {
+  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,17 @@
 
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<!--    <title>--><?php //wp_title(); ?><!----><?php //if(wp_title('', false)) { echo '-'; } ?><!-- --><?php //bloginfo('name'); ?><!--</title>-->
+
+    <!-- Meta facebook -->
+    <?php
+    if(is_single()){
+        $gallery = get_field('images');
+        ?>
+        <meta property="og:description"   content="Your description" />
+        <meta property="og:image"         content="<?php echo $gallery['0']['sizes']['thumbnail-post-hard']?>" />
+        <?php
+    }
+    ?>
 
     <link rel="profile" href="http://gmgp.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -28,22 +38,12 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>
 
     <!-- API Facebook -->
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=886687838063859";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
+<!--    --><?php //echo get_field('facebook_sdk', 'option')?>
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> >
-<div class="se-pre-con"></div>
+    <div class="se-pre-con"></div>
     <div class="option5">
         <!-- HEADER -->
         <div id="header" class="header">

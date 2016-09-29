@@ -190,3 +190,22 @@ function dropdown_cat($cates, $parent_id = 0, $level = 0){
     }
 }
 
+/**
+ * Add custom size image
+ */
+add_image_size( "thumbnail-post", 268, 327);
+add_image_size( "thumbnail-post-hard", 268, 327, array( 'center', 'center' ));
+//add_image_size( "thumbnail-post", 268, 327, true );
+add_filter( 'image_size_names_choose', 'my_custom_sizes' );
+
+function my_custom_sizes( $sizes ) {
+    unset( $sizes['thumbnail']);
+    unset( $sizes['medium']);
+    unset( $sizes['medium_large']);
+    unset( $sizes['large']);
+    return array_merge( $sizes, array(
+        'thumbnail-post' => __('Kiểu hình đại diện - Cân đối'),
+        'thumbnail-post-hard' => __('Kiểu hình đại diện - Chuẩn'),
+    ) );
+}
+

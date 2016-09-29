@@ -101,6 +101,18 @@ if(function_exists("register_field_group"))
                 'rows' => '',
                 'formatting' => 'none',
             ),
+            array (
+                'key' => 'field_02092013suph1',
+                'label' => 'Facebook SDK',
+                'name' => 'facebook_sdk',
+                'type' => 'textarea',
+                'instructions' => 'The Facebook SDK.',
+                'default_value' => '',
+                'placeholder' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'formatting' => 'none',
+            ),
         ),
         'location' => array (
             array (
