@@ -38,7 +38,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>
 
     <!-- API Facebook -->
-<!--    --><?php //echo get_field('facebook_sdk', 'option')?>
+    <?php echo get_field('facebook_sdk', 'option')?>
     <?php wp_head(); ?>
 </head>
 
