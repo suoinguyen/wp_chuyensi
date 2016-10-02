@@ -2,21 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26aef30b-7516-47f6-8518-811abd2df6b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/images/logo_10.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/images/Logo_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/countdownBasic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/countdownGlowing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/countdownLED.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-hy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-kn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-my.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sr-SR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-ur.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-uz.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/countdown/jquery.plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jquery.countdown/jquery.countdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jquery.countdown/jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jqzoom/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jqzoom/jquery.jqzoom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jqzoom/jquery.jqzoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/lib/jqzoom/zoomloader.gif" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/main.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_home-content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/prepros.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php" afterPath="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php" />
     </list>
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,107 +107,22 @@
       <file leaf-file-name="single-products_post_type.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+            <state relative-caret-position="17">
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
               <folding>
-                <marker date="1475171840323" expanded="true" signature="1829:1897" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="2144:3231" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="2294:3188" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="3435:7214" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="3582:4077" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="4135:4356" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="4414:6463" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="4582:4937" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="4998:6020" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="5159:5977" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="5221:5374" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="5441:5930" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="5522:5658" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="5741:5879" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="6081:6424" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="6231:6380" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7340:8506" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7389:7857" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7441:7614" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7651:7823" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7913:8475" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="7997:8191" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="8266:8440" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="8653:8939" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9033:11246" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9101:11208" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9166:10121" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9223:9425" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9494:9854" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="9924:10074" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="10187:11165" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="10374:10807" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="10879:11118" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="11283:13496" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="11351:13458" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="11416:12371" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="11473:11675" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="11744:12104" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="12174:12324" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="12437:13415" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="12624:13057" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13129:13368" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13533:15746" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13601:15708" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13666:14621" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13723:13925" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="13994:14354" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="14424:14574" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="14687:15665" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="14874:15307" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="15379:15618" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="15783:17996" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="15851:17958" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="15916:16871" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="15973:16175" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="16244:16604" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="16674:16824" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="16937:17915" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="17124:17557" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="17629:17868" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="18208:18497" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="18591:20804" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="18659:20766" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="18724:19679" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="18781:18983" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="19052:19412" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="19482:19632" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="19745:20723" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="19932:20365" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="20437:20676" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="20841:23054" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="20909:23016" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="20974:21929" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="21031:21233" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="21302:21662" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="21732:21882" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="21995:22973" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="22182:22615" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="22687:22926" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23091:25304" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23159:25266" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23224:24179" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23281:23483" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23552:23912" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="23982:24132" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="24245:25223" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="24432:24865" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="24937:25176" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="25341:27554" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="25409:27516" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="25474:26429" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="25531:25733" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="25802:26162" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="26232:26382" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="26495:27473" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="26682:27115" placeholder="..." />
-                <marker date="1475171840323" expanded="true" signature="27187:27426" placeholder="..." />
+                <marker date="1475424299557" expanded="true" signature="1352:1353" placeholder="..." />
+                <marker date="1475424299557" expanded="true" signature="8223:8541" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,43 +130,31 @@
       <file leaf-file-name="functions_acf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="536">
               <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="93" column="180" selection-start-line="93" selection-start-column="120" selection-end-line="93" selection-end-column="180" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-618">
-              <caret line="2548" column="9" selection-start-line="2548" selection-start-column="9" selection-end-line="2548" selection-end-column="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
               <folding>
-                <marker date="1473698553800" expanded="true" signature="28519:28532" placeholder="..." />
-                <marker date="1473698553800" expanded="true" signature="54681:54863" placeholder="SELECT YEAR(... " />
-                <marker date="1473698553800" expanded="true" signature="55755:55890" placeholder="SELECT YEAR(... " />
-                <marker date="1473698553800" expanded="true" signature="56655:56899" placeholder="SELECT YEAR(... " />
-                <marker date="1473698553800" expanded="true" signature="57870:58108" placeholder="SELECT DISTI... " />
-                <marker date="1473698553800" expanded="true" signature="59512:59570" placeholder="SELECT * FRO... ${$wpdb-&gt;posts}" />
-                <marker date="1473698553800" expanded="true" signature="61873:61968" placeholder="SELECT 1 as ${$wpdb-&gt;posts}" />
-                <marker date="1473698553800" expanded="true" signature="63206:63420" placeholder="SELECT MONTH... " />
-                <marker date="1473698553800" expanded="true" signature="63449:63680" placeholder="SELECT MONTH... " />
-                <marker date="1473698553800" expanded="true" signature="63856:63997" placeholder="..." />
-                <marker date="1473698553800" expanded="true" signature="63991:63997" placeholder="..." />
-                <marker date="1473698553800" expanded="true" signature="64442:64448" placeholder="..." />
-                <marker date="1473698553800" expanded="true" signature="65251:65257" placeholder="..." />
-                <marker date="1473698553800" expanded="true" signature="65350:65585" placeholder="SELECT DISTI... ${$wpdb-&gt;posts}" />
+                <marker date="1475429789248" expanded="true" signature="1099:1111" placeholder="..." />
+                <marker date="1475429789248" expanded="true" signature="1305:1317" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -201,21 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_single-content.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss">
+      <file leaf-file-name="content-taxonomy-list-products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="423">
+              <caret line="219" column="30" selection-start-line="194" selection-start-column="24" selection-end-line="219" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -224,29 +183,31 @@
       <file leaf-file-name="theme-script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="-318">
+              <caret line="235" column="19" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions_custom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
+      <file leaf-file-name="functions_script.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="36" />
+            <state relative-caret-position="503">
+              <caret line="36" column="137" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="137" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-taxonomy-list-products.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="207" column="79" selection-start-line="207" selection-start-column="79" selection-end-line="207" selection-end-column="87" />
-              <folding />
+            <state relative-caret-position="497">
+              <caret line="363" column="8" selection-start-line="363" selection-start-column="8" selection-end-line="363" selection-end-column="8" />
+              <folding>
+                <element signature="e#39#3446#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -290,17 +251,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/category.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive-products_post_type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-products.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom_post_type.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/jquery.smooth.wheel.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/isotop.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/libs-js-custom.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/css/responsive.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/taxonomy-products_taxonomy.php" />
@@ -311,13 +268,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_main-footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_basic.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php" />
       </list>
     </option>
   </component>
@@ -333,7 +294,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -361,6 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -455,178 +417,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="taxonomy" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="header" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp_chuyensi" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -657,13 +447,12 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -675,17 +464,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\lib\bootsrap-datepicker" />
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\js" />
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\sass" />
-      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\lib" />
       <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
       <recent name="D:\Ampps\www\wp_source_suoi\wp-content\themes\pedet\parts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\images" />
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi" />
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\lib\bootsrap-datepicker" />
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\js" />
+      <recent name="F:\Xampp\htdocs\project\2016\10\wp_chuyensi\wp-content\themes\wp_chuyensi\assets\sass" />
     </key>
   </component>
   <component name="RunManager">
@@ -763,21 +552,24 @@
       <workItem from="1474646482173" duration="601000" />
       <workItem from="1474690922834" duration="47381000" />
       <workItem from="1474900612333" duration="13516000" />
-      <workItem from="1475156396929" duration="16276000" />
+      <workItem from="1475156396929" duration="16894000" />
+      <workItem from="1475173723295" duration="463000" />
+      <workItem from="1475418216705" duration="8966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348659000" />
+    <option name="totallyTimeSpent" value="358706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25256976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -788,7 +580,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -811,13 +602,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -885,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-892">
           <caret line="1841" column="75" selection-start-line="1841" selection-start-column="61" selection-end-line="1841" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,20 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="354" column="55" selection-start-line="354" selection-start-column="55" selection-end-line="354" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxo-products.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -956,15 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18326">
           <caret line="1078" column="38" selection-start-line="1078" selection-start-column="38" selection-end-line="1078" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10591">
           <caret line="623" column="5" selection-start-line="623" selection-start-column="5" selection-end-line="623" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="120" column="79" selection-start-line="120" selection-start-column="79" selection-end-line="120" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-340">
           <caret line="13" column="18" selection-start-line="7" selection-start-column="11" selection-end-line="13" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,62 +797,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_custom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="3247">
           <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="207" column="79" selection-start-line="207" selection-start-column="79" selection-end-line="207" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1116,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
+        <state relative-caret-position="281">
           <caret line="2548" column="9" selection-start-line="2548" selection-start-column="9" selection-end-line="2548" selection-end-column="9" />
           <folding>
             <marker date="1473698553800" expanded="true" signature="28519:28532" placeholder="..." />
@@ -1137,117 +839,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_single-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_taxonomy-list-product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_acf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="98" column="36" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="363" column="8" selection-start-line="363" selection-start-column="8" selection-end-line="363" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#3446#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/single-products_post_type.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="80" selection-start-line="61" selection-start-column="80" selection-end-line="61" selection-end-column="80" />
+        <state relative-caret-position="17">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding>
-            <marker date="1475171840323" expanded="true" signature="1829:1897" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="2144:3231" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="2294:3188" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="3435:7214" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="3582:4077" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="4135:4356" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="4414:6463" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="4582:4937" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="4998:6020" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="5159:5977" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="5221:5374" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="5441:5930" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="5522:5658" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="5741:5879" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="6081:6424" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="6231:6380" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7340:8506" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7389:7857" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7441:7614" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7651:7823" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7913:8475" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="7997:8191" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="8266:8440" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="8653:8939" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9033:11246" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9101:11208" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9166:10121" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9223:9425" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9494:9854" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="9924:10074" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="10187:11165" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="10374:10807" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="10879:11118" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="11283:13496" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="11351:13458" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="11416:12371" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="11473:11675" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="11744:12104" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="12174:12324" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="12437:13415" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="12624:13057" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13129:13368" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13533:15746" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13601:15708" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13666:14621" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13723:13925" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="13994:14354" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="14424:14574" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="14687:15665" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="14874:15307" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="15379:15618" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="15783:17996" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="15851:17958" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="15916:16871" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="15973:16175" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="16244:16604" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="16674:16824" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="16937:17915" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="17124:17557" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="17629:17868" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="18208:18497" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="18591:20804" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="18659:20766" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="18724:19679" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="18781:18983" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="19052:19412" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="19482:19632" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="19745:20723" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="19932:20365" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="20437:20676" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="20841:23054" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="20909:23016" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="20974:21929" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="21031:21233" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="21302:21662" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="21732:21882" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="21995:22973" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="22182:22615" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="22687:22926" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23091:25304" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23159:25266" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23224:24179" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23281:23483" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23552:23912" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="23982:24132" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="24245:25223" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="24432:24865" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="24937:25176" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="25341:27554" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="25409:27516" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="25474:26429" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="25531:25733" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="25802:26162" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="26232:26382" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="26495:27473" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="26682:27115" placeholder="..." />
-            <marker date="1475171840323" expanded="true" signature="27187:27426" placeholder="..." />
+            <marker date="1475424299557" expanded="true" signature="1352:1353" placeholder="..." />
+            <marker date="1475424299557" expanded="true" signature="8223:8541" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/parts/taxonomy/content-taxonomy-list-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="219" column="30" selection-start-line="194" selection-start-column="24" selection-end-line="219" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/functions/functions_script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="36" column="137" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="137" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/assets/js/theme-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="235" column="19" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="93" column="180" selection-start-line="93" selection-start-column="120" selection-end-line="93" selection-end-column="180" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp_chuyensi/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+          <folding>
+            <marker date="1475429789248" expanded="true" signature="1099:1111" placeholder="..." />
+            <marker date="1475429789248" expanded="true" signature="1305:1317" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

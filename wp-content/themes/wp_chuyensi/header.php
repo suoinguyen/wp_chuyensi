@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
-                        <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" /></a>
+                        <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png" /></a>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>

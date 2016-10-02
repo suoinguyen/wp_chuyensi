@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="footer-logo">
-                        <a href="#"><img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/option5/logo.png" alt="Logo"></a>
+                        <a href="#"><img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png"" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="col-sm-6 footer-menu-wrap">

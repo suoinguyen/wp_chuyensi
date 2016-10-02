@@ -1,6 +1,18 @@
 <?php
 the_post();
-get_header(); ?>
+get_header();
+$id = get_the_ID();
+$link = get_the_permalink();
+$price_val = get_field('price');
+$discount = get_field('discount');
+$price_show = calculate_price($price_val, $discount);
+$name = get_the_title();
+$thumbnail_id = get_post_thumbnail_id();
+$gallery = get_field('images');
+$status = get_field('status');
+$date = get_the_date('d/m/Y');
+$size = get_field('size');
+?>
 
     <div class="columns-container">
         <div class="container" id="columns">
@@ -24,19 +36,6 @@ get_header(); ?>
                             <div class="pb-left-column col-xs-12 col-sm-5">
                                 <!-- product-imge-->
                                 <div class="product-image">
-                                    <?php
-                                    $id = get_the_ID();
-                                    $link = get_the_permalink();
-                                    $price_val = get_field('price');
-                                    $discount = get_field('discount');
-                                    $price_show = calculate_price($price_val, $discount);
-                                    $name = get_the_title();
-                                    $thumbnail_id = get_post_thumbnail_id();
-                                    $gallery = get_field('images');
-                                    $status = get_field('status');
-                                    $date = get_the_date('d/m/Y');
-                                    $size = get_field('size');
-                                    ?>
                                     <div class="product-full">
                                         <img id="product-zoom" src="<?php echo $gallery['0']['sizes']['medium_large'] ?>" data-zoom-image="<?php echo $gallery['0']['sizes']['large'] ?>"/>
                                     </div>
@@ -80,7 +79,7 @@ get_header(); ?>
                                         </div>
                                     </div>
                                     <div class="attributes">
-                                        <div class="attribute-label">Qty:</div>
+                                        <div class="attribute-label"><?php _e('Số lượng: ', _TEXT_DOMAIN)?></div>
                                         <div class="attribute-list product-qty">
                                             <div class="qty">
                                                 <input id="option-product-qty" type="text" value="1">
@@ -109,7 +108,7 @@ get_header(); ?>
                                     </div>
                                     <div class="button-group">
                                         <div class="fb-send" data-size="large" data-href="<?php echo $link?>"></div>
-                                        <div class="fb-like" data-href="<?php echo $link?>" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                                        <div class="fb-like" data-href="<?php echo $link?>" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                                     </div>
                                 </div>
                             </div>
@@ -135,264 +134,86 @@ get_header(); ?>
                         </div>
                         <!-- ./tab product -->
                         <!-- box product -->
-                        <div class="page-product-box">
-                            <h3 class="heading">Related Products</h3>
-                            <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p40.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
+                        <div class="page-product-box products-relate">
+                            <h3 class="heading"><?php _e('Sản phẩm liên quan ', _TEXT_DOMAIN)?></h3>
+                            <ul class="product-list owl-carousel" data-dots="false" data-loop="false" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
+                                <?php
+                                $cates = get_the_terms($id, 'products_taxonomy');
+                                $cate = array();
+                                if($cates){
+                                    foreach ($cates as $item){
+                                        $cate[] = $item->term_id;
+                                    }
+                                }
+                                $args = array(
+                                    'post_type' => 'products_post_type',
+                                    'posts_per_page' => 8,
+                                    'post_status' => 'publish',
+                                    'orderby' => 'date',
+                                    'order' => 'DESC',
+                                    'tax_query' => array(
+                                        array(
+                                            'taxonomy' => 'products_taxonomy',
+                                            'field' => 'id',
+                                            'terms' => $cate,
+                                            'include_children' => false,
+                                            'operator' => 'IN'
+                                        )),
+                                );
+
+                                $the_query = new WP_Query( $args );
+                                // The Loop
+                                if ( $the_query->have_posts() ) {
+                                    while ($the_query->have_posts()) : $the_query->the_post();
+                                        $id = get_the_ID();
+                                        $link = get_the_permalink();
+                                        $price_val = get_field('price');
+                                        $discount = get_field('discount');
+                                        $price_show = calculate_price($price_val, $discount);
+                                        $name = get_the_title();
+                                        $thumbnail_id = get_post_thumbnail_id();
+                                        $gallery = get_field('images');
+                                        $f_img = wp_get_attachment_image_url($thumbnail_id, 'thumbnail-post-hard');
+                                        if (!isset($f_img) || empty($f_img)) {
+                                            $f_img = $gallery[0]['sizes']['thumbnail-post-hard'];
+                                        }
+                                        $date = get_the_date('d/m/Y');
+                                        ?>
+                                        <li class="product-container">
+                                            <div class="product-detail">
+                                                <?php
+                                                if ($discount && !empty($discount)) {
+                                                    echo '<div class="flag-discount">';
+                                                    echo '&#45;' . $discount . '&#37; OFF';
+                                                    echo '</div>';
+                                                }
+                                                ?>
+                                                <div class="product-thumbnail">
+                                                    <img class="img-responsive" alt="product" src="<?php echo $f_img ?>"/>
+                                                </div>
+                                                <div class="product-info">
+                                                    <div class="price">
+                                                        <span><?php _e($price_show['new_price']) ?><i>₫</i></span>
+                                                    </div>
+                                                    <div class="wrapper">
+                                                        <div class="product-name">
+                                                            <?php _e($name) ?>
+                                                        </div>
+                                                        <div class="btn-view-detail">
+                                                            <a href="<?php _e($link) ?>"
+                                                               class="hvr-round-corners"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p35.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p37.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p39.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- ./box product -->
-                        <!-- box product -->
-                        <div class="page-product-box">
-                            <h3 class="heading">You might also like</h3>
-                            <ul class="product-list owl-carousel" data-dots="false" data-loop="true" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p97.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p34.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p36.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="product-container">
-                                        <div class="left-block">
-                                            <a href="#">
-                                                <img class="img-responsive" alt="product" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/p36.jpg" />
-                                            </a>
-                                            <div class="quick-view">
-                                                <a title="Add to my wishlist" class="heart" href="#"></a>
-                                                <a title="Add to compare" class="compare" href="#"></a>
-                                                <a title="Quick view" class="search" href="#"></a>
-                                            </div>
-                                            <div class="add-to-cart">
-                                                <a title="Add to Cart" href="#add">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                        <div class="right-block">
-                                            <h5 class="product-name"><a href="#">Maecenas consequat mauris</a></h5>
-                                            <div class="product-star">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                            </div>
-                                            <div class="content_price">
-                                                <span class="price product-price">$38,95</span>
-                                                <span class="price old-price">$52,00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
+                                        </li>
+                                        <?php
+                                    endwhile;
+                                }else{
+                                    echo '<h2 class="no-result">Không có sản phẩm nào!</h2>';
+                                }
+                                ?>
+
                             </ul>
                         </div>
                         <!-- ./box product -->

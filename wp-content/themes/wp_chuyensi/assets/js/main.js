@@ -175,9 +175,6 @@
 /**
  * JS custom code
  */
-jQuery('document').ready(function () {
-
-});
 (function( $ ) {
 
     jQuery("document").ready(function($){
@@ -360,6 +357,11 @@ jQuery('document').ready(function () {
             todayHighlight: true,
             toggleActive: true
         });
+
+        /**
+         *Product slider
+         */
+        
     });
 })( jQuery );
 

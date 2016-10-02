@@ -4,6 +4,12 @@
 #product .pb-right-column .form-action .button-group{
   overflow: visible;
 }
-.product-tab .tab-container {
-  z-index: 0;
+.product-tab {
+  .nav-tab, .tab-container{
+      z-index: 0;
+  }
+}
+#product .pb-right-column .form-option .attributes .attribute-label {
+  width: 100px;
+  float: left;
 }
