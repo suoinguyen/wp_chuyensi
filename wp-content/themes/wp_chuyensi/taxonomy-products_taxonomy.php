@@ -1,6 +1,18 @@
 <?php
     get_header();
 $current_cate = get_queried_object();
+
+$date_from_filter = $_REQUEST['start'];
+
+$date_to_filter = $_REQUEST['end'];
+
+
+$price_min_filter = $_REQUEST['price-min'];
+$price_min_filter = !$price_min_filter || empty($price_min_filter) ?'10000':$price_min_filter;
+
+$price_max_filter = $_REQUEST['price-max'];
+$price_max_filter = !$price_max_filter || empty($price_max_filter) ?'1000000':$price_max_filter;
+
 ?>
     <div class="columns-container">
         <div class="container" id="columns">
@@ -50,50 +62,20 @@ $current_cate = get_queried_object();
                                     <div class="layered_subtitle"><?php _e('Giá', _TEXT_DOMAIN)?></div>
                                     <div class="layered-content filter-price">
                                         <div class="layered-content slider-range">
-                                            <div data-label-reasult="Range:" data-min="10000" data-max="1000000" data-unit="₫" class="slider-range-price" data-value-min="10000" data-value-max="1000000"></div>
-                                            <div class="amount-range-price">Range: 10.000₫ - 1.000.000₫</div>
-                                            <input type="text" hidden value="10000" name="price-min"/>
-                                            <input type="text" hidden value="1000000" name="price-max"/>
+                                            <div data-label-reasult="Range:" data-min="10000" data-max="1000000" data-unit="₫" class="slider-range-price" data-value-min="<?php echo $price_min_filter?>" data-value-max="<?php echo $price_max_filter?>"></div>
+                                            <div class="amount-range-price">Range: <?php echo number_format($price_min_filter)?>₫ - <?php echo number_format($price_max_filter) ?>₫</div>
+                                            <input type="text" hidden value="<?php echo $price_min_filter?>" name="price-min"/>
+                                            <input type="text" hidden value="<?php echo $price_max_filter?>" name="price-max"/>
                                         </div>
                                     </div>
-                                    <!-- ./filter price -->
 
-                                    <!-- filter status -->
-                                   <!-- <div class="layered_subtitle"><?php /*_e('Status', _TEXT_DOMAIN)*/?></div>
-                                    <div class="layered-content filter-status">
-                                        <ul class="check-box-list">
-                                            <li>
-                                                <input type="checkbox" class="checkbox" id="status-instock" name="status[]" value="instock"/>
-                                                <label for="status-instock">
-                                                    <span class="button"></span>
-                                                    <?php /*_e('Còn hàng', _TEXT_DOMAIN)*/?>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" class="checkbox" id="price-outstock" name="status[]" value="outstock"/>
-                                                <label for="price-outstock">
-                                                    <span class="button"></span>
-                                                    <?php /*_e('Hết hàng', _TEXT_DOMAIN)*/?>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" class="checkbox" id="price-sch" name="status[]" value="sch"/>
-                                                <label for="price-sch">
-                                                    <span class="button"></span>
-                                                    <?php /*_e('Sắp có hàng', _TEXT_DOMAIN)*/?>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </div>-->
-                                    <!-- ./filter status -->
-
-                                    <!-- filter color -->
+                                    <!-- filter Date -->
                                     <div class="layered_subtitle"><?php _e('Lọc theo ngày', _TEXT_DOMAIN)?></div>
                                     <div class="layered-content filter-date">
                                         <div class="input-daterange input-group" id="datepicker">
-                                            <input type="text" class="input-sm form-control" name="start" />
+                                            <input type="text" class="input-sm form-control" name="start" value="<?php echo $date_from_filter?>" />
                                             <span class="input-group-addon">to</span>
-                                            <input type="text" class="input-sm form-control" name="end" />
+                                            <input type="text" class="input-sm form-control" name="end" value="<?php echo $date_to_filter?>"/>
                                         </div>
                                     </div>
                                     <div class="submit-form">

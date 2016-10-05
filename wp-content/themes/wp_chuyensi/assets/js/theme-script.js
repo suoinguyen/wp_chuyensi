@@ -1,10 +1,10 @@
 (function($){
     "use strict"; // Start of use strict
-    var w_H = $(window).width();
+    var w_W = $(window).width();
     $(document).ready(function() {
         /* Resize top menu*/
         // resizeTopmenu();
-        if(w_H > 767){
+        if(w_W > 767){
             if($('#product-zoom').length >0){
                 $('#product-zoom').elevateZoom({
                     zoomType: "inner",
@@ -44,7 +44,7 @@
             );
         }
 
-        /* elevator click*/ 
+        /* elevator click*/
         $(document).on('click','a.btn-elevator',function(e){
             e.preventDefault();
             var target = this.hash;
@@ -58,13 +58,13 @@
             return false;
         });
 
-        /* scroll top */ 
+        /* scroll top */
         $(document).on('click','.scroll_top',function(){
             $('body,html').animate({scrollTop:0},400);
             return false;
         });
 
-        // CATEGORY FILTER 
+        // CATEGORY FILTER
         $('.slider-range-price').each(function(){
             var t               = $(this);
             var min             = t.data('min');
@@ -79,8 +79,8 @@
               max: max,
               values: [ value_min, value_max ],
               slide: function( event, ui ) {
-                  var str_1 = ui.values[ 0 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ".");
-                  var str_2 = ui.values[ 1 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ".");
+                  var str_1 = ui.values[ 0 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
+                  var str_2 = ui.values[ 1 ].toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ",");
                 var result = label_reasult +" "+ str_1 + unit +' - '+ str_2 + unit;
                 $('input[type="text"][name="price-min"]').val(ui.values[ 0 ]);
                 $('input[type="text"][name="price-max"]').val(ui.values[ 1 ]);
@@ -89,65 +89,6 @@
             });
         });
 
-        /*/!** ALL CAT **!/
-        $(document).on('click','.open-cate',function(){
-            $(this).closest('.vertical-menu-content').find('li.cat-link-orther').each(function(){
-                $(this).slideDown();
-            });
-            $(this).addClass('colse-cate').removeClass('open-cate').html('Close');
-        });
-
-        /!* Close category *!/
-        $(document).on('click','.colse-cate',function(){
-            $(this).closest('.vertical-menu-content').find('li.cat-link-orther').each(function(){
-                $(this).slideUp();
-            });
-            $(this).addClass('open-cate').removeClass('colse-cate').html('All Categories');
-            return false;
-        });*/
-        // bar ontop click
-        /*$(document).on('click','.vertical-megamenus-ontop-bar',function(){
-            $('#vertical-megamenus-ontop').find('.box-vertical-megamenus').slideToggle();
-            $('#vertical-megamenus-ontop').toggleClass('active');
-            return false;
-        });*//*
-        // View grid list product 
-        $(document).on('click','.display-product-option .view-as-grid',function(){
-            $(this).closest('.display-product-option').find('li').removeClass('selected');
-            $(this).addClass('selected');
-            $(this).closest('#view-product-list').find('.product-list').removeClass('list').addClass('grid');
-            return false;
-        });*/
-        // View list list product 
-        /*$(document).on('click','.display-product-option .view-as-list',function(){
-            $(this).closest('.display-product-option').find('li').removeClass('selected');
-            $(this).addClass('selected');
-            $(this).closest('#view-product-list').find('.product-list').removeClass('grid').addClass('list');
-            return false;
-        });*/
-        /// tre menu category
-        /*$(document).on('click','.tree-menu li span',function(){
-            $(this).closest('li').children('ul').slideToggle();
-            if($(this).closest('li').haschildren('ul')){
-                $(this).toggleClass('open');
-            }
-            return false;
-        });*/
-        /* Open menu on mobile */
-        /*$(document).on('click','.btn-open-mobile',function(){
-            var width = $(window).width();
-            if(width >1024){
-                if($('body').hasClass('home')){
-                    if($('#nav-top-menu').hasClass('nav-ontop')){
-                    }else{
-                        return false;
-                    }
-                }
-            }
-            $(this).closest('.box-vertical-megamenus').find('.vertical-menu-content').slideToggle();
-            $(this).closest('.title').toggleClass('active');
-            return false;
-        });*/
         /* Product qty */
         $(document).on('click','.btn-plus-down',function(){
             var value = parseInt($('#option-product-qty').val());
@@ -163,32 +104,8 @@
             $('#option-product-qty').val(value);
             return false;
         });
-        /*/!* Close vertical *!/
-        $(document).on('click','*',function(e){
-            var container = $("#box-vertical-megamenus");
-            if (!container.is(e.target) && container.has(e.target).length === 0){
-                if($('body').hasClass('home')){
-                    if($('#nav-top-menu').hasClass('nav-ontop')){
-                    }else{
-                        return;
-                    }
-                }
-                container.find('.vertical-menu-content').hide();
-                container.find('.title').removeClass('active');
-            }
-        });*/
     });
-    /* ---------------------------------------------
-     Scripts resize
-     --------------------------------------------- */
-    /*$(window).resize(function(){
-        // auto width megamenu
-        auto_width_megamenu();
-        // Remove menu ontop
-        remove_menu_ontop();
-        // resize top menu
-        resizeTopmenu();
-    });*/
+
     /* ---------------------------------------------
      Scripts scroll
      --------------------------------------------- */
@@ -277,5 +194,21 @@
         if (w1 == w2) w2 = outer.clientWidth;
         document.body.removeChild(outer);
         return (w1 - w2);
+    }
+
+    /* Toggle category menu*/
+    $(document).on('click','.toggle-menu',function(){
+        $(this).closest('.nav-menu').find('.navbar-collapse').toggle();
+        return false;
+    });
+
+    /* Toggle nav menu*/
+
+    if(w_W < 768){
+        $("#main-menu li.dropdown:not(.active) >a").attr('data-toggle','dropdown');
+    }else{
+        $("#main-menu li.dropdown >a").removeAttr('data-toggle').click(function () {
+            return false;
+        });
     }
 })(jQuery); // End of use strict

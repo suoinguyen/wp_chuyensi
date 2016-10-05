@@ -181,6 +181,18 @@
   top: 0;
 }
 
+/**-- btn-add-cart --**/
+.btn-add-cart:hover {
+  color: #fff !important;
+  /*opacity: 0.8;*/
+}
+
+/**-- Search ajax label --**/
+.asp_shortcode_column .label {
+  color: #000;
+  font-weight: normal;
+}
+
 /**-- Override css of header --**/
 #header {
   /**-- Search --**/

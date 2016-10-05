@@ -359,9 +359,11 @@
         });
 
         /**
-         *Product slider
+         *Menu item has children
          */
-        
+        /*$('.menu-item.has_children').click(function () {
+           return false;
+        });*/
     });
 })( jQuery );
 

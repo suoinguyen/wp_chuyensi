@@ -3150,12 +3150,12 @@ span.notify-right{
     clear: both;
     padding-left: 15px;
     padding-right: 15px;
-    background: #F36;
+    background: #F96D10;
 }
 
 .btn-add-cart:hover{
   color: #fff;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
 }
 .btn-add-cart:before{
     width: 16px;

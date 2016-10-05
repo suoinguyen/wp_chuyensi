@@ -124,13 +124,23 @@ $args_pagi = array(
 <div class="center_column col-xs-12 col-sm-9" id="center_column">
     <!-- category-slider -->
     <div class="category-slider">
-        <ul class="owl-carousel owl-style2" data-dots="false" data-loop="true" data-nav = "true" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-items="1">
-            <li>
-                <img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/category-slide.jpg" alt="category-slider">
-            </li>
-            <li>
-                <img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/data/slide-cart2.jpg" alt="category-slider">
-            </li>
+        <ul class="owl-carousel owl-style2" data-dots="false" data-loop="false" data-nav = "true" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-items="1">
+            <?php
+            $variable = get_field('field_name', $current_object->term_id);
+
+            ?>
+            <?php
+            $variable = get_field('list_banner',$current_object );
+            if($variable){
+                foreach ($variable as $item){
+                    ?>
+                    <li>
+                        <img src="<?php echo $item['url']?>" alt="category-slider">
+                    </li>
+                    <?php
+                }
+            }
+            ?>
         </ul>
     </div>
     <!-- ./category-slider -->
