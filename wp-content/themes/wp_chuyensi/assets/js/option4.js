@@ -3,9 +3,9 @@
     /* ---------------------------------------------
      Scripts scroll
      --------------------------------------------- */
-    $(window).scroll(function(){
-        /* Show hide scrolltop button */
-        /* Main menu on top */
+    /*$(window).scroll(function(){
+        /!* Show hide scrolltop button *!/
+        /!* Main menu on top *!/
         var h = $(window).scrollTop();
         var width = $(window).width();
         if(width > 767){
@@ -15,5 +15,5 @@
                 $('#main-header').removeClass('main-header-ontop');
             }
         }
-    });
+    });*/
 })(jQuery); // End of use strict

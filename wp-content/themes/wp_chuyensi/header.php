@@ -43,7 +43,6 @@
 </head>
 
 <body <?php body_class(); ?> >
-    <div class="se-pre-con"></div>
     <div class="option5">
         <!-- HEADER -->
         <div id="header" class="header">

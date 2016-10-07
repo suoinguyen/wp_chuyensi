@@ -3,6 +3,27 @@
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 
+/*-- Menu --*/
+#nav-top-menu {
+  position: relative;
+  transtion: all 0.4s ease;
+}
+
+#nav-top-menu.navigation--sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: all 0.4s ease;
+}
+#nav-top-menu.navigation--pin {
+  transform: translate(0, 0);
+}
+#nav-top-menu.navigation--unpin {
+  transform: translate(0, -100%);
+}
+
 
 /**-- Flag discount --**/
 .flag-discount{

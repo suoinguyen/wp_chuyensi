@@ -109,14 +109,14 @@
     /* ---------------------------------------------
      Scripts scroll
      --------------------------------------------- */
-    $(window).scroll(function(){
-        /* Show hide scrolltop button */
+    /*$(window).scroll(function(){
+        /!* Show hide scrolltop button *!/
         if( $(window).scrollTop() == 0 ) {
             $('.scroll_top').stop(false,true).fadeOut(600);
         }else{
             $('.scroll_top').stop(false,true).fadeIn(600);
         }
-        /* Main menu on top */
+        /!* Main menu on top *!/
         var h = $(window).scrollTop();
         var max_h = $('#header').height() + $('#top-banner').height();
         var width = $(window).width();
@@ -150,7 +150,7 @@
             }
         }
     });
-    var vertical_menu_height = $('#box-vertical-megamenus .box-vertical-megamenus').innerHeight();
+    var vertical_menu_height = $('#box-vertical-megamenus .box-vertical-megamenus').innerHeight();*/
 
     /**==============================
     ***  Remove menu on top

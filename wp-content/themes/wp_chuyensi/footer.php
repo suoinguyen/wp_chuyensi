@@ -82,9 +82,11 @@
                 <div class="row">
                     <div class="col-md-4 fb-page-wrap block block-info-wrap">
                         <div class="widget-container">
-                            <h3 class="widget-title"><?php _e('Fanpage', _TEXT_DOMAIN)?></h3>
+                            <h3 class="widget-title"><?php _e('Thời gian làm việc', _TEXT_DOMAIN)?></h3>
                             <div class="footer-block">
-                                <div class="fb-page" data-href="https://www.facebook.com/chuyensiquanaoquamalaysia/" data-tabs="timeline" data-height="300px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/chuyensiquanaoquamalaysia/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/chuyensiquanaoquamalaysia/">Chuyên sỉ quần áo qua Malaysia</a></blockquote></div>
+                                <div class="work-time">
+                                    <?php echo get_field('wordk_time', 'option');?>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,18 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-maps">
-            <?php
-
-            $location = get_field('maps', 'option');
-
-            if( !empty($location) ):
-                ?>
-                <div class="acf-map">
-                    <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-                </div>
-            <?php endif; ?>
-        </div>
+        
         <div class="footer-bottom">
             <div class="container">
                 <div class="footer-bottom-wapper">

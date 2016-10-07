@@ -190,7 +190,7 @@
          * Override js fixed nav
          * @type {*|jQuery}
          */
-        var nav = $('#main-menu');
+        /*var nav = $('#main-menu');
         var top_header = $('.top-header').height();
         var main_header = $('.main-header').height();
         var sum = top_header + main_header;
@@ -202,8 +202,34 @@
                     nav.removeClass("fixed-nav");
                 }
             });
-        }
+        }*/
 
+        function navigationScroll() {
+            var scrollPosition = 0;
+            var nav = $('#nav-top-menu');
+            var checkpoint = $('#header').height();
+            $(window).scroll(function(event) {
+                var currentPosition = $(this).scrollTop();
+                if (currentPosition < scrollPosition) {
+                    // On top
+                    if (currentPosition <= checkpoint) {
+                        nav.removeClass('navigation--sticky navigation-unpin navigation--pin');
+                    }
+                    // on scrollUp
+                    else {
+                        nav.removeClass('navigation--unpin').addClass('navigation--sticky navigation--pin');
+                    }
+                }
+                // On scollDown
+                else {
+                    if (currentPosition > checkpoint) {
+                        nav.addClass('navigation--unpin').removeClass('navigation--pin');
+                    }
+                }
+                scrollPosition = currentPosition;
+            });
+        }
+        navigationScroll();
 
         /**
          * Get max value list element

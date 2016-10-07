@@ -52,7 +52,7 @@ get_header();
         /* Here comes to good stuff : content styling */
         .contact-page-container #content {
             position:relative;
-            margin:50px auto;
+            margin:0px auto;
             width: 100%;
             min-height:200px;
             z-index:100;
@@ -279,12 +279,69 @@ get_header();
 
     <div class="contact-page-container">
         <div class="container">
+            <div class="col-md-6 element">
                 <div id="content">
                     <h1>Contact</h1>
                     <div id="contact-form-action">
                         <?php echo do_shortcode('[contact-form-7 id="4" title="Liên hệ"]')?>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 element">
+                <div class="google-maps">
+                    <?php
+                        $location = get_field('maps', 'option');
+
+                        if( !empty($location) ):?>
+                        <div class="acf-map">
+                            <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+                        </div>
+                    <?php endif; ?>
+                </div>
+
+                <div class="content-wrap">
+
+            </div><?php
+                $blocks_info = get_field('blocks_info', 'option');
+                if($blocks_info){
+                    foreach ($blocks_info as $item) {
+                        $block_title = $item['block_title'];
+                        $children_element = $item['children_element'];
+                        ?>
+                        <div class="block-info-wrap">
+                            <div class="widget-container">
+                                <h3 class="widget-title"><?php _e($block_title, _TEXT_DOMAIN)?></h3>
+                                <div class="content-block">
+                                    <ul>
+                                        <?php
+                                        if($children_element){
+                                            foreach ($children_element as $item_2){
+                                                echo '<li>';
+                                                echo $item_2['icon']?$item_2['icon']:"<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>";
+                                                if($item_2['link_to']){
+                                                    echo '<a target="_blank" href="'.$item_2['link_to'].'">'.$item_2['name'].'</a>';
+                                                }else{
+                                                    echo '<a href="javascript:void(0)">'.$item_2['name'].'</a>';
+                                                }
+                                                echo '</li>';
+                                            }
+                                        }
+                                        ?>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <?php
+                    }
+                }
+                ?>
+                <div class="info">
+                    <h3 class="widget-title"><?php _e('Thời gian làm việc', _TEXT_DOMAIN)?></h3>
+                    <div class="content-block">
+                        <?php echo get_field('wordk_time', 'option');?>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 <?php
