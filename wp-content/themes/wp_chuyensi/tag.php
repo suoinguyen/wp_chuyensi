@@ -68,7 +68,6 @@ $current_object = get_queried_object();
                         <div class="block left-module">
                             <p class="title_block">TAGS</p>
                             <div class="block_content">
-                                <!-- List tags -->
                                 <?php list_tag()?>
                             </div>
                         </div>
@@ -84,5 +83,5 @@ $current_object = get_queried_object();
         </div>
     </div>
 <?php
-    get_footer();
+get_footer();
 ?>

@@ -185,6 +185,9 @@
         return false;
     });
 
+    /**
+     * Ready
+     */
     jQuery("document").ready(function($){
         var wW = $(window).width();
         var wH = $(window).height();
@@ -269,7 +272,6 @@
             });
         });
 
-        /**-- --**/
 
         /**
          * JS for slider list hot product
@@ -291,14 +293,14 @@
         /**
          * Arrow for list category
          */
-        $('.dropdown-cat-s .arrow').bind('click', function () {
+        /*$('.dropdown-cat-s .arrow').bind('click', function () {
             $(this).closest('ul.parent').find('.dropdown-cat-s').first().slideToggle();
         });
         $('.parent').each(function () {
             if($(this).hasClass('active')){
                 $(this).parents('.dropdown-cat-s').css('display', 'block');
             }
-        });
+        });*/
 
         /**
          * Checkbox

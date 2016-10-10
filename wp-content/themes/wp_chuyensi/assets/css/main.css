@@ -120,7 +120,6 @@
 }
 .dropdown-cat-s.level-0 .parent .dropdown-cat-s {
   padding-left: 17px;
-  display: none;
 }
 .dropdown-cat-s.level-0 .parent .dropdown-cat-s .parent .arrow:before {
   content: "\f0da";
@@ -232,7 +231,11 @@
   position: relative;
 }
 
-/**-- Push menu --**/
+/**-- Tags --**/
+.tags a span.active {
+  color: #f96d10;
+}
+
 /**-- Override css of header --**/
 #header {
   /**-- Search --**/
@@ -578,6 +581,7 @@ footer .footer-row a:hover {
   background: #F96D10;
 }
 
+/**-- Import --**/
 .tax-products_taxonomy .col-responsive {
   padding: 15px;
 }
