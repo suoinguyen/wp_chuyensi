@@ -184,14 +184,14 @@ if($layout_products){
                                                 <div class="price" style="color: <?php _e($c) ?>">
                                                     <span><?php _e($price_show['new_price']) ?><i>₫</i></span>
                                                 </div>
-                                                <div class="product-info element-centeral">
+                                                <div class="product-info element-centeral" style="position: absolute">
                                                     <div class="product-name">
                                                         <?php _e($name) ?>
                                                     </div>
                                                     <div class="btn-view-detail">
                                                         <a href="<?php _e($link) ?>"
                                                            style="background-color: <?php _e($c) ?>"
-                                                           class="hvr-wobble-horizontal"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
+                                                           class="hvr-round-corners"><span><?php _e('Xem chi tiết', _TEXT_DOMAIN) ?></span></a>
                                                     </div>
                                                 </div>
                                             </div>

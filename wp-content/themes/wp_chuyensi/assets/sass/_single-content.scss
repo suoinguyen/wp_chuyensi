@@ -13,3 +13,10 @@
   width: 100px;
   float: left;
 }
+
+#gallery-1 {
+  width: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}

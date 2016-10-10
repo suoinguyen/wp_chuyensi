@@ -55,7 +55,7 @@ get_header();
             margin:0px auto;
             width: 100%;
             min-height:200px;
-            z-index:100;
+            z-index:98;
             padding:30px;
             border:1px solid #383838;
             /* My stipped background */

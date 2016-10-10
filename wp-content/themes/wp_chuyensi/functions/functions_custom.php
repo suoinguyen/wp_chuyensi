@@ -152,7 +152,12 @@ function calculate_price($price, $discount = 1){
  * @param int $level -> Level
  */
 function dropdown_cat($cates, $parent_id = 0, $level = 0){
-    $current_cat = get_queried_object();
+    if(is_single()){
+        $current_cat = wp_get_post_terms( get_the_ID(), 'products_taxonomy');
+        $current_cat = $current_cat[0];
+    }else{
+        $current_cat = get_queried_object();
+    }
 
     //$dropdown_cat: Biến lưu menu lặp ở bước đệ quy này
     $dropdown_cat = array();

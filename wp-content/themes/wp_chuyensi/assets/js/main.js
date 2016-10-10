@@ -175,34 +175,19 @@
 /**
  * JS custom code
  */
+
 (function( $ ) {
+    /**
+     * Scroll to top
+     */
+    $(document).on('click','.scroll_top',function(){
+        $('body,html').animate({scrollTop:0},400);
+        return false;
+    });
 
     jQuery("document").ready(function($){
         var wW = $(window).width();
         var wH = $(window).height();
-
-        /**
-         *Scroll smoothing
-         */
-
-
-        /**
-         * Override js fixed nav
-         * @type {*|jQuery}
-         */
-        /*var nav = $('#main-menu');
-        var top_header = $('.top-header').height();
-        var main_header = $('.main-header').height();
-        var sum = top_header + main_header;
-        if(wW <= 767){
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > sum) {
-                    nav.addClass("fixed-nav");
-                } else {
-                    nav.removeClass("fixed-nav");
-                }
-            });
-        }*/
 
         function navigationScroll() {
             var scrollPosition = 0;
@@ -316,38 +301,6 @@
         });
 
         /**
-         * Isotope
-         */
-        var $grid = $('.ist-grid').isotope({
-            itemSelector: '.ist-element-item',
-            layoutMode: 'fitRows',
-            getSortData: {
-                name: '.ist-name',
-                price: '.ist-price',
-                date: '.ist-date',
-                name_desc: '.ist-name-desc',
-                price_desc: '.ist-price-desc',
-                date_desc: '.ist-date-desc'
-            }
-        });
-
-        $('.ist-sort-by-button-group').on( 'change', function() {
-            var sortValue = $(this).val();
-            $grid.isotope({
-                sortBy: sortValue,
-                sortAscending: {
-                    //true = ASC, false = DESC
-                    name: true,
-                    price: true,
-                    date: true,
-                    name_desc: false,
-                    price_desc: false,
-                    date_desc: false
-                }
-            });
-        });
-
-        /**
          * Checkbox
          *
          */
@@ -373,23 +326,50 @@
         }
 
         /**
-         * Date picker
+         * Form submit
          */
-        $('.filter-date .input-daterange').datepicker({
-            format: "dd/mm/yyyy",
-            clearBtn: true,
-            language: "vi",
-            multidate: false,
-            todayHighlight: true,
-            toggleActive: true
+        $('.ist-sort-by-button-group').on('change', function () {
+            $('.ist-sort-by-button-group').val($(this).val());
+            $('#form-sorting').submit();
         });
 
         /**
-         *Menu item has children
+         *Slide show
          */
-        /*$('.menu-item.has_children').click(function () {
-           return false;
-        });*/
+        if(page_type == 'single'){
+            $('#gallery-1').royalSlider({
+                fullscreen: {
+                    enabled: true,
+                    nativeFS: true
+                },
+                controlNavigation: 'thumbnails',
+                autoScaleSlider: false,
+                autoScaleSliderWidth: 960,
+                autoScaleSliderHeight: 850,
+                loop: false,
+                imageScaleMode: 'fit-if-smaller',
+                navigateByClick: true,
+                numImagesToPreload:2,
+                arrowsNav:true,
+                arrowsNavAutoHide: true,
+                arrowsNavHideOnTouch: true,
+                keyboardNavEnabled: true,
+                fadeinLoadedSlide: true,
+                globalCaption: false,
+                globalCaptionInside: false,
+                thumbs: {
+                    appendSpan: true,
+                    firstMargin: true,
+                    paddingBottom: 4
+                }
+            });
+        }
+        /**
+         * Push menu
+         */
+        $('.navbar-toggle').click(function () {
+           $('body').addClass('pushmenu-push-toright');
+        });
     });
 })( jQuery );
 

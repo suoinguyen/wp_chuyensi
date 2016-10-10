@@ -3,6 +3,17 @@
 <!--[if !IE]> <html <?php language_attributes(); ?>> <![endif]-->
 
 <head>
+    <!-- detect page type -->
+    <script type="text/javascript">
+        <?php
+        if(is_single()){
+            $page_type = 'single';
+        }else{
+            $page_type = null;
+        }
+        ?>
+        var page_type = '<?php echo $page_type?>';
+    </script>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
     <!-- Meta facebook -->

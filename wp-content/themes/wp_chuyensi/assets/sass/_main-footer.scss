@@ -11,6 +11,11 @@ footer{
   .footer-menu{
     display: inline-block;
   }
+  .current-menu-item{
+    a{
+      color: #f96d10;
+    }
+  }
 }
 .block-info-wrap{
     margin-bottom: 20px;
@@ -22,7 +27,7 @@ footer{
       position: relative;
       margin-bottom: 10px;
       a{
-        color: #bbb;
+        color: #fff;
       }
       i {
         position: absolute;
