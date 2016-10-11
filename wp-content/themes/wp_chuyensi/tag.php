@@ -3,7 +3,7 @@ get_header();
 
 $current_object = get_queried_object();
 ?>
-    <div class="columns-container">
+    <div class="columns-container list-products-container tag-list-products-container">
         <div class="container" id="columns">
             <!-- breadcrumb -->
             <div class="breadcrumb clearfix">
@@ -13,10 +13,8 @@ $current_object = get_queried_object();
                 }
                 ?>
             </div>
-            <!-- ./breadcrumb -->
-            <!-- row -->
+
             <div class="row">
-                <!-- Left colunm -->
                 <div class="col-md-12">
                     <!-- category-slider -->
                     <div class="category-slider">
@@ -38,7 +36,6 @@ $current_object = get_queried_object();
                             ?>
                         </ul>
                     </div>
-                    <!-- ./category-slider -->
                 </div>
                 <div class="content-wrapper">
                     <div class="column col-xs-12 col-sm-3" id="left_column">
@@ -60,10 +57,9 @@ $current_object = get_queried_object();
                                         </ul>
                                     </div>
                                 </div>
-                                <!-- ./layered -->
                             </div>
                         </div>
-                        <!-- ./block category  -->
+
                         <!-- TAGS -->
                         <div class="block left-module">
                             <p class="title_block">TAGS</p>
@@ -71,15 +67,13 @@ $current_object = get_queried_object();
                                 <?php list_tag()?>
                             </div>
                         </div>
-                        <!-- ./TAGS -->
+
                     </div>
-                    <!-- ./left colunm -->
+
                     <!-- Center colunm-->
-                    <?php get_template_part('parts/taxonomy/content', 'taxonomy-list-products')?>
-                    <!-- ./ Center colunm -->
+                    <?php get_template_part('parts/common/content', 'common-list-products')?>
                 </div>
             </div>
-            <!-- ./row-->
         </div>
     </div>
 <?php

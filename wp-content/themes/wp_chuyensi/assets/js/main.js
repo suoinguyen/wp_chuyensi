@@ -367,11 +367,35 @@
             });
         }
         /**
-         * Push menu
+         * Push menu - left block category
          */
-        $('.navbar-toggle').click(function () {
-           $('body').addClass('pushmenu-push-toright');
-        });
+        function croll_add_menu_action() {
+            if(wW < 768){
+                var herder_h = $('#header').height();
+                var banner_h = $('.category-slider').height();
+                $(window).scroll(function () {
+                    var currentPosition = $(this).scrollTop();
+                    if(currentPosition > herder_h+banner_h){
+                        $('#nav-button-push').css({'left':'0'});
+                    }else {
+                        $('#nav-button-push').css({'left':'-100%'});
+                    }
+                });
+
+                $('#nav-button-push').on('click', function () {
+                    $('#nav-push-close').remove();
+                    $('#left_column').prepend('<span id="nav-push-close">Close</span>').css({'left':'0'});
+                    $('body').css({'height':'100%', 'overflow':'hidden'});
+                });
+
+                $('#nav-push-close').live('click', function () {
+                    $('#left_column').css({'left':'-100%'});
+                    $('body').css({'height':'100%', 'overflow':'auto'});
+                });
+            }
+        }
+        croll_add_menu_action();
+
     });
 })( jQuery );
 

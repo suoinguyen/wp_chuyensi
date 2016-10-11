@@ -6,7 +6,7 @@
 /*-- Menu --*/
 #nav-top-menu {
   position: relative;
-  transtion: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 #nav-top-menu.navigation--sticky {
@@ -158,7 +158,7 @@
 }
 
 /*-- Common file: Products block tax list --*/
-.single-products_post_type .products-relate, .tax-products_taxonomy{
+.list-products-container{
   .product-container{
     padding: 0;
     border: 0;
@@ -212,6 +212,12 @@
       }
     }
   }
+  .col-responsive{
+    padding: 15px;
+    @include respond-to-custom-size(null, 480px){
+      width: 100%;
+    }
+  }
 }
 
 /**-- btn-add-cart --**/
@@ -240,6 +246,35 @@
 }
 
 /**-- Tags --**/
+.tags a{
+  display: inline-block;
+}
 .tags a span.active{
   color: #f96d10;
+}
+
+/**-- menu push toggle --**/
+#nav-button-push{
+  width: 30px;
+  height: 30px;
+  background: #000;
+  position: fixed;
+  left: -100%;
+  top: 30%;
+  z-index: 99;
+  transition: all 0.5s;
+}
+
+#left_column{
+  @include respond-to-custom-size(null, 767px){
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #5CB7E1;
+    top: 0;
+    left: -100%;
+    z-index: 102;
+    transition: all 0.5s;
+  }
 }

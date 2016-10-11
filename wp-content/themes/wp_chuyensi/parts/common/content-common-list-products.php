@@ -1,13 +1,37 @@
 <?php
 /**
+ @common list product
+ * taxonomy, archive, tags...
  * Created by PhpStorm.
  * User: SuoiNguyen
  * Date: 9/24/2016
  * Time: 11:49 AM
  */
-$current_cate = get_queried_object();
-$sort = $_REQUEST['sort'];
 
+#init
+$current_object = get_queried_object();
+$terms_child = get_term_children( $current_object->term_id, $current_object->taxonomy );
+if(is_post_type_archive()){
+    $page_heading = $current_object->label;
+    $tax_query = array();
+}else{
+    $page_heading = $current_object->name;
+    $tax_query = array(
+        'tax_query' =>
+            array(
+                array(
+                    'taxonomy' => $current_object->taxonomy,
+                    'field' => 'id',
+                    'terms' => array_merge( [$current_object->term_id], $terms_child),
+                    'include_children' => false,
+                    'operator' => 'IN'
+                )
+        )
+    );
+}
+
+#Sorting
+$sort = $_REQUEST['sort'];
 $valid = array('name', 'name_desc', 'date','date_desc', 'price', 'price_desc');
 $meta_key = '';
 if($sort){
@@ -37,15 +61,13 @@ if($sort){
     $order = 'DESC';
 }
 
+#pagination
 $paged = isset($_REQUEST['trang']) ? $_REQUEST['trang'] : 1;
 $paged = $paged < 1 ? 1 : $paged;
-$posts_per_page = isset($_REQUEST['posts_per_page']) ? (int)$_REQUEST['posts_per_page'] : 15;
+$posts_per_page = isset($_REQUEST['posts_per_page']) ? (int)$_REQUEST['posts_per_page'] : 12;
 $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;
 
-$current_object = get_queried_object();
-$terms_child = get_term_children( $current_object->term_id, $current_object->taxonomy );
-
-//Query
+#Query
 $args = array(
     'post_type' => 'products_post_type',
     'meta_key' => $meta_key,
@@ -54,14 +76,7 @@ $args = array(
     'orderby' => $order_by,
     'order' => $order,
     'paged' => $paged,
-    'tax_query' => array(
-        array(
-            'taxonomy' => $current_object->taxonomy,
-            'field' => 'id',
-            'terms' => array_merge( [$current_object->term_id], $terms_child),
-            'include_children' => false,
-            'operator' => 'IN'
-        )),
+    $tax_query,
 );
 
 $the_query = new WP_Query( $args );
@@ -82,13 +97,14 @@ $args_pagi = array(
     'after_page_number' => '',
 );
 
+
 ?>
 <form action="" method="get" id="form-sorting">
     <div class="center_column col-xs-12 col-sm-9" id="center_column">
         <!-- view-product-list-->
         <div id="view-product-list" class="view-product-list">
             <h2 class="page-heading">
-                <span class="page-heading-title"><?php _e($current_cate->name, _TEXT_DOMAIN)?></span>
+                <span class="page-heading-title"><?php echo $page_heading?></span>
             </h2>
             <div class="sortPagiBar">
                 <div class="bottom-pagination">

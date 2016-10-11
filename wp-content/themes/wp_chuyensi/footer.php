@@ -22,9 +22,9 @@
                             $socials = get_field('list_social', 'option');
                             foreach ($socials as $social){
                                 if($social['social_link']){
-                                    echo '<li><a class="" href="'.$social['social_link'].'" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                    echo '<li><a target="_blank" class="" href="'.$social['social_link'].'" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
                                 }else{
-                                    echo '<li><a class="" href="javascript:void(0)" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                    echo '<li><a target="_blank" class="" href="javascript:void(0)" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
                                 }
                             }
                             ?>

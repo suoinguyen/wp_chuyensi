@@ -3,7 +3,7 @@ get_header();
 
 $current_object = get_queried_object();
 ?>
-    <div class="columns-container">
+    <div class="columns-container list-products-container taxonomy-list-products-container">
         <div class="container" id="columns">
             <!-- breadcrumb -->
             <div class="breadcrumb clearfix">
@@ -41,6 +41,8 @@ $current_object = get_queried_object();
                     <!-- ./category-slider -->
                 </div>
                 <div class="content-wrapper">
+                    <span id="nav-button-push"></span>
+                    <!-- .left colunm -->
                     <div class="column col-xs-12 col-sm-3" id="left_column">
                         <!-- block category -->
                         <div class="block left-module">
@@ -76,7 +78,7 @@ $current_object = get_queried_object();
                     </div>
                     <!-- ./left colunm -->
                     <!-- Center colunm-->
-                    <?php get_template_part('parts/taxonomy/content', 'taxonomy-list-products')?>
+                    <?php get_template_part('parts/common/content', 'common-list-products')?>
                     <!-- ./ Center colunm -->
                 </div>
             </div>

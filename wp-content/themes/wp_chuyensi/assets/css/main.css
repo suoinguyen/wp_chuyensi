@@ -22,7 +22,7 @@
 /*-- Menu --*/
 #nav-top-menu {
   position: relative;
-  transtion: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 #nav-top-menu.navigation--sticky {
@@ -159,14 +159,14 @@
 }
 
 /*-- Common file: Products block tax list --*/
-.single-products_post_type .products-relate .product-container, .tax-products_taxonomy .product-container {
+.list-products-container .product-container {
   padding: 0;
   border: 0;
 }
-.single-products_post_type .products-relate .product-container .product-detail, .tax-products_taxonomy .product-container .product-detail {
+.list-products-container .product-container .product-detail {
   position: relative;
 }
-.single-products_post_type .products-relate .product-container .product-detail .product-info, .tax-products_taxonomy .product-container .product-detail .product-info {
+.list-products-container .product-container .product-detail .product-info {
   padding: 0 5px;
   position: absolute;
   width: 100%;
@@ -180,7 +180,7 @@
   left: 0;
   transition: top 0.5s;
 }
-.single-products_post_type .products-relate .product-container .product-detail .price, .tax-products_taxonomy .product-container .product-detail .price {
+.list-products-container .product-container .product-detail .price {
   position: absolute;
   bottom: -100%;
   width: 100%;
@@ -188,23 +188,31 @@
   padding: 10px;
   background: #f96d10;
 }
-.single-products_post_type .products-relate .product-container .product-detail .wrapper, .tax-products_taxonomy .product-container .product-detail .wrapper {
+.list-products-container .product-container .product-detail .wrapper {
   position: absolute;
   width: 100%;
   left: 0;
   top: 25%;
   padding: 5px;
 }
-.single-products_post_type .products-relate .product-container .product-detail .btn-view-detail a, .tax-products_taxonomy .product-container .product-detail .btn-view-detail a {
+.list-products-container .product-container .product-detail .btn-view-detail a {
   padding: 10px;
   color: #fff;
   background: #f96d10;
 }
-.single-products_post_type .products-relate .product-container .product-detail .product-thumbnail img, .tax-products_taxonomy .product-container .product-detail .product-thumbnail img {
+.list-products-container .product-container .product-detail .product-thumbnail img {
   width: 100%;
 }
-.single-products_post_type .products-relate .product-container .product-detail:hover .product-info, .single-products_post_type .products-relate .product-container .product-detail.hovered .product-info, .tax-products_taxonomy .product-container .product-detail:hover .product-info, .tax-products_taxonomy .product-container .product-detail.hovered .product-info {
+.list-products-container .product-container .product-detail:hover .product-info, .list-products-container .product-container .product-detail.hovered .product-info {
   top: 0;
+}
+.list-products-container .col-responsive {
+  padding: 15px;
+}
+@media only screen and (max-width: 480px) {
+  .list-products-container .col-responsive {
+    width: 100%;
+  }
 }
 
 /**-- btn-add-cart --**/
@@ -232,8 +240,38 @@
 }
 
 /**-- Tags --**/
+.tags a {
+  display: inline-block;
+}
+
 .tags a span.active {
   color: #f96d10;
+}
+
+/**-- menu push toggle --**/
+#nav-button-push {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  position: fixed;
+  left: -100%;
+  top: 30%;
+  z-index: 99;
+  transition: all 0.5s;
+}
+
+@media only screen and (max-width: 767px) {
+  #left_column {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #5CB7E1;
+    top: 0;
+    left: -100%;
+    z-index: 102;
+    transition: all 0.5s;
+  }
 }
 
 /**-- Override css of header --**/
@@ -582,15 +620,6 @@ footer .footer-row a:hover {
 }
 
 /**-- Import --**/
-.tax-products_taxonomy .col-responsive {
-  padding: 15px;
-}
-@media only screen and (max-width: 480px) {
-  .tax-products_taxonomy .col-responsive {
-    width: 100%;
-  }
-}
-
 #product .pb-right-column .product-name {
   padding: 0 0px 20px;
 }

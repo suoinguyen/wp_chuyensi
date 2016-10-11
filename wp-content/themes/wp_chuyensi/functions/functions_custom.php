@@ -51,7 +51,7 @@ if ( ! function_exists( 'get_menu' ) ) {
 }
 
 /**
- * Pagination
+ @Pagination
  */
 #Step 1
 /*$paged = isset($_REQUEST['trang']) ? $_REQUEST['trang'] : 1;
@@ -96,7 +96,7 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
 */
 
 /**
- * Count post view
+@Count post view
  */
 
  if(!function_exists('getPostViews')){
@@ -128,7 +128,7 @@ $posts_per_page = $posts_per_page < 3 ? 3 : $posts_per_page;*/
  }
 
 /**
- * Math the price
+@Math the price
  * @param $price
  * @param $discount
  * @return array
@@ -146,7 +146,7 @@ function calculate_price($price, $discount = 1){
 }
 
 /**
- * Show dropdown category multi-level
+@Show dropdown category multi-level
  * @param $cates -> list category
  * @param int $parent_id -> category parent ID
  * @param int $level -> Level
@@ -196,7 +196,7 @@ function dropdown_cat($cates, $parent_id = 0, $level = 0){
 }
 
 /**
- * Add custom size image
+ @Add custom size image
  */
 add_image_size( "thumbnail-post", 268, 327);
 add_image_size( "thumbnail-post-hard", 268, 327, array( 'center', 'center' ));
@@ -214,6 +214,9 @@ function my_custom_sizes( $sizes ) {
     ) );
 }
 
+/**
+@List Tags
+ */
 function list_tag(){
     $current_object = get_queried_object();
     $tag_id = $current_object->term_id;

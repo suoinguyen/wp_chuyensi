@@ -43,17 +43,22 @@
     <link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_field('ios_icon_ipad_retina', 'option') ?>">
 
     <!-- Font google Open San -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i&subset=vietnamese" rel="stylesheet">
+    <?php if(is_page_template()){
+        if (get_the_ID() == 36){
 
-    <!-- Google map Key -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>
+            # Google map Key
+            echo '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>';
 
-    <!-- API Facebook -->
-    <?php echo get_field('facebook_sdk', 'option')?>
+            # API Facebook
+            echo get_field('facebook_sdk', 'option');
+        }
+    }?>
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> >
+    
     <div class="option5">
         <!-- HEADER -->
         <div id="header" class="header">
@@ -63,7 +68,7 @@
                         <?php
                             $socials = get_field('list_social', 'option');
                             foreach ($socials as $social){
-                                echo '<a title="'.$social['social_link'].'" href="'.$social['social_link'].'">'.$social['social_icon'].'</i></a>';
+                                echo '<a target="_blank" title="'.$social['social_link'].'" href="'.$social['social_link'].'">'.$social['social_icon'].'</i></a>';
                             }
                         ?>
                     </div>
