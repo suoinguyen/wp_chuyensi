@@ -33,42 +33,43 @@ $size = get_field('size');
             <!-- ./breadcrumb -->
             <!-- row -->
             <div class="row">
-                <span id="nav-button-push"></span>
-                <div class="column col-xs-12 col-sm-3" id="left_column">
-                    <!-- block category -->
-                    <div class="block left-module">
-                        <p class="title_block"><?php _e('Danh mục sản phẩm', _TEXT_DOMAIN)?></p>
-                        <div class="block_content">
-                            <!-- layered -->
-                            <div class="layered layered-category">
-                                <div class="layered-content">
-                                    <ul class="tree-menu-1">
-                                        <?php
-                                        $cate = get_categories(array(
-                                            'taxonomy'=>'products_taxonomy',
-                                            'hide_empty'   => 0,
-                                        ));
-                                        dropdown_cat($cate);
-                                        ?>
-                                    </ul>
+                <span id="nav-button-push"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <div class="content-wrapper">
+                    <div class="column col-xs-12 col-sm-3" id="left_column">
+                        <!-- block category -->
+                        <div class="block left-module">
+                            <p class="title_block"><?php _e('Danh mục sản phẩm', _TEXT_DOMAIN)?></p>
+                            <div class="block_content">
+                                <!-- layered -->
+                                <div class="layered layered-category">
+                                    <div class="layered-content">
+                                        <ul class="tree-menu-1">
+                                            <?php
+                                            $cate = get_categories(array(
+                                                'taxonomy'=>'products_taxonomy',
+                                                'hide_empty'   => 0,
+                                            ));
+                                            dropdown_cat($cate);
+                                            ?>
+                                        </ul>
+                                    </div>
                                 </div>
+                                <!-- ./layered -->
                             </div>
-                            <!-- ./layered -->
                         </div>
-                    </div>
-                    <!-- ./block category  -->
+                        <!-- ./block category  -->
 
-                    <!-- TAGS -->
-                    <div class="block left-module">
-                        <p class="title_block">TAGS</p>
-                        <div class="block_content">
-                            <?php list_tag()?>
+                        <!-- TAGS -->
+                        <div class="block left-module">
+                            <p class="title_block">TAGS</p>
+                            <div class="block_content">
+                                <?php list_tag()?>
+                            </div>
                         </div>
+                        <!-- ./TAGS -->
                     </div>
-                    <!-- ./TAGS -->
-                </div>
-                <!-- Center colunm-->
-                <div class="center_column col-xs-12 col-sm-9" id="center_column">
+                    <!-- Center colunm-->
+                    <div class="center_column col-xs-12 col-sm-9" id="center_column">
                     <!-- Product -->
                     <div id="product">
                         <div class="primary-box row">
@@ -254,7 +255,8 @@ $size = get_field('size');
                     </div>
                     <!-- Product -->
                 </div>
-                <!-- ./ Center colunm -->
+                    <!-- ./ Center colunm -->
+                </div>
             </div>
             <!-- ./row-->
         </div>

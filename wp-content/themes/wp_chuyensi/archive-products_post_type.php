@@ -17,16 +17,15 @@ $current_object = get_queried_object();
             <!-- row -->
             <div class="row">
                 <!-- Left colunm -->
-                <div class="col-md-12">
-                    <!-- category-slider -->
-                    <div class="category-slider">
-                        <ul class="owl-carousel owl-style2" data-dots="false" data-loop="false" data-nav = "true" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-items="1">
-                            <?php
-                            $variable = get_field('field_name', $current_object->term_id);
-                            ?>
-                            <?php
-                            $variable = get_field('list_banner',$current_object );
-                            if($variable){
+                <?php
+                $variable = get_field('list_banner',$current_object);
+                if($variable){
+                    ?>
+                    <div class="col-md-12">
+                        <!-- category-slider -->
+                        <div class="category-slider">
+                            <ul class="owl-carousel owl-style2" data-dots="false" data-loop="false" data-nav = "true" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-items="1">
+                                <?php
                                 foreach ($variable as $item){
                                     ?>
                                     <li>
@@ -34,14 +33,16 @@ $current_object = get_queried_object();
                                     </li>
                                     <?php
                                 }
-                            }
-                            ?>
-                        </ul>
+                                ?>
+                            </ul>
+                        </div>
+                        <!-- ./category-slider -->
                     </div>
-                    <!-- ./category-slider -->
-                </div>
+                    <?php
+                }
+                ?>
                 <div class="content-wrapper">
-                    <span id="nav-button-push"></span>
+                    <span id="nav-button-push"><i class="fa fa-bars" aria-hidden="true"></i></span>
                     <!-- .left colunm -->
                     <div class="column col-xs-12 col-sm-3" id="left_column">
                         <!-- block category -->

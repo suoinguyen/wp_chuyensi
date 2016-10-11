@@ -4,8 +4,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
+                    <!--Logo-->
                     <div class="footer-logo">
-                        <a href="#"><img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png"" alt="Logo"></a>
+                        <a title="Trang chủ" href="<?php echo get_home_url() ?>"><img src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png"" alt="Logo"></a>
                     </div>
                 </div>
                 <div class="col-sm-6 footer-menu-wrap">
@@ -22,9 +23,9 @@
                             $socials = get_field('list_social', 'option');
                             foreach ($socials as $social){
                                 if($social['social_link']){
-                                    echo '<li><a target="_blank" class="" href="'.$social['social_link'].'" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                    echo '<li><a title="'.$social['social_link'].'" target="_blank" class="" href="'.$social['social_link'].'" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
                                 }else{
-                                    echo '<li><a target="_blank" class="" href="javascript:void(0)" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
+                                    echo '<li><a <a title="'.$social['social_link'].'" target="_blank" class="" href="javascript:void(0)" style="background: '.$social['color'].'">'.$social['social_icon'].'</i></a></li>';
                                 }
                             }
                             ?>
@@ -136,7 +137,7 @@
     <!-- ./footer paralax-->
 </footer>
 <!--Back to top-->
-<a href="#" class="scroll_top" title="Scroll to Top" style="display: inline;">Scroll</a>
+<a href="#" class="scroll_top" title="Scroll to Top" style="display: none;">Scroll</a>
 
 </div>
 </body>

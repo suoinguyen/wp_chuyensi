@@ -2770,19 +2770,19 @@ span.notify-right{
     transition: all 0.3s;
 }
 .scroll_top{
-    width: 34px;
+  width: 34px;
   height: 34px;
   position: fixed;
   display: none;
   font-size: 0;
-  z-index: 9999;
+  z-index: 100;
   right: 10px;
   bottom: 32px;
   background: #666;
-  display: none;
 }
 .scroll_top:hover{
-  background: #F36;
+    background: #F96D10;
+    box-shadow: 2px 4px 14px -2px #000;
 }
 
 .scroll_top:before {

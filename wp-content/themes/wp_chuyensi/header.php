@@ -63,7 +63,7 @@
         <!-- HEADER -->
         <div id="header" class="header">
             <div class="top-header">
-                <div class="container">
+                <div class="container hidden-button">
                     <div class="top-bar-social">
                         <?php
                             $socials = get_field('list_social', 'option');
@@ -86,6 +86,7 @@
                         </div>
                     </div>
                 </div>
+                <span class="button-toggle"></span>
             </div>
             <!--/.top-header -->
             <!-- MAIN HEADER -->
@@ -105,9 +106,12 @@
                             <a title="Tìm kiếm nâng cao" href="<?php echo get_permalink(42)?>" class=""><?php _e('Tìm kiếm nâng cao', _TEXT_DOMAIN)?></a>
                         </div>
                     </div>
+                    
+                    <!--Logo-->
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
                         <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png" /></a>
                     </div>
+
                     <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
                         <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
                         <div class="btn-cart btn-head" id="cart-block">
