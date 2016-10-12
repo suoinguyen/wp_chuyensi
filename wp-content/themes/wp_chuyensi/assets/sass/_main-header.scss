@@ -42,6 +42,11 @@
       .nav.navbar-nav{
         .menu-item{
           position: relative;
+          @include respond-to-custom-size(null, 767px){
+            a{
+              color: #000;
+            }
+          }
           .collapse{
             position: absolute;
             @include respond-to-custom-size(null, 767px){
@@ -70,9 +75,10 @@
             }
           }
           .dropdown-menu{
-            border-top: solid 2px #F96D10;
+            //border-top: solid 2px #F96D10;
             padding: 20px 0;
             @include respond-to-custom-size(null, 767px){
+              border-top: solid 2px #F96D10;
               transform: none;
             }
             .menu-item {

@@ -249,10 +249,16 @@
 /**-- Tags --**/
 .tags a {
   display: inline-block;
+  border: solid 1px #EAEAEA;
+  margin: 0 5px 5px 0;
+  line-height: 20px;
+  padding: 0px 3px;
 }
 
-.tags a span.active {
-  color: #f96d10;
+.tags a.active, .tags a:hover {
+  color: #fff;
+  background: #f96d10;
+  box-shadow: 3px 3px 6px -2px #000;
 }
 
 /**-- menu push toggle --**/
@@ -295,12 +301,12 @@ body.nav-toggled:after {
     width: 70%;
     height: 100%;
     overflow: auto;
-    background: #3B5998;
+    background: #282626;
     top: 0;
     left: -100%;
     z-index: 102;
     transition: all 0.5s;
-    font-size: 18px;
+    font-size: 15px;
     color: #fff;
     padding-top: 40px;
   }
@@ -317,9 +323,17 @@ body.nav-toggled:after {
   #left_column .ele-sgle {
     padding: 3px 0;
   }
+  #left_column .tags a {
+    display: inline-block;
+    border: solid 1px #fff;
+    margin: 0 5px 5px 0;
+    line-height: 20px;
+    padding: 0px 3px;
+  }
 }
 
 #nav-push-close {
+  font-size: 30px;
   padding: 10px;
   text-align: center;
   display: inline-block;
@@ -328,9 +342,8 @@ body.nav-toggled:after {
   right: 0;
   top: 0;
   left: auto;
-  width: 40px;
-  height: 40px;
-  background: #f96d10;
+  width: 50px;
+  height: 50px;
 }
 
 .category-slider {
@@ -383,6 +396,13 @@ body.nav-toggled:after {
   margin-top: 15px;
 }
 
+/**-- Scroll top --**/
+.scroll_top {
+  right: -100%;
+  display: block;
+  transition: right 0.5s;
+}
+
 /**-- Override css of header --**/
 #header {
   /**-- Search --**/
@@ -420,6 +440,11 @@ body.nav-toggled:after {
 #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item {
   position: relative;
 }
+@media only screen and (max-width: 767px) {
+  #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item a {
+    color: #000;
+  }
+}
 #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .collapse {
   position: absolute;
 }
@@ -445,11 +470,11 @@ body.nav-toggled:after {
   visibility: visible;
 }
 #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
-  border-top: solid 2px #F96D10;
   padding: 20px 0;
 }
 @media only screen and (max-width: 767px) {
   #header #main-menu .menu-menu-header-container .nav.navbar-nav .menu-item .dropdown-menu {
+    border-top: solid 2px #F96D10;
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;

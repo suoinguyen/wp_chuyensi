@@ -137,7 +137,7 @@
     <!-- ./footer paralax-->
 </footer>
 <!--Back to top-->
-<a href="#" class="scroll_top" title="Scroll to Top" style="display: none;">Scroll</a>
+<a href="#" class="scroll_top" title="Scroll to Top" style="">Scroll</a>
 
 </div>
 </body>

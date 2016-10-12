@@ -195,9 +195,9 @@
             var currentPosition = $(this).scrollTop();
             if(currentPosition >= header_h+banner_h){
 
-                $('.scroll_top').css('display', 'inline');
+                $('.scroll_top').css('right', '10px');
             }else{
-                $('.scroll_top').css('display', 'none');
+                $('.scroll_top').css('right', '-100%');
             }
         });
 

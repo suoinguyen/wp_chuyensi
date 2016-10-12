@@ -17,7 +17,7 @@ $thumbnail_id = get_post_thumbnail_id();
 $gallery = get_field('images');
 $status = get_field('status');
 $date = get_the_date('d/m/Y');
-$size = get_field('size');
+$size = get_field('custom-sizes');
 ?>
 
     <div class="columns-container">
@@ -130,7 +130,7 @@ $size = get_field('size');
                                     <div class="attributes">
                                         <div class="attribute-label">Size:</div>
                                         <div class="attribute-list">
-                                            <?php echo !$size || empty($size) ? 'free-size' : $size?>
+                                            <?php echo !$size || empty($size) ? 'Free size' : $size?>
                                         </div>
 
                                     </div>
@@ -196,7 +196,7 @@ $size = get_field('size');
                         // The Loop
                         if ( $the_query->have_posts() ) {
                             ?>
-                            <div class="page-product-box products-relate">
+                            <div class="page-product-box products-relate list-products-container">
                                 <h3 class="heading"><?php _e('Sản phẩm liên quan ', _TEXT_DOMAIN)?></h3>
                                 <ul class="product-list owl-carousel" data-dots="false" data-loop="false" data-nav = "true" data-margin = "30" data-autoplayTimeout="1000" data-autoplayHoverPause = "true" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}'>
                                 <?php

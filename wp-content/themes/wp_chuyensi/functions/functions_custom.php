@@ -231,10 +231,10 @@ function list_tag(){
             $active = $tag_id == $tag->term_id ? 'active' :'';
             $tag_link = get_tag_link($tag->term_id);
             $tag_name = $tag->name;
-            echo '<a href="'.$tag_link.'"><span class="level'.rand(1,5).' '.$active.' ">'.$tag_name.'</span></a>';
+            echo '<a  class="'.$active.' " href="'.$tag_link.'"><span>'.$tag_name.'</span></a>';
         }
         echo '</div>';
     }else{
-        echo '<h4>Không có từ khóa liên quan</h4>';
+        echo '<p>Không có từ khóa liên quan</p>';
     }
 }

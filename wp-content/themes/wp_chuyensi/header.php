@@ -4,6 +4,8 @@
 
 <head>
     <!-- detect page type -->
+
+    <!-- Slide show Royal slider-->
     <script type="text/javascript">
         <?php
         if(is_single()){
@@ -14,6 +16,7 @@
         ?>
         var page_type = '<?php echo $page_type?>';
     </script>
+
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
     <!-- Meta facebook -->
@@ -50,10 +53,14 @@
             # Google map Key
             echo '<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxjAxbyZpC3NnEJLOXbkKp9EGY1sl7h2I"></script>';
 
-            # API Facebook
-            echo get_field('facebook_sdk', 'option');
         }
-    }?>
+    }
+    if(is_single()){
+        # API Facebook
+        echo get_field('facebook_sdk', 'option');
+    }
+    ?>
+
     <?php wp_head(); ?>
 </head>
 
@@ -77,14 +84,14 @@
                             get_menu('header-mini-nav', '');
                         ?>
                     </div>
-                    <div id="user-info-top" class="user-info pull-right">
+                    <!--<div id="user-info-top" class="user-info pull-right">
                         <div class="dropdown">
-                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><?php _e('Tài khoản', _TEXT_DOMAIN)?></span></a>
+                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><?php /*_e('Tài khoản', _TEXT_DOMAIN)*/?></span></a>
                             <ul class="dropdown-menu mega_dropdown" role="menu">
-                                <li><a href="#"><?php _e('Đăng nhập', _TEXT_DOMAIN)?></a></li>
+                                <li><a href="#"><?php /*_e('Đăng nhập', _TEXT_DOMAIN)*/?></a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
                 <span class="button-toggle"></span>
             </div>
@@ -108,15 +115,8 @@
                     </div>
                     
                     <!--Logo-->
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 logo">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 logo">
                         <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png" /></a>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 group-button-header">
-                        <a title="My wishlist" href="#" class="btn-heart btn-head">wishlist</a>
-                        <div class="btn-cart btn-head" id="cart-block">
-                            <a title="My cart" href="#">Cart</a>
-                        </div>
                     </div>
                 </div>
             </div>
