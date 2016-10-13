@@ -84,14 +84,6 @@
                             get_menu('header-mini-nav', '');
                         ?>
                     </div>
-                    <!--<div id="user-info-top" class="user-info pull-right">
-                        <div class="dropdown">
-                            <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span><?php /*_e('Tài khoản', _TEXT_DOMAIN)*/?></span></a>
-                            <ul class="dropdown-menu mega_dropdown" role="menu">
-                                <li><a href="#"><?php /*_e('Đăng nhập', _TEXT_DOMAIN)*/?></a></li>
-                            </ul>
-                        </div>
-                    </div>-->
                 </div>
                 <span class="button-toggle"></span>
             </div>
@@ -117,6 +109,7 @@
                     <!--Logo-->
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 logo">
                         <a title="Trang chủ" href="<?php echo get_home_url()?>"><img alt="Kute shop - GFXFree.Net" src="<?php echo _SU_THEME_HOST_PATCH?>/assets/images/logo_10.png" /></a>
+                        <?php if(is_front_page())echo'<h1 hidden>'.get_bloginfo( 'description' ).' - '.get_bloginfo( 'sitename' ).'</h1>'?>
                     </div>
                 </div>
             </div>
